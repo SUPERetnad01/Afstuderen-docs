@@ -1,0 +1,68 @@
+\documentclass[12pt,twoside]{report} % Two side
+% \documentclass[12pt]{report} % One side
+\usepackage[utf8]{inputenc}
+\usepackage[dutch]{babel}
+
+\usepackage{titling}
+
+% Todo notes
+\usepackage{todonotes}
+
+% Setup page margins
+\usepackage[a4paper,width=165mm,top=25mm,bottom=25mm,bindingoffset=10mm]{geometry}
+% custom commands
+\input{Commands/enviroment.tex}
+\input{Commands/utils.tex}
+% Setup header & footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{15pt}
+% \fancyhead[RO,LE]{\leftmark} % Two side
+% \fancyfoot[RO,LE]{\thepage}
+% \fancyfoot[CO,CE]{Proposal}
+
+\fancyhead[C,C]{\leftmark} % One side
+\fancyfoot[R,R]{\thepage}
+\fancyfoot[C,C]{Plan van Aanpak}
+
+% No header & footer on empty pages
+\usepackage{emptypage}
+
+% Monkeypatch chapters to use the 'fancy' style
+\usepackage{etoolbox}
+\patchcmd{\chapter}{\thispagestyle{plain}}{\thispagestyle{fancy}}{}{}
+
+% Configure list spacing
+\usepackage{enumitem}
+\setlist{nosep} % or \setlist{noitemsep} to leave space around whole list
+
+% Gantt charts
+\usepackage{pgfgantt}
+
+% Tables
+\usepackage{tabularx}
+
+% Plots
+\usepackage{pgfplots}
+\pgfplotsset{width=10cm,compat=1.9}
+
+% Captions
+\usepackage{caption}
+
+% Rotating figures
+\usepackage{rotating}
+
+% Load glossary
+\usepackage[nonumberlist]{glossaries}
+\input{Content/Woordenlijst/Woordenlijst.tex}
+
+% Censoring
+\usepackage{censor} \StopCensoring
+
+% Citations
+% \usepackage{biblatex-apa}
+\usepackage[style=apa]{biblatex}
+\addbibresource{bibliography.bib}
+\setlength\bibitemsep{2\itemsep}
+
