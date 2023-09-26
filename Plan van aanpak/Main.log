@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.18)  22 SEP 2023 12:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.18)  26 SEP 2023 11:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -306,7 +306,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen258
 \Gm@layoutvoffset=\dimen259
 \Gm@dimlist=\toks33
-) (./Commands/enviroment.tex) (./Commands/utils.tex) (c:/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+) (./Commands/commands.tex (./Commands/justin_commands.tex) (./Commands/utils.tex) (./Commands/enviroment.tex)) (c:/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip56
 \f@nch@O@elh=\skip57
@@ -352,7 +352,8 @@ File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfcalendar.sty (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.tex
+)) (c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfcalendar.sty
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.tex
 File: pgfcalendar.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfcalendarcurrentjulian=\count294
 \pgf@cal@easter@Y=\count295
@@ -382,8 +383,7 @@ File: pgfcalendar.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \gtt@calendar@startofweek=\count318
 \gtt@left@slot=\count319
 \gtt@right@slot=\count320
-)
-(c:/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
+) (c:/texlive/2023/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
  (c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
@@ -950,7 +950,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count508
 \@quotereset=\count509
-(AuxDir/Main.aux (AuxDir/Content/Cover/Cover.aux) (AuxDir/Content/TitlePage/TitlePage.aux) (AuxDir/Content/1_Inleiding/Inleiding.aux) (AuxDir/Content/2_Projectresultaat/Projectresultaat.aux) (AuxDir/Content/3_Onderzoek/Onderzoek.aux) (AuxDir/Content/4_Projectactiviteiten/ProjectActiviteiten.aux) (AuxDir/Content/5_Projectgrenzen/Projectgrenzen.aux) (AuxDir/Content/6_Kwaliteitsbewaking/Kwaliteitsbewaking.aux) (AuxDir/Content/7_Planning/Planning.aux))
+(./Main.aux (./Content/Cover/Cover.aux) (./Content/TitlePage/TitlePage.aux) (./Content/1_Inleiding/Inleiding.aux) (./Content/2_Projectresultaat/Projectresultaat.aux) (./Content/3_Onderzoek/Onderzoek.aux) (./Content/4_Projectactiviteiten/ProjectActiviteiten.aux) (./Content/5_Projectgrenzen/Projectgrenzen.aux) (./Content/6_Kwaliteitsbewaking/Kwaliteitsbewaking.aux) (./Content/7_Planning/Planning.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -1079,7 +1079,7 @@ Underfull \hbox (badness 1540) in paragraph at lines 82--82
 \OT1/cmr/m/n/12 af-stu-deer-hand-lei-ding 2021-2022. On-der-
  []
 
-) [3] (AuxDir/Main.lot)
+) [3] (./Main.lot)
 \tf@lot=\write5
 \openout5 = `Main.lot'.
 
@@ -1122,27 +1122,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--12
 
  []
 
-) (./Content/1_Inleiding/4_Opdrachtomschrijving.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--22
+) (./Content/1_Inleiding/4_Opdrachtomschrijving.tex) (./Content/1_Inleiding/5_Stakeholders.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--22
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--22
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--22
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-) (./Content/1_Inleiding/5_Stakeholders.tex [2]) (./Content/1_Inleiding/6_Leeswijzer.tex)) [3]
+[2]
+./Content/1_Inleiding/5_Stakeholders.tex:14: Misplaced alignment tab character &.
+l.14 Afdeling R&
+                D
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+./Content/1_Inleiding/5_Stakeholders.tex:48: LaTeX Error: Unicode character ^^S (U+0013)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48     \hline^^S
+                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+) (./Content/1_Inleiding/6_Leeswijzer.tex)) [3] [4]
 \openout2 = `Content/2_Projectresultaat/Projectresultaat.aux'.
 
  (./Content/2_Projectresultaat/Projectresultaat.tex
@@ -1152,7 +1176,7 @@ Underfull \hbox (badness 1005) in paragraph at lines 3--3
 [][][]\OT1/cmr/m/n/12 https://www.scribbr.nl/starten-met-je-scriptie/verschil-tussen-probleemstelling- 
  []
 
-) (./Content/2_Projectresultaat/2_Doelstelling.tex) (./Content/2_Projectresultaat/3_Deliverables.tex)) [4
+) (./Content/2_Projectresultaat/2_Doelstelling.tex) (./Content/2_Projectresultaat/3_Deliverables.tex)) [5
 
 
 
@@ -1162,7 +1186,7 @@ Underfull \hbox (badness 1005) in paragraph at lines 3--3
 
  (./Content/3_Onderzoek/Onderzoek.tex
 Hoofdstuk 3.
-) [5
+) [6
 
 
 
@@ -1172,7 +1196,7 @@ Hoofdstuk 3.
 
  (./Content/4_Projectactiviteiten/ProjectActiviteiten.tex
 Hoofdstuk 4.
-) [6
+) [7
 
 
 
@@ -1182,7 +1206,7 @@ Hoofdstuk 4.
 
  (./Content/5_Projectgrenzen/Projectgrenzen.tex
 Hoofdstuk 5.
-) [7
+) [8
 
 
 
@@ -1192,7 +1216,7 @@ Hoofdstuk 5.
 
  (./Content/6_Kwaliteitsbewaking/Kwaliteitsbewaking.tex
 Hoofdstuk 6.
-) [8
+) [9
 
 
 
@@ -1202,7 +1226,7 @@ Hoofdstuk 6.
 
  (./Content/7_Planning/Planning.tex
 Hoofdstuk 7.
-) [9
+) [10
 
 
 
@@ -1211,7 +1235,7 @@ Hoofdstuk 7.
 
 LaTeX Warning: Empty bibliography on input line 37.
 
-(AuxDir/Main.aux (AuxDir/Content/Cover/Cover.aux) (AuxDir/Content/TitlePage/TitlePage.aux) (AuxDir/Content/1_Inleiding/Inleiding.aux) (AuxDir/Content/2_Projectresultaat/Projectresultaat.aux) (AuxDir/Content/3_Onderzoek/Onderzoek.aux) (AuxDir/Content/4_Projectactiviteiten/ProjectActiviteiten.aux) (AuxDir/Content/5_Projectgrenzen/Projectgrenzen.aux) (AuxDir/Content/6_Kwaliteitsbewaking/Kwaliteitsbewaking.aux) (AuxDir/Content/7_Planning/Planning.aux))
+(./Main.aux (./Content/Cover/Cover.aux) (./Content/TitlePage/TitlePage.aux) (./Content/1_Inleiding/Inleiding.aux) (./Content/2_Projectresultaat/Projectresultaat.aux) (./Content/3_Onderzoek/Onderzoek.aux) (./Content/4_Projectactiviteiten/ProjectActiviteiten.aux) (./Content/5_Projectgrenzen/Projectgrenzen.aux) (./Content/6_Kwaliteitsbewaking/Kwaliteitsbewaking.aux) (./Content/7_Planning/Planning.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1221,18 +1245,18 @@ Package logreq Info: Writing requests to 'Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43682 strings out of 474934
- 1025154 string characters out of 5763814
- 2026518 words of memory out of 5000000
- 64455 multiletter control sequences out of 15000+600000
+ 43702 strings out of 474934
+ 1025145 string characters out of 5763814
+ 2026580 words of memory out of 5000000
+ 64479 multiletter control sequences out of 15000+600000
  564556 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 122i,12n,124p,2299b,2897s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,11n,124p,2299b,2897s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on AuxDir/Main.pdf (13 pages, 104473 bytes).
+Output written on Main.pdf (14 pages, 105147 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
