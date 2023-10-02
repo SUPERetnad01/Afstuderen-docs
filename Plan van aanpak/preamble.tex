@@ -11,7 +11,6 @@
 % Setup page margins
 \usepackage[a4paper,width=165mm,top=25mm,bottom=25mm,bindingoffset=10mm]{geometry}
 % custom commands
-\input{Commands/commands.tex}
 % Setup header & footer
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -41,7 +40,7 @@
 
 % Tables
 \usepackage{tabularx}
-
+\usepackage{makecell}
 % Plots
 \usepackage{pgfplots}
 \pgfplotsset{width=10cm,compat=1.9}
@@ -64,4 +63,6 @@
 \usepackage[style=apa]{biblatex}
 \addbibresource{bibliography.bib}
 \setlength\bibitemsep{2\itemsep}
-
+\input{Commands/commands.tex}
+% images
+\graphicspath{{./img/}}

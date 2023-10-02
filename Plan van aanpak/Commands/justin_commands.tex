@@ -11,16 +11,18 @@
 \newcommand{\reffigure}[1]{Figuur \ref{fig:#1} (#1)}
 \newcommand{\reffigureraw}[1]{\ref{fig:#1}}
 
-\newcommand{\tablecontainer}[3]{
-    \begin{table}[H]
-        \caption{#2}
-        \vspace{0.2cm}
-        \centering
-        #1
-        \label{tbl:#2}
-    \end{table}
+% \newcommand{\tablecontainer}[3]{
+%     \begin{table}[H]
+%         \caption{#2}
+%         \vspace{0.2cm}
+%         \centering
+%         #1
+%         \label{tbl:#2}
+%     \end{table}
+% }
+\newcommand{\tablecontainer}[2]{
+    \begin{table}
 }
-
 \newcommand{\labelchap}[1]{\label{chap:#1}}
 \newcommand{\refchap}[1]{Hoofdstuk \hyperref[chap:#1]{\ref*{chap:#1} `#1'}}
 
@@ -60,7 +62,6 @@
         \begin{tabularx}{\textwidth}{|l|X|}
             \hline
             \textbf{Id} & #1                                                                                   \\
-            \hline
             \hline
             \multicolumn{2}{|p{\dimexpr\linewidth-2\arrayrulewidth-2\tabcolsep}|}{\textbf{User Story}}         \\
             \hline
