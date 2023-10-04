@@ -20,7 +20,8 @@
 % \fancyfoot[RO,LE]{\thepage}
 % \fancyfoot[CO,CE]{Proposal}
 
-\fancyhead[C,C]{\leftmark} % One side
+\fancyhead[L]{\MakeUppercase{\leftmark}}
+% \fancyhead[C,C]{\leftmark} % One side
 \fancyfoot[R,R]{\thepage}
 \fancyfoot[C,C]{Plan van Aanpak}
 
@@ -47,11 +48,12 @@
 
 % Captions
 \usepackage{caption}
-
+\captionsetup{labelfont=bf, font=footnotesize, hypcap=true, skip=5pt, width=0.9\textwidth}
 % Rotating figures
 \usepackage{rotating}
 
 % Load glossary
+% \usepackage{glossaries}
 \usepackage[nonumberlist]{glossaries}
 \input{Content/Woordenlijst/Woordenlijst.tex}
 
@@ -60,7 +62,8 @@
 
 % Citations
 % \usepackage{biblatex-apa}
-\usepackage[style=apa]{biblatex}
+\usepackage{csquotes}
+\usepackage[backend=biber, style=apa, urldate=long]{biblatex}
 \addbibresource{bibliography.bib}
 \setlength\bibitemsep{2\itemsep}
 \input{Commands/commands.tex}
