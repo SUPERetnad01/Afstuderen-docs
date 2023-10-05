@@ -1,35 +1,70 @@
 \chapter{Kwaliteitsbewaking}
 In dit hoofdstuk wordt beschreven hoe de kwaliteit van het product gewaarborgd wordt.
 Dit hoofdstuk is onderverdeeld in: Scrum of One, Code reviews, Versiebeheer, ontwerpen, Testing en Documentatie.
-\section{Scrum of One}
+\section{Proces}
 De ontwerp en realisatie fases van het project worden ondersteund door middel van de scrum methodiek.
-Omdat de opdracht alleen wordt uitgevoerd wordt er een variatie gebruikt de Scrum of one methodiek \Parencite{ScrumOfOne}.
+Omdat de opdracht alleen wordt uitgevoerd is voor een variatie van scrum gekozen de \qw{Scrum of one} methodiek \Parencite{ScrumOfOne}.
 \whitespace
-Tijdens de de realisatieperiode wordt de SDLC-cyclus doorlopen.
-Tijdens de requirement analysis wordt behandeld in het onderzoek. 
+Tijdens de de realisatieperiode worden alle fases van de SDLC (figuur \ref{fig:SLDC} te doorlopen.
+Hierbij wordt de requirement analysis uitgevoerd aan de hand van het onderzoek.
 Daarna worden er Y sprint geplant voor het designen van het systeem.
 Vervolgens worden er X-Y sprints geplant voor het implementeren en testen van het systeem. \\
-\textbf{requirement analysis:} door middel van de requirement analyse die wordt uitgevoerd worden user stories gerefined tot kleine duidelijke eisen en wensen, zodat ze mee kunnen genomen in de sprint planning.\\
-\textbf{Design:} De eisen en wensen vanuit de de requirement analyse worden gebruikt om het ontwerp te maken.
-De ontwerpen kunnen ook uitgebreid worden of extra ontwerpen gemaakt.
+\todo[inline]{sprint aantal bijzetten}
+\begin{graphic}
+    \captionsetup{type=figure}
+    \caption{Software Development Life Cycle (SDLC)}
+    \includegraphics[scale=0.4]{SDLC}
+    \label{fig:SLDC}
+\end{graphic}
+\whitespace
+\textbf{Requirement analysis:} Door middel van het de requirement analyse (het onderzoek) worden de requirements opgesteld.
+Tijdens de sprint planning worden de requirements verwerkt tot behapbare userstories, zodat ze tijdens de sprint gerealiseerd kunnen worden. \\
+\textbf{Design:} De eisen en wensen die vanuit de requirement analyse worden gebruikt om het ontwerp te maken.
+Hoe er ontwerpt wordt is toegelicht in hoofdstuk \ref{sec:Ontwerpen}.\\
 \textbf{Inplementation:}
-De eisen en wensen worden geimplementeerd volgens het ontwerp binnen het systeem.
-\textbf{Testing:} De implementatie wordt getest doormidel van het V-Model, zie hoofdstuk \ref{Testing} voor meer informatie.\\
-\textbf{Evolution:} Er wrodt
+De eisen en wensen worden geïmplementeerd volgens het ontwerp binnen het systeem.\\
+\textbf{Testing:} De implementatie wordt getest doormidel van het V-Model, zie hoofdstuk \ref{sec:Testing} voor meer informatie.\\
+\textbf{Evolution:} Er wordt met regelmaat feedback momenten gehouden waar het product gedemonstreerd wordt aan de bedrijfsbegeleider.
+Dit wordt gedaan om de projectvoortgang te bewaken op basis van de gerealiseerdeeisen en wensen.
 \todo[inline]{is 1 sprint te weinig en zijn 2 sprints te veel}
-De X-1 sprints 
 \todo[inline]{check hoeveel sprints er zijn voor het realiseren/ontwerpen van de applicatie}
-\section{Code reviews}
-er worden code reviews gehouden om de code kwaliteit te kunnen waarborgen.
-\section{Versiebeheer}
-Er wordt gewerkt met git en bitbucket, hier wordt de code opgeslagen. Verder wordt er een CI pipeline opgezet voor het automatisch testen van de code.
+\subsection{Code reviews}
+Tijdens de realisatiefase worden er meerdere code reviews gehouden om de code kwaliteit te waarborgen.
+De code zal ook beoordeeld worden op coderingsstandaarden maar ook structuur. 
+\subsection{Versiebeheer}
+Binnen Snakeware wordt er gebruikgemaakt van Bitbucket en git voor de versiebeheer van de code, dit zal ook gebruikt worden voor de afstudeeropdracht.
+Verder zal er ook gebruikgemaakt worden van een CI pipeline die wordt opgezet om de code automatisch te testen.
 \section{Ontwerpen}
-dit is ontwerpen wow
+\label{sec:Ontwerpen}
+Tijdens het ontwerpen wordt er gebruikgemaakt van UML.
+Er zullen verschillende UML diagrammen gemaakt worden op basis van het 4 + 1 model.
+Dit wordt gerealiseerd na het onderzoek wanneer de requirements bekend zijn.
+In figuur \ref{fig:4+1Model} wordt beschreven welke diagrammen gebruikt kunnen worden voor de verschillende views van het 4 + 1 model.
+\todo[inline]{zoek figuur plz}
+\begin{graphic}
+    \captionsetup{type=figure}
+    \caption{Verschillende UML diagrammen die gebruikt kunnen worden bij de verschillende viewsl}
+    \includegraphics[scale=0.4]{4p1ModelViews}
+    \label{fig:4+1Model}
+\end{graphic}
 \section{Testing}
 \label{sec:Testing}
-V model
+Tijdens de realisatie periode wordt er gebruikgemaakt van de V-Model.
+Het V-Model \ref{fig:VModel} toont dat er voor de verschillende design lagen van het systeem verschillende testen gebruikt worden.
+De verschillende units/moduls van code worden getest door middel van unit testing.
+Vervolgens worden de samen hangende units/modules getest door integratie testen om het softwaredesign te kunnen valideren.
+De laag boven softwaredesign is systeemanalyse dit wordt gestest door middel van systeem testing.
+Daarna worden de requirements gevalideerd door acceptatie testen uit te voeren met de stakeholders.
+\begin{graphic}
+    \captionsetup{type=figure}
+    \caption{V-Model}
+    \includegraphics[scale=0.4]{VModel}
+    \label{fig:VModel}
+\end{graphic}
 \section{Documentatie}
-praten met bedrijfsbegeleider en afstudeerbegeleider.
-% \section{Software testing}
-% \section{Continuous Integration}
-% \section{User testing}
+De kwaliteit van de documentatie wordt gevalideerd door de bedrijfsbegeleider, docentbegeleider en medestudenten.
+Er wordt met de docent en bedrijfsbegeleider een keer per week afgesproken om de kwaliteit en de voortgang van de verschillende zaken van de afstudeerperiode te bespreken, waaronder de verslaglegging.
+Verder zal er per hoofdstuk feedback worden gevraagd om de kwaliteit van de documentatie hoog te houden.
+De documentatie wordt zo veel mogelijk op feiten gebaseerd en onderbouwd door middel van bronnen.
+Deze bronnen zullen gedocumenteerd worden door APA 7 richtlijnen.
+Voor het opleveren van een document dient er minimaal een conceptversie beoordeeld zijn door de bedrijfsbegeleider en de docentbegeleider.
