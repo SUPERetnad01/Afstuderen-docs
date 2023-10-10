@@ -21,16 +21,16 @@
   \datalist[entry]{apa/apasortcite//global/global}
     \entry{HBO-i-reasearch-methods}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d356e5ce2d6878b40cb46634b5bd06fc}{%
-           family={HBO-i},
-           familyi={H\bibinithyphendelim i\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=eeaf518e9cfb13b03506e84810b65707}{%
+           family={HBO-I},
+           familyi={H\bibinithyphendelim I\bibinitperiod}}}%
       }
-      \strng{namehash}{d356e5ce2d6878b40cb46634b5bd06fc}
-      \strng{fullhash}{d356e5ce2d6878b40cb46634b5bd06fc}
-      \strng{bibnamehash}{d356e5ce2d6878b40cb46634b5bd06fc}
-      \strng{authorbibnamehash}{d356e5ce2d6878b40cb46634b5bd06fc}
-      \strng{authornamehash}{d356e5ce2d6878b40cb46634b5bd06fc}
-      \strng{authorfullhash}{d356e5ce2d6878b40cb46634b5bd06fc}
+      \strng{namehash}{eeaf518e9cfb13b03506e84810b65707}
+      \strng{fullhash}{eeaf518e9cfb13b03506e84810b65707}
+      \strng{bibnamehash}{eeaf518e9cfb13b03506e84810b65707}
+      \strng{authorbibnamehash}{eeaf518e9cfb13b03506e84810b65707}
+      \strng{authornamehash}{eeaf518e9cfb13b03506e84810b65707}
+      \strng{authorfullhash}{eeaf518e9cfb13b03506e84810b65707}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -52,37 +52,35 @@
       \verb https://ictresearchmethods.nl/Methods
       \endverb
     \endentry
-    \entry{ScrumOfOne}{online}{}
+    \entry{4p1ModelViews}{image}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d2d8b25dd8102e13048ab3d1432824ca}{%
-           family={Kodeco},
-           familyi={K\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=be0fa9a5e5df1f22afef2dc97c94b6d7}{%
+           family={hgraca},
+           familyi={h\bibinitperiod}}}%
       }
-      \strng{namehash}{d2d8b25dd8102e13048ab3d1432824ca}
-      \strng{fullhash}{d2d8b25dd8102e13048ab3d1432824ca}
-      \strng{bibnamehash}{d2d8b25dd8102e13048ab3d1432824ca}
-      \strng{authorbibnamehash}{d2d8b25dd8102e13048ab3d1432824ca}
-      \strng{authornamehash}{d2d8b25dd8102e13048ab3d1432824ca}
-      \strng{authorfullhash}{d2d8b25dd8102e13048ab3d1432824ca}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \strng{namehash}{be0fa9a5e5df1f22afef2dc97c94b6d7}
+      \strng{fullhash}{be0fa9a5e5df1f22afef2dc97c94b6d7}
+      \strng{bibnamehash}{be0fa9a5e5df1f22afef2dc97c94b6d7}
+      \strng{authorbibnamehash}{be0fa9a5e5df1f22afef2dc97c94b6d7}
+      \strng{authornamehash}{be0fa9a5e5df1f22afef2dc97c94b6d7}
+      \strng{authorfullhash}{be0fa9a5e5df1f22afef2dc97c94b6d7}
+      \field{sortinit}{h}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Scrum of One: How to Bring Scrum Into Your One-Person Operation}
-      \field{urlday}{3}
+      \field{urlday}{5}
       \field{urlmonth}{10}
       \field{urlyear}{2023}
-      \field{year}{2017}
+      \field{year}{2019}
       \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.kodeco.com/585-scrum-of-one-how-to-bring-scrum-into-your-one-person-operation
+      \verb https://herbertograca.com/2019/08/12/documenting-software-architecture/
       \endverb
       \verb{url}
-      \verb https://www.kodeco.com/585-scrum-of-one-how-to-bring-scrum-into-your-one-person-operation
+      \verb https://herbertograca.com/2019/08/12/documenting-software-architecture/
       \endverb
     \endentry
     \entry{MoSCoW}{online}{}
@@ -116,6 +114,73 @@
       \endverb
       \verb{url}
       \verb https://monday.com/blog/project-management/moscow-prioritization-method/
+      \endverb
+    \endentry
+    \entry{VModel}{image}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=90c7426871854b545001dbd291c0b3bb}{%
+           family={Oppermann},
+           familyi={O\bibinitperiod},
+           given={Artem},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{90c7426871854b545001dbd291c0b3bb}
+      \strng{fullhash}{90c7426871854b545001dbd291c0b3bb}
+      \strng{bibnamehash}{90c7426871854b545001dbd291c0b3bb}
+      \strng{authorbibnamehash}{90c7426871854b545001dbd291c0b3bb}
+      \strng{authornamehash}{90c7426871854b545001dbd291c0b3bb}
+      \strng{authorfullhash}{90c7426871854b545001dbd291c0b3bb}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://builtin.com/software-engineering-perspectives/v-model
+      \endverb
+      \verb{url}
+      \verb https://builtin.com/software-engineering-perspectives/v-model
+      \endverb
+    \endentry
+    \entry{PostmanWorkflows}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=89ea536a4254e2a12a7789df96c0c33f}{%
+           family={Postman.com},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{89ea536a4254e2a12a7789df96c0c33f}
+      \strng{fullhash}{89ea536a4254e2a12a7789df96c0c33f}
+      \strng{bibnamehash}{89ea536a4254e2a12a7789df96c0c33f}
+      \strng{authorbibnamehash}{89ea536a4254e2a12a7789df96c0c33f}
+      \strng{authornamehash}{89ea536a4254e2a12a7789df96c0c33f}
+      \strng{authorfullhash}{89ea536a4254e2a12a7789df96c0c33f}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Customzie request order in a collection run}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://learning.postman.com/docs/collections/running-collections/building-workflows/
+      \endverb
+      \verb{url}
+      \verb https://learning.postman.com/docs/collections/running-collections/building-workflows/
       \endverb
     \endentry
     \entry{STARR}{online}{}
@@ -184,16 +249,16 @@
   \datalist[entry]{apa/global//global/global}
     \entry{HBO-i-reasearch-methods}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d356e5ce2d6878b40cb46634b5bd06fc}{%
-           family={HBO-i},
-           familyi={H\bibinithyphendelim i\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=eeaf518e9cfb13b03506e84810b65707}{%
+           family={HBO-I},
+           familyi={H\bibinithyphendelim I\bibinitperiod}}}%
       }
-      \strng{namehash}{d356e5ce2d6878b40cb46634b5bd06fc}
-      \strng{fullhash}{d356e5ce2d6878b40cb46634b5bd06fc}
-      \strng{bibnamehash}{d356e5ce2d6878b40cb46634b5bd06fc}
-      \strng{authorbibnamehash}{d356e5ce2d6878b40cb46634b5bd06fc}
-      \strng{authornamehash}{d356e5ce2d6878b40cb46634b5bd06fc}
-      \strng{authorfullhash}{d356e5ce2d6878b40cb46634b5bd06fc}
+      \strng{namehash}{eeaf518e9cfb13b03506e84810b65707}
+      \strng{fullhash}{eeaf518e9cfb13b03506e84810b65707}
+      \strng{bibnamehash}{eeaf518e9cfb13b03506e84810b65707}
+      \strng{authorbibnamehash}{eeaf518e9cfb13b03506e84810b65707}
+      \strng{authornamehash}{eeaf518e9cfb13b03506e84810b65707}
+      \strng{authorfullhash}{eeaf518e9cfb13b03506e84810b65707}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -215,37 +280,35 @@
       \verb https://ictresearchmethods.nl/Methods
       \endverb
     \endentry
-    \entry{ScrumOfOne}{online}{}
+    \entry{4p1ModelViews}{image}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d2d8b25dd8102e13048ab3d1432824ca}{%
-           family={Kodeco},
-           familyi={K\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=be0fa9a5e5df1f22afef2dc97c94b6d7}{%
+           family={hgraca},
+           familyi={h\bibinitperiod}}}%
       }
-      \strng{namehash}{d2d8b25dd8102e13048ab3d1432824ca}
-      \strng{fullhash}{d2d8b25dd8102e13048ab3d1432824ca}
-      \strng{bibnamehash}{d2d8b25dd8102e13048ab3d1432824ca}
-      \strng{authorbibnamehash}{d2d8b25dd8102e13048ab3d1432824ca}
-      \strng{authornamehash}{d2d8b25dd8102e13048ab3d1432824ca}
-      \strng{authorfullhash}{d2d8b25dd8102e13048ab3d1432824ca}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \strng{namehash}{be0fa9a5e5df1f22afef2dc97c94b6d7}
+      \strng{fullhash}{be0fa9a5e5df1f22afef2dc97c94b6d7}
+      \strng{bibnamehash}{be0fa9a5e5df1f22afef2dc97c94b6d7}
+      \strng{authorbibnamehash}{be0fa9a5e5df1f22afef2dc97c94b6d7}
+      \strng{authornamehash}{be0fa9a5e5df1f22afef2dc97c94b6d7}
+      \strng{authorfullhash}{be0fa9a5e5df1f22afef2dc97c94b6d7}
+      \field{sortinit}{h}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Scrum of One: How to Bring Scrum Into Your One-Person Operation}
-      \field{urlday}{3}
+      \field{urlday}{5}
       \field{urlmonth}{10}
       \field{urlyear}{2023}
-      \field{year}{2017}
+      \field{year}{2019}
       \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.kodeco.com/585-scrum-of-one-how-to-bring-scrum-into-your-one-person-operation
+      \verb https://herbertograca.com/2019/08/12/documenting-software-architecture/
       \endverb
       \verb{url}
-      \verb https://www.kodeco.com/585-scrum-of-one-how-to-bring-scrum-into-your-one-person-operation
+      \verb https://herbertograca.com/2019/08/12/documenting-software-architecture/
       \endverb
     \endentry
     \entry{MoSCoW}{online}{}
@@ -279,6 +342,73 @@
       \endverb
       \verb{url}
       \verb https://monday.com/blog/project-management/moscow-prioritization-method/
+      \endverb
+    \endentry
+    \entry{VModel}{image}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=90c7426871854b545001dbd291c0b3bb}{%
+           family={Oppermann},
+           familyi={O\bibinitperiod},
+           given={Artem},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{90c7426871854b545001dbd291c0b3bb}
+      \strng{fullhash}{90c7426871854b545001dbd291c0b3bb}
+      \strng{bibnamehash}{90c7426871854b545001dbd291c0b3bb}
+      \strng{authorbibnamehash}{90c7426871854b545001dbd291c0b3bb}
+      \strng{authornamehash}{90c7426871854b545001dbd291c0b3bb}
+      \strng{authorfullhash}{90c7426871854b545001dbd291c0b3bb}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://builtin.com/software-engineering-perspectives/v-model
+      \endverb
+      \verb{url}
+      \verb https://builtin.com/software-engineering-perspectives/v-model
+      \endverb
+    \endentry
+    \entry{PostmanWorkflows}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=89ea536a4254e2a12a7789df96c0c33f}{%
+           family={Postman.com},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{89ea536a4254e2a12a7789df96c0c33f}
+      \strng{fullhash}{89ea536a4254e2a12a7789df96c0c33f}
+      \strng{bibnamehash}{89ea536a4254e2a12a7789df96c0c33f}
+      \strng{authorbibnamehash}{89ea536a4254e2a12a7789df96c0c33f}
+      \strng{authornamehash}{89ea536a4254e2a12a7789df96c0c33f}
+      \strng{authorfullhash}{89ea536a4254e2a12a7789df96c0c33f}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Customzie request order in a collection run}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://learning.postman.com/docs/collections/running-collections/building-workflows/
+      \endverb
+      \verb{url}
+      \verb https://learning.postman.com/docs/collections/running-collections/building-workflows/
       \endverb
     \endentry
     \entry{STARR}{online}{}
