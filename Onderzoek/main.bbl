@@ -1,0 +1,543 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{DOT-Framework}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=087f3eb756ae20ec5428968f0a182dbe}{%
+           family={{HBO-ICT open-oio}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{087f3eb756ae20ec5428968f0a182dbe}
+      \strng{fullhash}{087f3eb756ae20ec5428968f0a182dbe}
+      \strng{bibnamehash}{087f3eb756ae20ec5428968f0a182dbe}
+      \strng{authorbibnamehash}{087f3eb756ae20ec5428968f0a182dbe}
+      \strng{authornamehash}{087f3eb756ae20ec5428968f0a182dbe}
+      \strng{authorfullhash}{087f3eb756ae20ec5428968f0a182dbe}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DOT-Framework}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://maken.wikiwijs.nl/127721/DOT_framework
+      \endverb
+      \verb{url}
+      \verb https://maken.wikiwijs.nl/127721/DOT_framework
+      \endverb
+    \endentry
+    \entry{CSharp}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Een rondleiding door de C\#-taal}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/nl-nl/dotnet/csharp/tour-of-csharp/
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/nl-nl/dotnet/csharp/tour-of-csharp/
+      \endverb
+    \endentry
+    \entry{JavaScript}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=502f1bd97b0e7d80b88e1f45ae1bfdb8}{%
+           family={Mozilla},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{fullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{bibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorbibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authornamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorfullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{JavaScript}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb 2023-10-10
+      \endverb
+      \verb{url}
+      \verb 2023-10-10
+      \endverb
+    \endentry
+    \entry{PostmanWorkflows}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6f061e1cad5e2783cea0b2976ed2f4c3}{%
+           family={Postman},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f061e1cad5e2783cea0b2976ed2f4c3}
+      \strng{fullhash}{6f061e1cad5e2783cea0b2976ed2f4c3}
+      \strng{bibnamehash}{6f061e1cad5e2783cea0b2976ed2f4c3}
+      \strng{authorbibnamehash}{6f061e1cad5e2783cea0b2976ed2f4c3}
+      \strng{authornamehash}{6f061e1cad5e2783cea0b2976ed2f4c3}
+      \strng{authorfullhash}{6f061e1cad5e2783cea0b2976ed2f4c3}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Binding request workflows}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://learning.postman.com/docs/collections/running-collections/building-workflows/
+      \endverb
+      \verb{url}
+      \verb https://learning.postman.com/docs/collections/running-collections/building-workflows/
+      \endverb
+    \endentry
+    \entry{SnakewareCases}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b00d3dced3aa1b30ed8fb90f3f1d2c7d}{%
+           family={Snakeware},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \strng{fullhash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \strng{bibnamehash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \strng{authorbibnamehash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \strng{authornamehash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \strng{authorfullhash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cases}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.snakeware.nl/cases
+      \endverb
+      \verb{url}
+      \verb https://www.snakeware.nl/cases
+      \endverb
+    \endentry
+    \entry{SnakewareWhatWeDo}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b00d3dced3aa1b30ed8fb90f3f1d2c7d}{%
+           family={Snakeware},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \strng{fullhash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \strng{bibnamehash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \strng{authorbibnamehash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \strng{authornamehash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \strng{authorfullhash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What we do}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.snakeware.com/what-we-do
+      \endverb
+      \verb{url}
+      \verb https://www.snakeware.com/what-we-do
+      \endverb
+    \endentry
+    \entry{Verhoeven}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=45199fb03d77e01df71b236b3f4336ad}{%
+           family={Verhoeven},
+           familyi={V\bibinitperiod},
+           given={Nel},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Boom}%
+      }
+      \strng{namehash}{45199fb03d77e01df71b236b3f4336ad}
+      \strng{fullhash}{45199fb03d77e01df71b236b3f4336ad}
+      \strng{bibnamehash}{45199fb03d77e01df71b236b3f4336ad}
+      \strng{authorbibnamehash}{45199fb03d77e01df71b236b3f4336ad}
+      \strng{authornamehash}{45199fb03d77e01df71b236b3f4336ad}
+      \strng{authorfullhash}{45199fb03d77e01df71b236b3f4336ad}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Wat is onderzoek}
+      \field{year}{2018}
+    \endentry
+    \entry{SDLC}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d5e67b3ffb2e1463375d81634389322}{%
+           family={{Zuci Systems}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{fullhash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{bibnamehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{authorbibnamehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{authornamehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{authorfullhash}{5d5e67b3ffb2e1463375d81634389322}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Levenscyclus van softwareontwikkeling | Wat is SDLC}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.zucisystems.com/nl/diensten/levenscyclus-van-softwareontwikkeling-wat-is-sdlc/
+      \endverb
+      \verb{url}
+      \verb https://www.zucisystems.com/nl/diensten/levenscyclus-van-softwareontwikkeling-wat-is-sdlc/
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{DOT-Framework}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=087f3eb756ae20ec5428968f0a182dbe}{%
+           family={{HBO-ICT open-oio}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{087f3eb756ae20ec5428968f0a182dbe}
+      \strng{fullhash}{087f3eb756ae20ec5428968f0a182dbe}
+      \strng{bibnamehash}{087f3eb756ae20ec5428968f0a182dbe}
+      \strng{authorbibnamehash}{087f3eb756ae20ec5428968f0a182dbe}
+      \strng{authornamehash}{087f3eb756ae20ec5428968f0a182dbe}
+      \strng{authorfullhash}{087f3eb756ae20ec5428968f0a182dbe}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DOT-Framework}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://maken.wikiwijs.nl/127721/DOT_framework
+      \endverb
+      \verb{url}
+      \verb https://maken.wikiwijs.nl/127721/DOT_framework
+      \endverb
+    \endentry
+    \entry{CSharp}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Een rondleiding door de C\#-taal}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/nl-nl/dotnet/csharp/tour-of-csharp/
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/nl-nl/dotnet/csharp/tour-of-csharp/
+      \endverb
+    \endentry
+    \entry{JavaScript}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=502f1bd97b0e7d80b88e1f45ae1bfdb8}{%
+           family={Mozilla},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{fullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{bibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorbibnamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authornamehash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \strng{authorfullhash}{502f1bd97b0e7d80b88e1f45ae1bfdb8}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{JavaScript}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb 2023-10-10
+      \endverb
+      \verb{url}
+      \verb 2023-10-10
+      \endverb
+    \endentry
+    \entry{PostmanWorkflows}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6f061e1cad5e2783cea0b2976ed2f4c3}{%
+           family={Postman},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f061e1cad5e2783cea0b2976ed2f4c3}
+      \strng{fullhash}{6f061e1cad5e2783cea0b2976ed2f4c3}
+      \strng{bibnamehash}{6f061e1cad5e2783cea0b2976ed2f4c3}
+      \strng{authorbibnamehash}{6f061e1cad5e2783cea0b2976ed2f4c3}
+      \strng{authornamehash}{6f061e1cad5e2783cea0b2976ed2f4c3}
+      \strng{authorfullhash}{6f061e1cad5e2783cea0b2976ed2f4c3}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Binding request workflows}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://learning.postman.com/docs/collections/running-collections/building-workflows/
+      \endverb
+      \verb{url}
+      \verb https://learning.postman.com/docs/collections/running-collections/building-workflows/
+      \endverb
+    \endentry
+    \entry{SnakewareCases}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b00d3dced3aa1b30ed8fb90f3f1d2c7d}{%
+           family={Snakeware},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \strng{fullhash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \strng{bibnamehash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \strng{authorbibnamehash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \strng{authornamehash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \strng{authorfullhash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cases}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.snakeware.nl/cases
+      \endverb
+      \verb{url}
+      \verb https://www.snakeware.nl/cases
+      \endverb
+    \endentry
+    \entry{SnakewareWhatWeDo}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b00d3dced3aa1b30ed8fb90f3f1d2c7d}{%
+           family={Snakeware},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \strng{fullhash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \strng{bibnamehash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \strng{authorbibnamehash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \strng{authornamehash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \strng{authorfullhash}{b00d3dced3aa1b30ed8fb90f3f1d2c7d}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What we do}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.snakeware.com/what-we-do
+      \endverb
+      \verb{url}
+      \verb https://www.snakeware.com/what-we-do
+      \endverb
+    \endentry
+    \entry{Verhoeven}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=45199fb03d77e01df71b236b3f4336ad}{%
+           family={Verhoeven},
+           familyi={V\bibinitperiod},
+           given={Nel},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Boom}%
+      }
+      \strng{namehash}{45199fb03d77e01df71b236b3f4336ad}
+      \strng{fullhash}{45199fb03d77e01df71b236b3f4336ad}
+      \strng{bibnamehash}{45199fb03d77e01df71b236b3f4336ad}
+      \strng{authorbibnamehash}{45199fb03d77e01df71b236b3f4336ad}
+      \strng{authornamehash}{45199fb03d77e01df71b236b3f4336ad}
+      \strng{authorfullhash}{45199fb03d77e01df71b236b3f4336ad}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Wat is onderzoek}
+      \field{year}{2018}
+    \endentry
+    \entry{SDLC}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d5e67b3ffb2e1463375d81634389322}{%
+           family={{Zuci Systems}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{fullhash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{bibnamehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{authorbibnamehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{authornamehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{authorfullhash}{5d5e67b3ffb2e1463375d81634389322}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Levenscyclus van softwareontwikkeling | Wat is SDLC}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.zucisystems.com/nl/diensten/levenscyclus-van-softwareontwikkeling-wat-is-sdlc/
+      \endverb
+      \verb{url}
+      \verb https://www.zucisystems.com/nl/diensten/levenscyclus-van-softwareontwikkeling-wat-is-sdlc/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

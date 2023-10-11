@@ -1,0 +1,11 @@
+% \newcommand{\whitespace}{\newline \newline} 
+\NewDocumentCommand{\whitespace}{O{1}}{\vspace{#1 ex} \noindent \ignorespaces}
+\newcommand{\qw}[1]{``#1''}
+\newcommand{\FigureContainer}[4]{
+\begin{graphic}
+    \captionsetup{type=figure}
+    \caption{#1}
+    \includegraphics[scale=#4]{#2}
+    \label{fig:#3}
+\end{graphic}
+}
