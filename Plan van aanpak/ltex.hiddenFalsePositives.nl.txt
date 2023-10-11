@@ -1,0 +1,1 @@
+{"rule":"MORFOLOGIK_RULE_NL_NL","sentence":"^\\QVoor het opstellen van zowel het ontwerp als de implementatie is het van cruciaal belang om rekening te houden met de eisen en wensen die zijn voortgekomen uit de requirementanalyse.\\E$"}
