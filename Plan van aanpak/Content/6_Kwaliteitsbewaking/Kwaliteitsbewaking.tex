@@ -3,20 +3,23 @@ In dit hoofdstuk wordt beschreven hoe de kwaliteit van het product gewaarborgd w
 Dit hoofdstuk is onderverdeeld in: proces, ontwerpen, testing en documentatie.
 \section{Proces}
 De ontwerp en realisatie fases van het project worden ondersteund door middel van de scrum methodiek.
-\whitespace
+
+\whitespace[2]
 Tijdens de realisatieperiode worden alle fases van de SDLC (figuur \ref{fig:SLDC}) te doorlopen.
 Hierbij wordt de requirement analysis uitgevoerd aan de hand van het onderzoek.
 Daarna worden er 2 weken geplant voor het designen van het systeem.
 Vervolgens worden er 9 sprints geplant voor het implementeren en testen van het systeem. \\
 % \todo[inline]{is 1 sprint te weinig en zijn 2 sprints te veel}
 \begin{graphic}
+    \vspace{0.2cm}
     \captionsetup{type=figure}
     \caption{Software Development Life Cycle (SDLC)}
     \includegraphics[scale=0.4]{SDLC}
     \label{fig:SLDC}
+    \vspace{0.2cm}
 \end{graphic}
 \textbf{Requirement analysis:} Door middel van de requirement analyse (het onderzoek) worden de requirements opgesteld.
-Tijdens de sprint planning worden de requirements verwerkt tot behapbare user stories, zodat ze tijdens de sprints gemaakt kunnen worden. \\
+Tijdens de sprint planning worden de requirements verwerkt tot behapbare user stories, zodat ze tijdens de sprints gemaakt kunnen worden.\\
 \textbf{Design:} De eisen en wensen die vanuit de requirement analyse worden gebruikt om het ontwerp te maken.
 Hoe er ontwerpt wordt is toegelicht in hoofdstuk \ref{sec:Ontwerpen}.\\
 \textbf{Inplementation:}
@@ -36,13 +39,16 @@ Verder zal er ook gebruikgemaakt worden van een CI-pipeline die wordt opgezet om
 Tijdens het ontwerpen wordt er gebruikgemaakt van UML.
 Er zullen verschillende UML diagrammen gemaakt worden op basis van het 4 + 1 model.
 Dit wordt gerealiseerd na het onderzoek wanneer de requirements bekend zijn.
-In figuur \ref{fig:4+1Model} wordt beschreven welke diagrammen mogelijk gebruikt kunnen worden voor de verschillende views van het 4 + 1 model.
+In figuur \ref{fig:4+1Model} wordt beschreven welke diagrammen mogelijk gebruikt kunnen worden voor de verschillende views van het 4 + 1 model.\\
 \begin{graphic}
+    \vspace{0.2cm}
     \captionsetup{type=figure}
     \caption{Verschillende UML diagrammen die mogelijk gebruikt kunnen worden bij de verschillende views \Parencite{4p1ModelViews}}
     \includegraphics[scale=0.4]{4p1ModelViews}
     \label{fig:4+1Model}
+    \vspace{0.2cm}
 \end{graphic}
+\newpage
 \section{Testing}
 \label{sec:Testing}
 Tijdens de realisatieperiode wordt er gebruikgemaakt van de V-Model.
@@ -50,12 +56,14 @@ Het V-Model \ref{fig:VModel} toont dat er voor de verschillende design lagen van
 De verschillende units/modules van code worden getest door middel van unit testing.
 Vervolgens worden de samen hangende units/modules getest door integratie testen om het softwaredesign te kunnen valideren.
 De laag boven softwaredesign is systeemanalyse, dit wordt getest door middel van systeem testing.
-Daarna worden de requirements gevalideerd door acceptatie testen uit te voeren met de stakeholders.
+Daarna worden de requirements gevalideerd door acceptatie testen uit te voeren met de stakeholders. \\
 \begin{graphic}
+    \vspace{0.2cm}
     \captionsetup{type=figure}
     \caption{V-Model \Parencite{VModel}}
     \includegraphics[scale=0.4]{VModel}
     \label{fig:VModel}
+    \vspace{0.2cm}
 \end{graphic}
 \section{Documentatie}
 De kwaliteit van de documentatie wordt gevalideerd door de bedrijfsbegeleider, docentbegeleider en medestudenten.
