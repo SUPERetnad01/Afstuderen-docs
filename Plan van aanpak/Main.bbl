@@ -19,6 +19,115 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
+    \entry{BitBucket}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3b06adaccec858239426bbced386dfef}{%
+           family={Bitbucket},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b06adaccec858239426bbced386dfef}
+      \strng{fullhash}{3b06adaccec858239426bbced386dfef}
+      \strng{bibnamehash}{3b06adaccec858239426bbced386dfef}
+      \strng{authorbibnamehash}{3b06adaccec858239426bbced386dfef}
+      \strng{authornamehash}{3b06adaccec858239426bbced386dfef}
+      \strng{authorfullhash}{3b06adaccec858239426bbced386dfef}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://bitbucket.org/
+      \endverb
+      \verb{url}
+      \verb https://bitbucket.org/
+      \endverb
+    \endentry
+    \entry{Afstudeerhandleiding}{report}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=35c482004e3dba525a8f3bc4b96ee6b9}{%
+           family={Bosgra},
+           familyi={B\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07469adc4a01c0f698468d269dceae59}{%
+           family={Derksen},
+           familyi={D\bibinitperiod},
+           given={Lisette},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=329dca21f7d9a848c6a4319401435882}{%
+           family={Ploeg},
+           familyi={P\bibinitperiod},
+           given={Wouter},
+           giveni={W\bibinitperiod},
+           givenun=0,
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=79a58687d9d2b0147d013303c7b59e1d}{%
+           family={Sariedine},
+           familyi={S\bibinitperiod},
+           given={Fiona},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {NHL Stenden Hogeschool}%
+      }
+      \strng{namehash}{5c5ebf4e18c8926584306176afdc5b73}
+      \strng{fullhash}{8120935443176775a7a3ba7b4ac8ecbc}
+      \strng{bibnamehash}{8120935443176775a7a3ba7b4ac8ecbc}
+      \strng{authorbibnamehash}{8120935443176775a7a3ba7b4ac8ecbc}
+      \strng{authornamehash}{5c5ebf4e18c8926584306176afdc5b73}
+      \strng{authorfullhash}{8120935443176775a7a3ba7b4ac8ecbc}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{07}
+      \field{note}{Verkregen 10 november 2022}
+      \field{title}{Afstudeerhandleiding 2022-2023}
+      \field{type}{PDF}
+      \field{year}{2022}
+    \endentry
+    \entry{Git}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0d03e86de72880665fdafdef7524a821}{%
+           family={Git-scm},
+           familyi={G\bibinithyphendelim s\bibinitperiod}}}%
+      }
+      \strng{namehash}{0d03e86de72880665fdafdef7524a821}
+      \strng{fullhash}{0d03e86de72880665fdafdef7524a821}
+      \strng{bibnamehash}{0d03e86de72880665fdafdef7524a821}
+      \strng{authorbibnamehash}{0d03e86de72880665fdafdef7524a821}
+      \strng{authornamehash}{0d03e86de72880665fdafdef7524a821}
+      \strng{authorfullhash}{0d03e86de72880665fdafdef7524a821}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{About}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://git-scm.com/about
+      \endverb
+      \verb{url}
+      \verb https://git-scm.com/about
+      \endverb
+    \endentry
     \entry{HBO-i-reasearch-methods}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=eeaf518e9cfb13b03506e84810b65707}{%
@@ -82,6 +191,37 @@
       \verb{url}
       \verb https://herbertograca.com/2019/08/12/documenting-software-architecture/
       \endverb
+    \endentry
+    \entry{4+1Model}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1d00515fe991ba26ce9b4c5ca06934fa}{%
+           family={Kruchten},
+           familyi={K\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Rational Software Corp.}%
+      }
+      \strng{namehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{fullhash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{bibnamehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{authorbibnamehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{authornamehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{authorfullhash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{Architectural Blueprints--The \qw{4+1} View Model of Software Architecture}
+      \field{type}{report}
+      \field{year}{1995}
+      \field{dateera}{ce}
     \endentry
     \entry{CSharp}{online}{}
       \name{author}{1}{}{%
@@ -321,6 +461,37 @@
       \verb https://learning.postman.com/docs/collections/running-collections/building-workflows/
       \endverb
     \endentry
+    \entry{APA7}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c1d46f9643ba9b8e618c16a9c03e3189}{%
+           family={Scribbr},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \strng{fullhash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \strng{bibnamehash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \strng{authorbibnamehash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \strng{authornamehash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \strng{authorfullhash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{APA-stijl (7de editie) | Verwijzingen in de tekst \& bronvermelding}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.scribbr.nl/category/apa-stijl/
+      \endverb
+      \verb{url}
+      \verb https://www.scribbr.nl/category/apa-stijl/
+      \endverb
+    \endentry
     \entry{STARR}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c1d46f9643ba9b8e618c16a9c03e3189}{%
@@ -333,6 +504,7 @@
       \strng{authorbibnamehash}{c1d46f9643ba9b8e618c16a9c03e3189}
       \strng{authornamehash}{c1d46f9643ba9b8e618c16a9c03e3189}
       \strng{authorfullhash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -422,6 +594,39 @@
       \verb https://www.snakeware.com/what-we-do
       \endverb
     \endentry
+    \entry{Scrum}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ce6189e6f11904dbcb779d3d5f749760}{%
+           family={Vennix},
+           familyi={V\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ce6189e6f11904dbcb779d3d5f749760}
+      \strng{fullhash}{ce6189e6f11904dbcb779d3d5f749760}
+      \strng{bibnamehash}{ce6189e6f11904dbcb779d3d5f749760}
+      \strng{authorbibnamehash}{ce6189e6f11904dbcb779d3d5f749760}
+      \strng{authornamehash}{ce6189e6f11904dbcb779d3d5f749760}
+      \strng{authorfullhash}{ce6189e6f11904dbcb779d3d5f749760}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wat is Scrum?}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://leanagilegroep.nl/wat-is-scrum/
+      \endverb
+      \verb{url}
+      \verb https://leanagilegroep.nl/wat-is-scrum/
+      \endverb
+    \endentry
     \entry{Verhoeven}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=45199fb03d77e01df71b236b3f4336ad}{%
@@ -485,10 +690,149 @@
       \endverb
       \verb{url}
       \verb https://www.bmc.com/blogs/solid-design-principles/
+      \endverb
+    \endentry
+    \entry{SDLC}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d5e67b3ffb2e1463375d81634389322}{%
+           family={{Zuci Systems}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{fullhash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{bibnamehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{authorbibnamehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{authornamehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{authorfullhash}{5d5e67b3ffb2e1463375d81634389322}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Levenscyclus van softwareontwikkeling | Wat is SDLC}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.zucisystems.com/nl/diensten/levenscyclus-van-softwareontwikkeling-wat-is-sdlc/
+      \endverb
+      \verb{url}
+      \verb https://www.zucisystems.com/nl/diensten/levenscyclus-van-softwareontwikkeling-wat-is-sdlc/
       \endverb
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
+    \entry{BitBucket}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3b06adaccec858239426bbced386dfef}{%
+           family={Bitbucket},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b06adaccec858239426bbced386dfef}
+      \strng{fullhash}{3b06adaccec858239426bbced386dfef}
+      \strng{bibnamehash}{3b06adaccec858239426bbced386dfef}
+      \strng{authorbibnamehash}{3b06adaccec858239426bbced386dfef}
+      \strng{authornamehash}{3b06adaccec858239426bbced386dfef}
+      \strng{authorfullhash}{3b06adaccec858239426bbced386dfef}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://bitbucket.org/
+      \endverb
+      \verb{url}
+      \verb https://bitbucket.org/
+      \endverb
+    \endentry
+    \entry{Afstudeerhandleiding}{report}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=35c482004e3dba525a8f3bc4b96ee6b9}{%
+           family={Bosgra},
+           familyi={B\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07469adc4a01c0f698468d269dceae59}{%
+           family={Derksen},
+           familyi={D\bibinitperiod},
+           given={Lisette},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=329dca21f7d9a848c6a4319401435882}{%
+           family={Ploeg},
+           familyi={P\bibinitperiod},
+           given={Wouter},
+           giveni={W\bibinitperiod},
+           givenun=0,
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=79a58687d9d2b0147d013303c7b59e1d}{%
+           family={Sariedine},
+           familyi={S\bibinitperiod},
+           given={Fiona},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {NHL Stenden Hogeschool}%
+      }
+      \strng{namehash}{5c5ebf4e18c8926584306176afdc5b73}
+      \strng{fullhash}{8120935443176775a7a3ba7b4ac8ecbc}
+      \strng{bibnamehash}{8120935443176775a7a3ba7b4ac8ecbc}
+      \strng{authorbibnamehash}{8120935443176775a7a3ba7b4ac8ecbc}
+      \strng{authornamehash}{5c5ebf4e18c8926584306176afdc5b73}
+      \strng{authorfullhash}{8120935443176775a7a3ba7b4ac8ecbc}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{07}
+      \field{note}{Verkregen 10 november 2022}
+      \field{title}{Afstudeerhandleiding 2022-2023}
+      \field{type}{PDF}
+      \field{year}{2022}
+    \endentry
+    \entry{Git}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0d03e86de72880665fdafdef7524a821}{%
+           family={Git-scm},
+           familyi={G\bibinithyphendelim s\bibinitperiod}}}%
+      }
+      \strng{namehash}{0d03e86de72880665fdafdef7524a821}
+      \strng{fullhash}{0d03e86de72880665fdafdef7524a821}
+      \strng{bibnamehash}{0d03e86de72880665fdafdef7524a821}
+      \strng{authorbibnamehash}{0d03e86de72880665fdafdef7524a821}
+      \strng{authornamehash}{0d03e86de72880665fdafdef7524a821}
+      \strng{authorfullhash}{0d03e86de72880665fdafdef7524a821}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{About}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://git-scm.com/about
+      \endverb
+      \verb{url}
+      \verb https://git-scm.com/about
+      \endverb
+    \endentry
     \entry{HBO-i-reasearch-methods}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=eeaf518e9cfb13b03506e84810b65707}{%
@@ -552,6 +896,37 @@
       \verb{url}
       \verb https://herbertograca.com/2019/08/12/documenting-software-architecture/
       \endverb
+    \endentry
+    \entry{4+1Model}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1d00515fe991ba26ce9b4c5ca06934fa}{%
+           family={Kruchten},
+           familyi={K\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Rational Software Corp.}%
+      }
+      \strng{namehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{fullhash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{bibnamehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{authorbibnamehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{authornamehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{authorfullhash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{Architectural Blueprints--The \qw{4+1} View Model of Software Architecture}
+      \field{type}{report}
+      \field{year}{1995}
+      \field{dateera}{ce}
     \endentry
     \entry{CSharp}{online}{}
       \name{author}{1}{}{%
@@ -791,6 +1166,37 @@
       \verb https://learning.postman.com/docs/collections/running-collections/building-workflows/
       \endverb
     \endentry
+    \entry{APA7}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c1d46f9643ba9b8e618c16a9c03e3189}{%
+           family={Scribbr},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \strng{fullhash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \strng{bibnamehash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \strng{authorbibnamehash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \strng{authornamehash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \strng{authorfullhash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{APA-stijl (7de editie) | Verwijzingen in de tekst \& bronvermelding}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.scribbr.nl/category/apa-stijl/
+      \endverb
+      \verb{url}
+      \verb https://www.scribbr.nl/category/apa-stijl/
+      \endverb
+    \endentry
     \entry{STARR}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c1d46f9643ba9b8e618c16a9c03e3189}{%
@@ -803,6 +1209,7 @@
       \strng{authorbibnamehash}{c1d46f9643ba9b8e618c16a9c03e3189}
       \strng{authornamehash}{c1d46f9643ba9b8e618c16a9c03e3189}
       \strng{authorfullhash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -892,6 +1299,39 @@
       \verb https://www.snakeware.com/what-we-do
       \endverb
     \endentry
+    \entry{Scrum}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ce6189e6f11904dbcb779d3d5f749760}{%
+           family={Vennix},
+           familyi={V\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ce6189e6f11904dbcb779d3d5f749760}
+      \strng{fullhash}{ce6189e6f11904dbcb779d3d5f749760}
+      \strng{bibnamehash}{ce6189e6f11904dbcb779d3d5f749760}
+      \strng{authorbibnamehash}{ce6189e6f11904dbcb779d3d5f749760}
+      \strng{authornamehash}{ce6189e6f11904dbcb779d3d5f749760}
+      \strng{authorfullhash}{ce6189e6f11904dbcb779d3d5f749760}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wat is Scrum?}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://leanagilegroep.nl/wat-is-scrum/
+      \endverb
+      \verb{url}
+      \verb https://leanagilegroep.nl/wat-is-scrum/
+      \endverb
+    \endentry
     \entry{Verhoeven}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=45199fb03d77e01df71b236b3f4336ad}{%
@@ -955,6 +1395,36 @@
       \endverb
       \verb{url}
       \verb https://www.bmc.com/blogs/solid-design-principles/
+      \endverb
+    \endentry
+    \entry{SDLC}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d5e67b3ffb2e1463375d81634389322}{%
+           family={{Zuci Systems}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{fullhash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{bibnamehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{authorbibnamehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{authornamehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{authorfullhash}{5d5e67b3ffb2e1463375d81634389322}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Levenscyclus van softwareontwikkeling | Wat is SDLC}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.zucisystems.com/nl/diensten/levenscyclus-van-softwareontwikkeling-wat-is-sdlc/
+      \endverb
+      \verb{url}
+      \verb https://www.zucisystems.com/nl/diensten/levenscyclus-van-softwareontwikkeling-wat-is-sdlc/
       \endverb
     \endentry
   \enddatalist

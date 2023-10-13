@@ -33,3 +33,4 @@
 \contentsline {chapter}{\numberline {7}Planning}{16}{}%
 \contentsline {section}{\numberline {7.1}Op te leveren producten}{16}{}%
 \contentsline {section}{\numberline {7.2}Strokenplanning}{16}{}%
+\contentsline {chapter}{\numberline {A}Strokenplanning}{19}{}%
