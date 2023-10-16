@@ -3075,17 +3075,18 @@
     <bcf:citekey order="14" intorder="1">Verhoeven</bcf:citekey>
     <bcf:citekey order="15" intorder="1">VModel</bcf:citekey>
     <bcf:citekey order="16" intorder="1">STARR</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">Scrum</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">Afstudeerhandleiding</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">4+1Model</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">Scrum</bcf:citekey>
     <bcf:citekey order="19" intorder="1">Afstudeerhandleiding</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">BitBucket</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">Git</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">4+1Model</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">4p1ModelViews</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">Afstudeerhandleiding</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">BitBucket</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">Git</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">4+1Model</bcf:citekey>
     <bcf:citekey order="24" intorder="1">4p1ModelViews</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">VModel</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">4p1ModelViews</bcf:citekey>
     <bcf:citekey order="26" intorder="1">VModel</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">APA7</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">VModel</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">APA7</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
