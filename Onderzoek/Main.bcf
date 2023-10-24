@@ -3060,22 +3060,21 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">SDLC</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">DOT-Framework</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">Verhoeven</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">Verhoeven</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">Afstudeerhandleiding</bcf:citekey>
     <bcf:citekey order="4" intorder="1">Afstudeerhandleiding</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">Afstudeerhandleiding</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">SnakewareWhatWeDo</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">SnakewareCases</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">HTMLhead</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">CSharp</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">SOLID</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">JavaScript</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">JavascriptClasses</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">PostmanWorkflows</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">Verhoeven</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">HBO-i-reasearch-methods</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">MandelowMatrix</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">MoSCoW</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">SnakewareWhatWeDo</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">SnakewareCases</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">HTMLhead</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">CSharp</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">SOLID</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">JavaScript</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">JavascriptClasses</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">PostmanWorkflows</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">Verhoeven</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">HBO-i-reasearch-methods</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">MoSCoW</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">ScrumPoker</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

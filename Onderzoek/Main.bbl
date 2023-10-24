@@ -19,39 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
-    \entry{MandelowMatrix}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=017ce4d1df99f9c03a09f4910229d401}{%
-           family={academy},
-           familyi={a\bibinitperiod},
-           given={Professional},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{017ce4d1df99f9c03a09f4910229d401}
-      \strng{fullhash}{017ce4d1df99f9c03a09f4910229d401}
-      \strng{bibnamehash}{017ce4d1df99f9c03a09f4910229d401}
-      \strng{authorbibnamehash}{017ce4d1df99f9c03a09f4910229d401}
-      \strng{authornamehash}{017ce4d1df99f9c03a09f4910229d401}
-      \strng{authorfullhash}{017ce4d1df99f9c03a09f4910229d401}
-      \field{sortinit}{a}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labeldatesource}{nodate}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Mendelow's Martrix - Marketing Theories}
-      \field{urlday}{20}
-      \field{urlmonth}{10}
-      \field{urlyear}{2023}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.professionalacademy.com/blogs/mendelows-matrix-marketing-theories/
-      \endverb
-      \verb{url}
-      \verb https://www.professionalacademy.com/blogs/mendelows-matrix-marketing-theories/
-      \endverb
-    \endentry
     \entry{Afstudeerhandleiding}{report}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=35c482004e3dba525a8f3bc4b96ee6b9}{%
@@ -134,38 +101,6 @@
       \endverb
       \verb{url}
       \verb https://ictresearchmethods.nl/Methods
-      \endverb
-    \endentry
-    \entry{DOT-Framework}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=087f3eb756ae20ec5428968f0a182dbe}{%
-           family={{HBO-ICT open-oio}},
-           familyi={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{087f3eb756ae20ec5428968f0a182dbe}
-      \strng{fullhash}{087f3eb756ae20ec5428968f0a182dbe}
-      \strng{bibnamehash}{087f3eb756ae20ec5428968f0a182dbe}
-      \strng{authorbibnamehash}{087f3eb756ae20ec5428968f0a182dbe}
-      \strng{authornamehash}{087f3eb756ae20ec5428968f0a182dbe}
-      \strng{authorfullhash}{087f3eb756ae20ec5428968f0a182dbe}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{DOT-Framework}
-      \field{urlday}{10}
-      \field{urlmonth}{10}
-      \field{urlyear}{2023}
-      \field{year}{2020}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://maken.wikiwijs.nl/127721/DOT_framework
-      \endverb
-      \verb{url}
-      \verb https://maken.wikiwijs.nl/127721/DOT_framework
       \endverb
     \endentry
     \entry{CSharp}{online}{}
@@ -438,6 +373,43 @@
       \endverb
       \verb{url}
       \verb https://www.snakeware.com/what-we-do
+      \endverb
+    \endentry
+    \entry{ScrumPoker}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b1b872e3489c000ecf57edd921df3fe5}{%
+           family={Asseldonk},
+           familyi={A\bibinitperiod},
+           given={Martijn},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{b1b872e3489c000ecf57edd921df3fe5}
+      \strng{fullhash}{b1b872e3489c000ecf57edd921df3fe5}
+      \strng{bibnamehash}{b1b872e3489c000ecf57edd921df3fe5}
+      \strng{authorbibnamehash}{b1b872e3489c000ecf57edd921df3fe5}
+      \strng{authornamehash}{b1b872e3489c000ecf57edd921df3fe5}
+      \strng{authorfullhash}{b1b872e3489c000ecf57edd921df3fe5}
+      \field{sortinit}{v}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Zo doe je Planning Poker met je Scrum Team}
+      \field{urlday}{23}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://scrumacademy.nl/blog/planning-poker-met-je-scrum-team/
+      \endverb
+      \verb{url}
+      \verb https://scrumacademy.nl/blog/planning-poker-met-je-scrum-team/
       \endverb
     \endentry
     \entry{Verhoeven}{book}{}
@@ -537,39 +509,6 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
-    \entry{MandelowMatrix}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=017ce4d1df99f9c03a09f4910229d401}{%
-           family={academy},
-           familyi={a\bibinitperiod},
-           given={Professional},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{017ce4d1df99f9c03a09f4910229d401}
-      \strng{fullhash}{017ce4d1df99f9c03a09f4910229d401}
-      \strng{bibnamehash}{017ce4d1df99f9c03a09f4910229d401}
-      \strng{authorbibnamehash}{017ce4d1df99f9c03a09f4910229d401}
-      \strng{authornamehash}{017ce4d1df99f9c03a09f4910229d401}
-      \strng{authorfullhash}{017ce4d1df99f9c03a09f4910229d401}
-      \field{sortinit}{a}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labeldatesource}{nodate}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Mendelow's Martrix - Marketing Theories}
-      \field{urlday}{20}
-      \field{urlmonth}{10}
-      \field{urlyear}{2023}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.professionalacademy.com/blogs/mendelows-matrix-marketing-theories/
-      \endverb
-      \verb{url}
-      \verb https://www.professionalacademy.com/blogs/mendelows-matrix-marketing-theories/
-      \endverb
-    \endentry
     \entry{Afstudeerhandleiding}{report}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=35c482004e3dba525a8f3bc4b96ee6b9}{%
@@ -652,38 +591,6 @@
       \endverb
       \verb{url}
       \verb https://ictresearchmethods.nl/Methods
-      \endverb
-    \endentry
-    \entry{DOT-Framework}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=087f3eb756ae20ec5428968f0a182dbe}{%
-           family={{HBO-ICT open-oio}},
-           familyi={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{087f3eb756ae20ec5428968f0a182dbe}
-      \strng{fullhash}{087f3eb756ae20ec5428968f0a182dbe}
-      \strng{bibnamehash}{087f3eb756ae20ec5428968f0a182dbe}
-      \strng{authorbibnamehash}{087f3eb756ae20ec5428968f0a182dbe}
-      \strng{authornamehash}{087f3eb756ae20ec5428968f0a182dbe}
-      \strng{authorfullhash}{087f3eb756ae20ec5428968f0a182dbe}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{DOT-Framework}
-      \field{urlday}{10}
-      \field{urlmonth}{10}
-      \field{urlyear}{2023}
-      \field{year}{2020}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://maken.wikiwijs.nl/127721/DOT_framework
-      \endverb
-      \verb{url}
-      \verb https://maken.wikiwijs.nl/127721/DOT_framework
       \endverb
     \endentry
     \entry{CSharp}{online}{}
@@ -956,6 +863,43 @@
       \endverb
       \verb{url}
       \verb https://www.snakeware.com/what-we-do
+      \endverb
+    \endentry
+    \entry{ScrumPoker}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b1b872e3489c000ecf57edd921df3fe5}{%
+           family={Asseldonk},
+           familyi={A\bibinitperiod},
+           given={Martijn},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{b1b872e3489c000ecf57edd921df3fe5}
+      \strng{fullhash}{b1b872e3489c000ecf57edd921df3fe5}
+      \strng{bibnamehash}{b1b872e3489c000ecf57edd921df3fe5}
+      \strng{authorbibnamehash}{b1b872e3489c000ecf57edd921df3fe5}
+      \strng{authornamehash}{b1b872e3489c000ecf57edd921df3fe5}
+      \strng{authorfullhash}{b1b872e3489c000ecf57edd921df3fe5}
+      \field{sortinit}{v}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Zo doe je Planning Poker met je Scrum Team}
+      \field{urlday}{23}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://scrumacademy.nl/blog/planning-poker-met-je-scrum-team/
+      \endverb
+      \verb{url}
+      \verb https://scrumacademy.nl/blog/planning-poker-met-je-scrum-team/
       \endverb
     \endentry
     \entry{Verhoeven}{book}{}
