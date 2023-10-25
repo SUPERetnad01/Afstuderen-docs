@@ -1,7 +1,7 @@
 \subsection{Deelvraag 5: Prioritering}
 Na het opstellen van een lijst met requirements als resultaat van deelvraag 4.
 Deze lijst is echter nog niet bruikbaar, aangezien deze niet is geprioriteerd.
-Om de prioriteiten van de requirements vast te stellen, wordt de volgende deelvraag geintroduceerd.
+Om de prioriteiten van de requirements vast te stellen, wordt de volgende deelvraag geïntroduceerd.
 
 \begin{center}
 	\textit{\SubquestionFive}
@@ -10,51 +10,34 @@ Om de prioriteiten van de requirements vast te stellen, wordt de volgende deelvr
 \whitespace[0.2]
 Dit wordt gedaan door middel van \textbf{requirements prioritization} zal er verschillende prioriteit niveaus toegekend worden aan de requirements.
 Deze niveaus worden in beeld gebracht door middel van MoSCoW-methode \Parencite{MoSCoW}.
-%
-% tevredenheidsscore [1,2, \dots, 5]
-% ontevredenheidscore [1,2 \dots, 5]
-% duur (1,2,3,5,8)
-% Stakeholder positie [1,2,3,4]
-
-\whitespace
-Om de prioritering te bepalen wordt er gebruik gemaakt van een formule (zie formule \ref{eq:prioritization}), in de ze formule wordt de volgnede aspecten in mee genomen.
+Om de prioritering te bepalen wordt er gebruik gemaakt van een formule (zie formule \ref{eq:prioritization}), in de ze formule wordt de volgende aspecten in mee genomen.
 \begin{enumerate}
-	\item[-] tevredenheidsscore (TS) [1,2,\ldots,5]: dit is de waarde die door de stakeholder gegeven wordt als de requirement geimplementeerd wordt
-	\item[-] ontevredenheidscore (OS) [1,2,\dots,5]: Dit is de waarde die door de stakeholder gegeven wordt wanneer het niet geimplementeerd wordt.
-	\item[-] stakeholder invloed positie (SIP) [1,2,3,4]: Op basis van de stakeholders matrix wordt er een waarde aan een stakeholder groep toegekend 1 voor sleutelfiguren, 2 voor beinvloeder, 3 voor geintreceerde en 4 voor toeschouwer.
-	\item[-] duur [1,2,3,5,8]: De duur representeert door een relatief getal om de geschatte tijd om de requirement te implementeren te representeren.
-	      De waardes van de duur zijn een verkleinde selectie van Scrum poken \Parencite{ScrumPoker}.
+	\item[-] Tevredenheidsscore (TS) [1,2,\ldots,5]: dit is de waarde die door de stakeholder gegeven wordt als de requirement geïntroduceerd wordt. Waarbij een hoge waarde aangeeft als het belangrijk dat het geïntroduceerd wordt.
+	\item[-] Ontevredenheidscore (OS) [1,2,\dots,5]: Dit is de waarde die door de stakeholder gegeven wordt wanneer het niet geïntroduceerd wordt. Waarbij de hoge waarde de ontevredenheid aangeeeft als het niet geïntroduceerd wordt.
+	\item[-] Stakeholder invloed positie (SIP) [1,2,3,4]: Op basis van de stakeholders matrix wordt er een waarde aan een stakeholder groep toegekend 4 voor sleutelfiguren, 3 voor beinvloeder, 2 voor geïnteresseerde en 1 voor toeschouwer.
+	\item[-] Duur [1,2,3,5,8]: De duur representeert door een relatief getal om de geschatte tijd om de requirement te implementeren te representeren.
+	      De waardes van de duur zijn een verkleinde selectie van Scrum poker \Parencite{ScrumPoker}.
 \end{enumerate}
-% De prioritering van de requirements wordt berekend door de volgende formule.
-%
-%
-% De prioriteit van de requirements wordt berekend op basis van de invloed en het belang van de stakeholders,
-% de tevredenheidsscore [1,2,\ldots,5] bij implementatie, de ontevredenheid score [1,2,\ldots,5] als het niet geïmplementeerd wordt en de duur van de implementatie (1,2,3,5,8) die wordt weer gegeven door een relatief getal.
-% De berekening wordt gedaan door middel van de volgende formule:
-% \begin{center}
 
 \whitespace
-	\begin{equation}
-		\label{eq:prioritization}
-		Score = SIP + TS - OS + (9 - duur)
-	\end{equation}
-% \end{center}
+\begin{equation}
+	\label{eq:prioritization}
+	Score = SIP + TS + OS + (9 - duur)
+\end{equation}
 
 \whitespace
-nadat er een score is berekend wordt er een prioriteit niveau toegegeven op basis van de MoSCoW methode:
-
-\begin{itemize}
-	\item{\makebox[3cm]{Must have:} $x \in \mathbb{R} : 14 \leq x \leq 18$}
-	\item{\makebox[3cm]{Should have:} $x \in \mathbb{R} : 14 \leq x \leq 18$}
-	\item{\makebox[3cm]{Could have:} $x \in \mathbb{R} : 14 \leq x \leq 18$}
-	\item{\makebox[3cm]{Won't have:} $x \in \mathbb{R} : 14 \leq x \leq 18$}
-\end{itemize}
+Nadat er een score is berekend wordt er een prioriteit niveau toegegeven op basis van de MoSCoW methode.
+De waardes van de prioriteiten zijn toegekend en gevalideerd door de product owner:
 
 \whitespace
-De requirement worden vervolgens genoteerd in een gemodificeerde versie van een snow card.
-Na het maken van de requirement wordt er terug gekoppeld met de stakeholder om het te verifiëren
-als de volledige lijst gemaakt is wordt het gecheckt met de product owner en de bedrijfsbegeleider.
-\whitespace
-\todo[inline]{Maak fancy snow card en fancy formule en daarna tekst verbeteren scores kloppen ook nog niet want deze moeten besproken worden en eigelijk pas gesteld worden tijden de deelvraag ?}
-\todo[inline]{Artifacts en formule}
+\makebox[3cm][l]{Must have:} $ x \in \mathbb{R} : 17 \leq x \leq 22 $ \\
+\makebox[3cm][l]{Should have:} $ x \in \mathbb{R} : 12 \leq x \leq 16 $ \\
+\makebox[3cm][l]{Could have:} $x \in \mathbb{R} : 7 \leq x \leq 11$ \\
+\makebox[3cm][l]{Won't have:} $x \in \mathbb{R} : 4 \leq x \leq 6$
 
+\whitespace
+Als de requirements geprioriteerd zijn worden ze genoteerd in verschillende user stories.
+Na het maken van de user stories wordt er terug gekoppeld naar de stakeholders om het resultaat te verifiëren.
+Als de volledige lijst gemaakt is wordt de lijst gecheckt door de product owner en de bedrijfsbegeleider.
+
+\todo[inline]{Scores zijn nu tijdelijk is nog geen moment om dit te valideren met de product owner en is ook pas handig dat gedaan wordt als de stories gemaakt zijn}
