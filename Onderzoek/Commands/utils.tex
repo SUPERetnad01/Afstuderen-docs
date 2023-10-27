@@ -1,4 +1,26 @@
 % \newcommand{\whitespace}{\newline \newline} 
+\newcommand{\Requirement}[5]{
+    \begin{table}[!ht]
+        \caption{Requirement - #1}
+        \label{rq:#1}
+		\begin{tabularx}{\textwidth}{|m{0.5cm}|l|m{1.70cm}|l|m{1.75cm}|l|}
+			\hline
+			\textbf{Id} & #1 & \textbf{Priority} & #2 & \textbf{Estimate} & #3                                 \\
+			\hline
+			\multicolumn{6}{|p{\dimexpr\linewidth-2\arrayrulewidth-2\tabcolsep}|}{\textbf{User Story}}         \\
+			\hline
+			\multicolumn{6}{|p{\dimexpr\linewidth-2\arrayrulewidth-2\tabcolsep}|}{#4}                          \\
+			\hline
+			\hline
+			\multicolumn{6}{|p{\dimexpr\linewidth-2\arrayrulewidth-2\tabcolsep}|}{\textbf{Acceptatiecriteria}} \\
+			\hline
+			\multicolumn{6}{|p{\dimexpr\linewidth-2\arrayrulewidth-2\tabcolsep}|}{#5}                          \\
+			\hline
+		\end{tabularx}
+	\end{table}
+}
+
 \NewDocumentCommand{\whitespace}{O{1}}{\vspace{#1 ex} \noindent \ignorespaces}
 \newcommand{\qw}[1]{``#1''}
+\noindent
 

@@ -18,5 +18,5 @@
 \contentsline {section}{\numberline {3.1}Deelvraag 1: Stakeholders}{8}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Deelvraag 2: Architctuur}{9}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Deelvraag 3: Knelpunten}{9}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Deelvraag 4: Requirements}{10}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Deelvraag 5: Prioritering}{10}{section.3.5}%
+\contentsline {section}{\numberline {3.4}Deelvraag 4: Requirements}{9}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Deelvraag 5: Prioritering}{9}{section.3.5}%
