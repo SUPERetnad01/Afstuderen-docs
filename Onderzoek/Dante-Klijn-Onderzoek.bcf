@@ -3076,6 +3076,10 @@
     <bcf:citekey order="15" intorder="1">MandelowMatrix</bcf:citekey>
     <bcf:citekey order="16" intorder="1">MoSCoW</bcf:citekey>
     <bcf:citekey order="17" intorder="1">ScrumPoker</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">XSL</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">Vue</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">JSON</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">HTML</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
