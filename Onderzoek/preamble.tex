@@ -25,6 +25,15 @@
 \fancyfoot[R,R]{\thepage}
 \fancyfoot[C,C]{Onderzoek}
 
+%Hyperlinking
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
 % No header & footer on empty pages
 \usepackage{emptypage}
 
@@ -69,13 +78,6 @@
 %TC:ignore
 \input{Commands/commands.tex}
 %TC:endignore
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks,
-    citecolor=black,
-    filecolor=black,
-    linkcolor=black,
-    urlcolor=black
-}
+
 % images
 \graphicspath{{./img/}}

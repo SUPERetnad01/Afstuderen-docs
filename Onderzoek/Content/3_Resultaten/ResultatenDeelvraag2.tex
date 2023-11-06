@@ -2,31 +2,32 @@
 In deze paragraaf zijn de resultaten voor deelvraag 2 \textit{\SubquestionTwo} verzameld en geanalyseerd.
 Er is samen met de architect van het CMS Erwin Keuning en met software engineer Kevin Snijder een IT archtecture sketching sessie gedaan.
 In deze sessie is de huidige softwarearchitectuur inbeeldt gebracht en is er ook aandacht besteed aan het in beeld brengen van het datamodel.
-Verder is er ook gebruik gemaakt van interne documentatie van het systeem om de tekeningen te onderstuenen.
-De diagrammen zijn afgeleid van de originele tekeningen die gemaakt zijn tijdens de sessie deze tekeingen zijn te vinden in Bijlage \ref{appendix:ITArchitectureSketch}.
+Verder is er ook gebruik gemaakt van interne documentatie van het systeem om de tekeningen te ondersteunen.
+De diagrammen zijn afgeleid van de originele tekeningen die gemaakt zijn tijdens de sessie deze tekeningen zijn te vinden in Bijlage \ref{appendix:ITArchitectureSketch}.
 
 % \todo[inline]{interne documenten toevoegen als data verzamle stukje)}
 
 \subsection{Systeem}
 Het eerste gedeelte van het IT Architecuture sketching is besteed aan het globale systeem / flow van het systeem.
-Er zijn op dit moment 3 verschillende Snakeware Cloud site methodes deze methodes zijn XSL \Parencite{XSL}, Vue 2 en Vue 3 \Parencite{Vue} site.
-De Vue 2 en 3 werken door middel van de Snakware Cloud API en de XSL werkt door middel van de Snakeware.Site code base.
-In afbeelding \ref{fig:SystemArchitectureXSL} is te zien hoe de XSL sites werken, in afbeeldingen \ref{fig:SystemArchitectureVue} is te zien hoe de vue sites werken.
+Er zijn op dit moment 3 verschillende Snakeware Cloud site methodes deze methodes zijn \gls{XSL} \Parencite{XSL}, Vue 2 en Vue 3 \Parencite{Vue} site.
+De Vue 2 en 3 werken door middel van de Snakware Cloud API en de \gls{XSL} werkt door middel van de Snakeware.Site code base.
+In afbeelding \ref{fig:SystemArchitectureXSL} is te zien hoe de \gls{XSL} sites werken, in afbeeldingen \ref{fig:SystemArchitectureVue} is te zien hoe de vue sites werken.
 
 \whitespace
-Het Snakeware Cloud platform zelf is een XSL site dat aangepast kan worden door middel van het CMS (dit wordt alleen nooit gedaan).
+Het Snakeware Cloud platform zelf is een \gls{XSL} site dat aangepast kan worden door middel van het CMS (dit wordt alleen nooit gedaan).
 Er wordt gebruik gemaakt van stored procedures om de data op te halen van de database, deze data wordt automatisch omgezet naar XML.
-De XML wordt getransformeerd in bruikbare JSON format \Parencite{JSON} in het geval van de Vue 2 en 3 sites, en in het geval van een XSL site wordt het getransformeerd naar javascript en HTML \Parencite{HTML}.
+De XML wordt getransformeerd in bruikbare JSON format \Parencite{JSON} in het geval van de Vue 2 en 3 sites, en in het geval van een \gls{XSL} site wordt het getransformeerd naar javascript en HTML \Parencite{HTML}.
 deze data wordt vervolgens gebruikt om de data te tonen op de frontend.
 
 \whitespace
 \begin{graphic}
 	\captionsetup{type=figure}
-	\caption{Globale systeemarchitectuur XSL sites}
+    \caption{Globale systeemarchitectuur \gls{XSL} sites}
 	\includegraphics[scale=0.4]{XSLCMS}
 	\label{fig:SystemArchitectureXSL}
 \end{graphic}
-
+\todo[inline]{Yes UML, ik had dit ook aan berber gevraagd en die zij dat het niet nodig was omdat het een representatie is van de tekening.
+Maar ik denk dat het wel slim is om er een UML diagram van te maken. (Nog geen tijd voor gehad maar ga ik wel mee bezig)}
 % \whitespace
 \begin{graphic}
 	\captionsetup{type=figure}
@@ -65,19 +66,20 @@ Het versimpelde datamodel van het CMS is te zien in figuur \ref{fig:DatamodelCMS
 \end{graphic}
 
 \whitespace[2]
-Na het schetsen van het datamodel is er gevraagt waar op dit moment de meeste problemen worden gevonden in het datamodel.
+Na het schetsen van het datamodel is er gevraagd waar op dit moment de meeste problemen worden gevonden in het datamodel.
 Deze punten zijn verzameld tijdens de sessie door middel van persoonlijke communicatie met Erwin en Kevin.
 \begin{itemize}
     \item[-]{Het datamodel is erg complex, dit maakt het lastig om nieuwe functionaliteiten in het CMS te bouwen}
     \item[-]{Het datamodel heeft te veel connecties met andere tabellen terwijl dit niet nodig zou moeten zijn.
         Dit maakt het systeem onnodig complex.}
-    \item[-]{De huidige naamgeving van de tabbellen en kolommen is niet als gewild.
-        Als we dit nu aan zouden passen dan zorgt dit problemen in de code maar met een nieuw project zouden we graag andere naamgeving willen hebben.}
+    \item[-]{De huidige naamgeving van de tabellen en kolommen is niet als gewild.
+        Als we dit nu aan zouden passen dan zorgt dit problemen in de code, maar met een nieuw project zouden we graag andere naamgeving willen hebben.}
 \end{itemize}
 
 \whitespace
-Tijdens de sessie kwam er naar voren dat mensen binnen het R\&D uitgesproken meningen hebben ov er een nieuw datamodel.
-Hierom wordt er een sessie gepland tijden de ontwerpfase met het R\&D team om mogelijk tot een consensus te komen over een geschikt model.
+Tijdens de sessie kwam er naar voren dat mensen binnen het R\&D uitgesproken meningen hebben over een nieuw datamodel.
+Hierom wordt er tijdens de ontwerpfase met het R\&D team een sessie gepland om ideeen te leveren voor een nieuw data model.
+Deze input zal gebruikt worden om het datamodel te ontwerpen.
 % Een van de grotere problemen met het datamodel is dat het \textbf{erg complex} is (persoonlijke com erwin) dit maakt het lastig om nieuwe functionaliteiten in het CMS te bouwen.
 % Het datamodel heeft relaties die niet kloppen en kunnen mogelijk voor problemen zorgen (pc kevin).
 % Dit zorgt er voor dat het CMS lastig uit te breiden is en veel tijd kost om te onderhouden.
