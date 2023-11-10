@@ -1,0 +1,36 @@
+\babel@toc {dutch}{}\relax 
+\contentsline {chapter}{Woordenlijst}{iv}{chapter*.4}%
+\contentsline {chapter}{\numberline {1}Inleiding}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Organisatieomschrijving}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Context}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Aanleiding}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Opdrachtomschrijving}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Leeswijzer}{4}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Onderzoeksopzet}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Doelstelling}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Methodologie}{6}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Deelvraag 1: Stakeholders}{6}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Deelvraag 2: Architectuur}{6}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Deelvraag 3: Knelpunten}{6}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Deelvraag 4: Requirements}{7}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Deelvraag 5: Prioritering}{7}{subsection.2.2.5}%
+\contentsline {chapter}{\numberline {3}Resultaten}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Deelvraag 1: Stakeholders}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Deelvraag 2: Architectuur}{10}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Systeem}{11}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Het datamodel}{13}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Deelvraag 3: Knelpunten}{14}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Janny Reitsma interview}{14}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Rob Douma interview}{14}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Samenvatting en antwoord}{15}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Deelvraag 4: Requirements}{15}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Interviews met sleutelfiguren}{15}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Antwoord en resultaat}{15}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Deelvraag 5: Prioritering}{16}{section.3.5}%
+\contentsline {chapter}{\numberline {A}IT architecture sketching resultaat foto}{20}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Expert Interviews}{21}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Janny Reitsma Interview}{21}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Rob Douma Interview}{21}{section.B.2}%
+\contentsline {chapter}{\numberline {C}Explore user requirements interviews}{22}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Elsa Croes en Eric Dijkstra interview}{22}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Hans Hoomans interview}{22}{section.C.2}%

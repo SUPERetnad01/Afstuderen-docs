@@ -1,2 +1,80 @@
 \section{Deelvraag 5: Prioritering}
-wow deelvraag 5
+In dit hoofdstuk wordt de deelvraag beantwoord \textit{\SubquestionFive}.
+De requirement die uit deelvraag 4 zijn gekomen worden gecategoriseerd in 4 verschillende catgorieen.
+Deze categorien zijn bepaald door middel van de MoSCoW methode \Parencite{MoSCoW}.
+De MoSCoW methode bestaat uit de volgende onderdelen:
+
+\whitespace
+\makebox[3cm][l]{\textbf{Must have:}} Dit zijn de kern functionaliteiten, zonder deze functionaliteiten zou het project niet bruikbar zijn en niet als success beschoud worden.
+
+\whitespace[1]
+\makebox[3cm][l]{\textbf{Should have:}} Dit zijn de functionaliteiten die niet essentieel zijn maar wel belangrijke functionaliteiten met zich mee.
+
+\whitespace[1]
+\makebox[3cm][l]{\textbf{Could have:}} Dit zijn de functionaliteiten die je graag zou willen hebben.
+Ze zijn niet essentieel als er tijd over is in het project zou je deze functionaliteiten realiseren.
+
+\whitespace[1]
+\makebox[3cm][l]{\textbf{Won't have:}} Deze functionaliteiten zijn niet criticaal voor het slagen van het succes en kunnen in een volgend stadium mee genomen worden.\\
+
+\whitespace[2]
+Om de requirement te catorizeren in de catogorieen van de MoSCoW methode wordt er arbitraire getal aan de requirement toe gewezen.
+Deze score wordt bepaald door middel formule \ref{eq:PioritizationRequirementsFormula}
+
+\begin{equation}
+	\label{eq:PioritizationRequirementsFormula}
+	Score = TS + OS + (9 - duur)
+\end{equation}
+
+Formule \ref{eq:PioritizationRequirementsFormula} bestaat uit de volgende aspecten:
+\begin{enumerate}
+	\item[-] Tevredenheidsscore (TS) [1,2,\ldots,5]: Deze waarden wordt toegekend door de stakeholder met betrekking van de requirement.
+	      De stakeholder geeft een waarde van 1 tot 5 van tevredenheid als het geimplementeerd wordt.
+	      Hierbij is een 1 niet erg tevreden en 5 erg tevreden.
+	\item[-] Ontevredenheidscore (OS) [1,2,\dots,5]: Deze waarden wordt toegekend door de stakeholder met betrekking van de requirement.
+	      De stakeholder geeft een waarde van 1 tot van ontevredenheid als het niet geimplementeerd wordt.
+	      Hierbij is een 1 niet erg onteverden en een 5 erg onteverden.
+	\item[-] Duur [1,2,3,5,8]: De duur representeert door een relatief getal om de geschatte tijd om de requirement te implementeren te representeren.
+	      De waardes van de duur zijn een verkleinde selectie van Scrum poker \Parencite{ScrumPoker}.
+	      Deze waardes worden geverifieerd door een senior developer zodat hier een correcte schatting van gemaakt kan worden.
+\end{enumerate}
+
+\whitespace
+Het maximum wat doormiddel van deze formule behaald kan worden is 18 = 5 + 5 + (9-1) en het minimum wat behaald kan worden is 3 = 1 + 1 + (9-8).
+Door het verschil van deze getalen te verdelen over 4 categorien krijg je de volgende getallen ranges:
+
+\whitespace
+\makebox[3cm][l]{Must have:} $ x \in \mathbb{R} : 14 \leq x \leq 18 $ \\
+\makebox[3cm][l]{Should have:} $ x \in \mathbb{R} : 9 \leq x \leq 13 $ \\
+\makebox[3cm][l]{Could have:} $ x \in \mathbb{R} :  5 \leq x \leq 8 $ \\
+\makebox[3cm][l]{Won't have:} $ x \in \mathbb{R} : 3 \leq x \leq 4 $
+
+\whitespace
+Het resultaat van de prioritizatie formule en de catogorisatie met behulp van de MoSCoW methode is te zien in Tabel \ref{tab:RequirementPrioritization}. %\ref{}
+Dit resulteert in 5 must have, 6 should have, 1 could have requirements.
+
+% \todo[inline]{Make Tabel}
+\whitespace
+\begin{tabular}{ |p{3cm}||p{1cm}|p{1cm}|p{1cm}|p{1.5cm}|p{2.5cm}| }
+    	\hline
+	\multicolumn{6}{|c|}{Requirement prioritizatie lijst}  \\
+	\hline
+	Requirement id & TS & OS & Duur & Score & Prioritering \\
+	\hline
+	FR1            & 5  & 5  & 5    & 14    & Must have    \\
+	FR2            & 5  & 5  & 5    & 14    & Must have    \\
+	FR3            & 4  & 1  & 3    & 11    & Should have  \\
+	FR4            & 3  & 1  & 2    & 11    & Should have  \\
+	FR5            & 4  & 3  & 3    & 13    & Should have  \\
+	FR6            & 5  & 5  & 5    & 14    & Must have    \\
+	FR7            & 3  & 2  & 5    & 9     & Should have  \\
+	FR8            & 5  & 5  & 3    & 16    & Must have    \\
+	FR9            & 3  & 2  & 3    & 11    & Should have  \\
+	FR10           & 2  & 1  & 5    & 7     & Could have   \\
+	FR11           & 4  & 2  & 3    & 12    & Should have  \\
+	FR12           & 5  & 5  & 5    & 14    & Must have    \\
+	FR13           & 5  & 5  & 3    & 16    & Must have    \\
+	\hline
+\label{tab:RequirementPrioritization}
+
+\end{tabular}

@@ -8,6 +8,7 @@ De diagrammen zijn afgeleid van de originele tekeningen die gemaakt zijn tijdens
 % \todo[inline]{interne documenten toevoegen als data verzamle stukje)}
 
 \subsection{Systeem}
+\todo[inline]{Nog niet het duidelijkste beetje herschrijven zodat het duidelijker wordt.}
 Het eerste gedeelte van het IT Architecuture sketching is besteed aan het globale systeem / flow van het systeem.
 Er zijn op dit moment 3 verschillende Snakeware Cloud site methodes deze methodes zijn \gls{XSL} \Parencite{XSL}, Vue 2 en Vue 3 \Parencite{Vue} site.
 De Vue 2 en 3 werken door middel van de Snakware Cloud API en de \gls{XSL} werkt door middel van de Snakeware.Site code base.
@@ -28,7 +29,7 @@ deze data wordt vervolgens gebruikt om de data te tonen op de frontend.
 \end{graphic}
 \todo[inline]{Yes UML, ik had dit ook aan berber gevraagd en die zij dat het niet nodig was omdat het een representatie is van de tekening.
 Maar ik denk dat het wel slim is om er een UML diagram van te maken. (Nog geen tijd voor gehad maar ga ik wel mee bezig)}
-% \whitespace
+
 \begin{graphic}
 	\captionsetup{type=figure}
 	\caption{Globale systeemarchitectuur Vue 2 en 3 sites}
@@ -36,13 +37,10 @@ Maar ik denk dat het wel slim is om er een UML diagram van te maken. (Nog geen t
 	\label{fig:SystemArchitectureVue}
 \end{graphic}
 
-% \todo[inline]{Maak hier van een deployment diagram of package diagram van zodat het UML is}
-% \todo[inline]{Leg meer uit wat XSL XML en JSON HTML is}
-
 \whitespace
 Tijdens de IT Architeture sketching was er ook ruimte overgelaten om te onderzoeken waar er mogelijk verbeteringen gemaakt konden worden.
 Uit de persoonlijke communicatie met Erwin en Kevin zijn de volgende punten uit gekomen.
-
+\todo[inline]{Deze punten beter formuleren en eer vannuit businsess preciepe bekijken}
 \begin{itemize}
 	\item[-]{Het Huidige \gls{CMS} maakt geen gebruik van de SOLID principes, dit zorgt er voor dat het moeilijk te testen en uit te breiden is van wege de interconnected code}
 	\item[-]{Het \gls{CMS} is op dit moment een grote monoliet, dit brengt problemen met zich mee rond het schalen van het systeem.}
@@ -66,6 +64,7 @@ Het versimpelde datamodel van het CMS is te zien in figuur \ref{fig:DatamodelCMS
 \end{graphic}
 
 \whitespace[2]
+\todo[inline]{Punten meer vanuit buisness pricipe bekijken}
 Na het schetsen van het datamodel is er gevraagd waar op dit moment de meeste problemen worden gevonden in het datamodel.
 Deze punten zijn verzameld tijdens de sessie door middel van persoonlijke communicatie met Erwin en Kevin.
 \begin{itemize}
@@ -77,26 +76,7 @@ Deze punten zijn verzameld tijdens de sessie door middel van persoonlijke commun
 \end{itemize}
 
 \whitespace
+\todo[inline]{dit denk ik weg halen}
 Tijdens de sessie kwam er naar voren dat mensen binnen het R\&D uitgesproken meningen hebben over een nieuw datamodel.
 Hierom wordt er tijdens de ontwerpfase met het R\&D team een sessie gepland om ideeen te leveren voor een nieuw data model.
 Deze input zal gebruikt worden om het datamodel te ontwerpen.
-% Een van de grotere problemen met het datamodel is dat het \textbf{erg complex} is (persoonlijke com erwin) dit maakt het lastig om nieuwe functionaliteiten in het CMS te bouwen.
-% Het datamodel heeft relaties die niet kloppen en kunnen mogelijk voor problemen zorgen (pc kevin).
-% Dit zorgt er voor dat het CMS lastig uit te breiden is en veel tijd kost om te onderhouden.
-% Tijdens de sessie kwam naar voren dat mensen een uitgesproken meening hebben over een nieuwe datamodel.
-% Hierom wordt er een sessie gepland na het onderzoeks verslag tijdens de ontwerp fase met het R\&D team om mogelijk tot een consencus te komen over een geschikt model.
-%
-%
-% Het geeft de inpressie dat het datamodel veel \qw{on nodige relaties heeft}, verder is de naam geving de colommunen niet meer van deze tijd (pc Erwin).
-%
-% \todo[inline]{Ik ben de netwerk opstelling vergeten in het onderzoek om mee te nemen kan dit gezien als een mogelijke verbetering.}
-% Een van de grote problemen nu met het huidige CMS is dat het niet gebruikt maakt van de SOLID prinicples (Personelijke cummunicatie erwin).
-% Ook is het CMS een grote Monolith dit zorgt er voor dat het niet goed schaalt met meerdere gebruikers (Persoonlijke communicatie kevin).
-%
-% \whitespace
-% Verder wordt er nog steeds gebruik gemaakt van XML als data transfer object, dit is niet optimaal in de loop der jaren zijn er andere varianten gekomen die hier beter voor geschikt zijn.
-% In de huidige code base door de verbondenheid van het systeem is het niet practies om het CMS te unit testen (PC Kevin), en dit willen we wel graag.
-% Hiernaast is er ook nog aandacht besteed aan de huidige netwerk opstelling van Snakeware.
-% Door middel van de interne documentatie.
-% \todo[inline]{Verbeter de teksten}
-% \todo[inline]{Opzoeken hoe je persoonlijke communicatie refereerd}
