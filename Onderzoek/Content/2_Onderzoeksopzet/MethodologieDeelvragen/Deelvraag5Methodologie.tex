@@ -12,13 +12,13 @@ Om de prioriteiten van de requirements vast te stellen, wordt de volgende deelvr
 Dit wordt gedaan door middel van \textbf{requirements prioritization} er zullen verschillende prioriteit niveaus toegekend worden aan de requirements.
 Deze niveaus worden in beeld gebracht door middel van MoSCoW-methode \Parencite{MoSCoW}.
 Om de prioritering te bepalen wordt er gebruik gemaakt van een formule (zie formule \ref{eq:prioritization}).
-Voor deze formule worden de volgende aspecten mee genomen:
+Voor deze formule worden de volgende aspecten meegenomen:
 \begin{enumerate}
 	\item[-] Tevredenheidsscore (TS) [1,2,\ldots,5]: dit is de waarde die door de stakeholder gegeven wordt als de requirement geïntroduceerd wordt.
-        Waarbij een hoge waarde aangeeft de tevredenheid aangeeft als het geïntroduceerd wordt.
+	      Waarbij een hoge waarde aangeeft de tevredenheid aangeeft als het geïntroduceerd wordt.
 	\item[-] Ontevredenheidscore (OS) [1,2,\dots,5]: Dit is de waarde die door de stakeholder gegeven wordt wanneer het niet geïntroduceerd wordt.
-        Waarbij de hoge waarde de ontevredenheid aangeeft als het niet geïntroduceerd wordt.
-	\item[-] Stakeholder invloed positie (SIP) [1,2,3,4]: Op basis van de stakeholders matrix wordt er een waarde aan een stakeholder groep toegekend 4 voor sleutelfiguren, 3 voor beinvloeder, 2 voor geïnteresseerde en 1 voor toeschouwer.
+	      Waarbij de hoge waarde de ontevredenheid aangeeft als het niet geïntroduceerd wordt.
+	% \item[-] Stakeholder invloed positie (SIP) [1,2,3,4]: Op basis van de stakeholders matrix wordt er een waarde aan een stakeholder groep toegekend 4 voor sleutelfiguren, 3 voor beinvloeder, 2 voor geïnteresseerde en 1 voor toeschouwer.
 	\item[-] Duur [1,2,3,5,8]: De duur representeert door een relatief getal om de geschatte tijd om de requirement te implementeren te representeren.
 	      De waardes van de duur zijn een verkleinde selectie van Scrum poker \Parencite{ScrumPoker}.
 \end{enumerate}
@@ -26,7 +26,7 @@ Voor deze formule worden de volgende aspecten mee genomen:
 \whitespace
 \begin{equation}
 	\label{eq:prioritization}
-	Score = SIP + TS + OS + (9 - duur)
+	Score = TS + OS + (9 - duur)
 \end{equation}
 
 \whitespace
@@ -34,19 +34,22 @@ Nadat er een score is berekend wordt er een prioriteit niveau toegegeven op basi
 De waardes van de prioriteiten zijn toegekend en gevalideerd door de product owner:
 
 \whitespace
-\makebox[3cm][l]{Must have:} $ x \in \mathbb{R} : 17 \leq x \leq 22 $ \\
-\makebox[3cm][l]{Should have:} $ x \in \mathbb{R} : 12 \leq x \leq 16 $ \\
-\makebox[3cm][l]{Could have:} $ x \in \mathbb{R} : 7 \leq x \leq 11 $ \\
-\makebox[3cm][l]{Won't have:} $ x \in \mathbb{R} : 4 \leq x \leq 6 $
-
-\todo[inline]{Manier om buiten de scope van het project te tonen}
+\makebox[3cm][l]{Must have:} $ x \in \mathbb{R} : 14 \leq x \leq 18 $ \\
+\makebox[3cm][l]{Should have:} $ x \in \mathbb{R} : 9 \leq x \leq 13 $ \\
+\makebox[3cm][l]{Could have:} $ x \in \mathbb{R} :  5 \leq x \leq 8 $ \\
+\makebox[3cm][l]{Won't have:} $ x \in \mathbb{R} : 3 \leq x \leq 4 $
 
 \whitespace
 Als de requirements geprioriteerd zijn worden ze genoteerd in verschillende user stories.
+Bij de user story staat het Id van de requirement aan gegeven zodat het makkelijk te identificeren is.
+De prioriteit wordt aan gegeven door de verschillende MoSCoW prioriteit niveaus
+Daarnaast wordt de duur aangegeven met de duur waarde die gebruikt is in de formule.
 In tabel \ref{rq:TMP1} is een voorbeeld van een user story te zien.
 Na het maken van de user stories wordt er terug gekoppeld naar de stakeholders om het resultaat te verifiëren.
 Als de volledige lijst gemaakt is wordt de lijst gecheckt door de product owner en de bedrijfsbegeleider.
 
-\Requirement{TMP1}{Must have}{12}{Dit is een test user story}{Dit zijn de acceptatatiecriteria}
+% \todo[inline]{Fix formule met naam er bij}
+% \todo[inline]{Leg schaal 1 tot 5 uit}
+\Requirement{TMP1}{Must have}{15}{Dit is een test user story}{Dit zijn de acceptatiecriteria}
 
 % \todo[inline]{Scores zijn nu tijdelijk is nog geen moment om dit te valideren met de product owner en is ook pas handig dat gedaan wordt als de stories gemaakt zijn}
