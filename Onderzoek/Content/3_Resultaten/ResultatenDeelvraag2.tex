@@ -1,21 +1,20 @@
 \section{Deelvraag 2: Architectuur}
-In deze paragraaf zijn de resultaten voor deelvraag 2 \textit{\SubquestionTwo} verzameld en geanalyseerd.
+In deze paragraaf zijn de resultaten voor deelvraag 2 \qw{\textit{\SubquestionTwo}} verzameld en geanalyseerd.
 Er is samen met de architect van het CMS Erwin Keuning en met software engineer Kevin Snijder een IT architecture sketching sessie gedaan.
 In deze sessie is de huidige softwarearchitectuur inbeeld gebracht en is er ook aandacht besteed aan het in beeld brengen van het datamodel.
 Verder is er ook gebruik gemaakt van interne documentatie van het systeem om de tekeningen te ondersteunen.
 De diagrammen zijn afgeleid van de originele tekeningen die gemaakt zijn tijdens de sessie deze tekeningen zijn te vinden in Bijlage \ref{appendix:ITArchitectureSketch}.
 
 \subsection{Systeem}
-Het eerste gedeelte van de IT architecture sketching is besteed aan het in beeld brengen van de huidige CMS, en hoe het interacteert met de huidige sites die Snakeware onderhoud.
+Het eerste gedeelte van de IT architecture sketching is besteed aan het in beeld brengen van het huidige CMS, en hoe het interacteert met de huidige sites die Snakeware onderhoud.
 Snakeware heeft op dit moment 3 verschillende modellen aan websites die ze onderhouden \gls{XSL}, Vue 2 en Vue 3.
 
 \whitespace
-De \gls{XSL} site is het oudste website model dat Snakeware nu onderhoud en maakt gebruik van de Snakeware Site code base.
+De \gls{XSL} site is het oudste website model dat Snakeware nu onderhoudt en maakt gebruik van de Snakeware Site code base.
 Omdat origineel de \gls{XSL} sites er eerder was dan het \gls{CMS} was er des tijds voor gekozen om het van dezelfde Snakeware Site code base als basis te gebruiken.
 % Dit heeft ervoor gezorgd dat het huidige \gls{CMS} aan te passen is met het \gls{CMS} (dit wordt alleen nooit gedaan).
 De \gls{XSL} sites werken door middel van \gls{Stored procedures} om hun data op te halen en direct omzetten naar XML.
 In figuur  \ref{fig:SystemArchitectureXSL} is te zien hoe de communicatie is tussen de verschillende systemen.
-\todo[inline]{Voeg Stored procedures toe aan woordend lijst } 
 % Het eerste gedeelte van het IT Architecuture sketching is besteed aan het globale systeem / flow van het systeem.
 % Er zijn op dit moment 3 verschillende Snakeware Cloud site methodes deze methodes zijn \gls{XSL} \Parencite{XSL}, Vue 2 en Vue 3 \Parencite{Vue} site.
 % De Vue 2 en 3 werken door middel van de Snakware Cloud API en de \gls{XSL} werkt door middel van de Snakeware.Site code base.
@@ -31,7 +30,7 @@ In figuur  \ref{fig:SystemArchitectureXSL} is te zien hoe de communicatie is tus
 \whitespace
 \begin{graphic}
 	\captionsetup{type=figure}
-    \caption{Globale systeemarchitectuur \gls{XSL} sites}
+	\caption{Globale systeemarchitectuur \gls{XSL} sites}
 	\includegraphics[scale=0.4]{XSLCMS}
 	\label{fig:SystemArchitectureXSL}
 \end{graphic}
@@ -46,7 +45,7 @@ Een representatie van de flow van de Vue sites is te zien in figuur \ref{fig:Sys
 \begin{graphic}
 	\captionsetup{type=figure}
 	\caption{Globale systeemarchitectuur Vue 2 en 3 sites}
-    \includegraphics[scale=0.4]{VueCMS}
+	\includegraphics[scale=0.4]{VueCMS}
 	\label{fig:SystemArchitectureVue}
 \end{graphic}
 
@@ -57,10 +56,12 @@ Tijdens de IT architecture sketching was er ook ruimte overgelaten om te onderzo
 Uit de persoonlijke communicatie met Erwin en Kevin zijn de volgende punten uit gekomen.
 
 \begin{itemize}
-	\item[-]{Het Huidige \gls{CMS} maakt geen gebruik van de SOLID principes, dit zorgt er voor dat het moeilijk te testen en uit te breiden is van wege de interconnected code}
-	\item[-]{Het \gls{CMS} is op dit moment een grote monoliet, dit brengt problemen met zich mee rond het schalen van het systeem.}
-	\item[-]{Het is momenteel niet realistische om het \gls{CMS} te testen door middel van unit testen, dit is echter wel gewild.}
-    \item[-]{Veel van de logica van het CMS zit vastgekoppeld in de frontend, en dit is niet gewild.}
+	\item[-]{Het Huidige \gls{CMS} maakt geen gebruik van de SOLID principes, dit zorgt ervoor dat het moeilijk te testen en uit te breiden is van wege de interconnected code}
+	\item[-]{Het \gls{CMS} is op dit moment een grote monoliet, dit brengt problemen met zich mee rond het schalen en onderhouden van het systeem.
+	      Dit lukt op het moment niet door de interconnected code van het CMS.}
+	\item[-]{Het is momenteel niet realistisch om het \gls{CMS} te testen door middel van unit testen, dit is echter wel gewild.}
+	\item[-]{Veel van de logica van het CMS zit vastgekoppeld in de frontend, en dit is niet gewild.
+	      Dit levert nu veel problemen op met het onderhouden van het CMS.}
 \end{itemize}
 
 \newpage
@@ -68,7 +69,7 @@ Uit de persoonlijke communicatie met Erwin en Kevin zijn de volgende punten uit 
 \label{subsection:Datamodel}
 Het volgende onderdeel is het schetsen van het datamodel, dit is ook gedaan samen met Erwin en Kevin.
 Op dit moment maakt het \gls{CMS} gebruik van 288 tabellen, deze tabellen bevatten meerdere kolommen en zijn interconnected.
-Daarom is er tijdens het schetsen van het datamodel alleen gekeken naar de belangrijkste tabellen en de relaties hier tussen.
+Daarom is er tijdens het schetsen van het datamodel alleen gekeken naar de belangrijkste tabellen en de relaties hiertussen.
 De exacte data dat opgeslagen wordt in deze tabellen weggelaten om het overzichtelijk te houden.
 Het versimpelde datamodel van het CMS is te zien in figuur \ref{fig:DatamodelCMS}.
 
@@ -76,7 +77,7 @@ Het versimpelde datamodel van het CMS is te zien in figuur \ref{fig:DatamodelCMS
 \begin{graphic}
 	\captionsetup{type=figure}
 	\caption{Gesimplificeerde datamodel CMS}
-	\includegraphics[scale=0.6]{CMSDatabaseModelB}
+	\includegraphics[scale=0.45]{CMSDatabaseModelB}
 	\label{fig:DatamodelCMS}
 \end{graphic}
 
@@ -84,12 +85,12 @@ Het versimpelde datamodel van het CMS is te zien in figuur \ref{fig:DatamodelCMS
 Na het schetsen van het datamodel is er gevraagd waar op dit moment de meeste problemen worden gevonden in het datamodel.
 Deze punten zijn verzameld tijdens de sessie door middel van persoonlijke communicatie met Erwin en Kevin.
 \begin{itemize}
-    \item[-]{Het datamodel is erg complex, dit maakt het lastig om nieuwe functionaliteiten in het CMS te bouwen}
-    \item[-]{Het datamodel heeft te veel connecties met andere tabellen terwijl dit niet nodig zou moeten zijn.
-        Dit maakt het systeem onnodig complex.}
-    \item[-]{De huidige naamgeving van de tabellen en kolommen is niet als gewild.
-            Als dit nu aangepast zou worden zou dit voor veel problemen opleveren in de code, maar met een nieuw project is het gewild dat er een andere naamgeving wordt gebruikt.}
-\end{itemize} 
+	\item[-]{Het datamodel is erg complex, dit maakt het lastig om nieuwe functionaliteiten in het CMS te bouwen}
+	\item[-]{Het datamodel heeft te veel connecties met andere tabellen terwijl dit niet nodig zou moeten zijn.
+	      Dit maakt het systeem onnodig complex.}
+	\item[-]{De huidige naamgeving van de tabellen en kolommen is niet als gewild.
+	      Als dit nu aangepast zou worden zou dit voor veel problemen opleveren in de code, maar met een nieuw project is het gewild dat er een andere naamgeving wordt gebruikt.}
+\end{itemize}
 % \todo[inline]{dit denk ik weg halen}
 % Tijdens de sessie kwam er naar voren dat mensen binnen het R\&D uitgesproken meningen hebben over een nieuw datamodel.
 % Hierom wordt er tijdens de ontwerpfase met het R\&D team een sessie gepland om ideeen te leveren voor een nieuw data model.
@@ -98,13 +99,14 @@ Deze punten zijn verzameld tijdens de sessie door middel van persoonlijke commun
 
 \subsection{Antwoord en resultaat}
 Samen met Erwin Keuning en Kevin Snijder zijn er door middel van IT architecture sketching 2 systeem schetsen gemaakt (zie figuur \ref{fig:SystemArchitectureXSL} en \ref{fig:SystemArchitectureVue})
-Door middel van deze tekening is het huidige systeem en datamodel in beeld gebracht.
+Door middel van deze tekening is het huidige systeem en datamodel (zie figuur \ref{fig:DatamodelCMS}) in beeld gebracht.
 Daarnaast zijn er door de gesprekken met Erwin en Kevin de volgende randvoorwaarden opgesteld.
 
 \begin{itemize}
-    \item[-]{Het eind product moet voldoende documentatie bevatten.}
-    \item[-]{De code moet voldoen aan huidige coderingsstandaarden}
-    \item[-]{De code moet getest worden door middel van verschillende test methodes}
-    \item[-]{De code zal geschreven worden in programmeertalen die gebruikt worden binnen Snakeware}
+	\item[-]{Het eindproduct moet aan de documentatie standaarden voldoen van Snakeware.}
+	\item[-]{Het eindproduct moet gebruik maken van moderne codering best practices (bijvoorbeeld SOLID)}
+	\item[-]{De code moet voldoen aan huidige coderingsstandaarden}
+	\item[-]{De code moet getest worden door unit en integratie tests.}
+    \item[-]{De code zal geschreven worden in C\# \Parencite{CSharp} en in Typescript \Parencite{Typescript}.}
 \end{itemize}
 

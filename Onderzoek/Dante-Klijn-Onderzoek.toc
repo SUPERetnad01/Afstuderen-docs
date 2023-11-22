@@ -1,5 +1,6 @@
 \babel@toc {dutch}{}\relax 
-\contentsline {chapter}{Woordenlijst}{iv}{chapter*.4}%
+\contentsline {chapter}{Samenvatting}{iii}{chapter*.1}%
+\contentsline {chapter}{Woordenlijst}{v}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}Inleiding}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Organisatieomschrijving}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Context}{3}{section.1.2}%
@@ -29,12 +30,18 @@
 \contentsline {subsection}{\numberline {3.4.2}Interview Hans Hoomans}{16}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}Antwoord en resultaat}{16}{subsection.3.4.3}%
 \contentsline {section}{\numberline {3.5}Deelvraag 5: Prioritering}{18}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Antwoord en resultaat}{19}{subsection.3.5.1}%
 \contentsline {chapter}{\numberline {4}Conclusie}{20}{chapter.4}%
-\contentsline {chapter}{\numberline {A}IT architecture sketching resultaat foto}{24}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Expert Interviews}{25}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Janny Reitsma Interview}{25}{section.B.1}%
-\contentsline {section}{\numberline {B.2}Rob Douma Interview}{25}{section.B.2}%
-\contentsline {chapter}{\numberline {C}Explore user requirements interviews}{26}{appendix.C}%
-\contentsline {section}{\numberline {C.1}Elsa Croes en Eric Dijkstra interview}{26}{section.C.1}%
-\contentsline {section}{\numberline {C.2}Hans Hoomans interview}{26}{section.C.2}%
-\contentsline {chapter}{\numberline {D}Requirements}{27}{appendix.D}%
+\contentsline {chapter}{\numberline {5}Discussie}{22}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Betrouwbaarheid \& Validiteit}{22}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Generaliseerbaarheid}{22}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Beperkingen}{23}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Verbeterpunten}{23}{section.5.4}%
+\contentsline {chapter}{\numberline {A}IT architecture sketching resultaat foto}{26}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Expert Interviews}{27}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Rob Douma Interview}{27}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Janny Reitsma Interview}{30}{section.B.2}%
+\contentsline {chapter}{\numberline {C}Explore user requirements interviews}{32}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Elsa Croes en Eric Dijkstra interview}{32}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Hans Hoomans interview}{37}{section.C.2}%
+\contentsline {chapter}{\numberline {D}Requirements}{38}{appendix.D}%

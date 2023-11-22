@@ -165,6 +165,37 @@
       \field{type}{PDF}
       \field{year}{2022}
     \endentry
+    \entry{BerberVerslag}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e149a88b62225457621de067ef63b1b4}{%
+           family={Bouma},
+           familyi={B\bibinitperiod},
+           given={Berber},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {NHL Stenden Hogeschool}%
+      }
+      \strng{namehash}{e149a88b62225457621de067ef63b1b4}
+      \strng{fullhash}{e149a88b62225457621de067ef63b1b4}
+      \strng{bibnamehash}{e149a88b62225457621de067ef63b1b4}
+      \strng{authorbibnamehash}{e149a88b62225457621de067ef63b1b4}
+      \strng{authornamehash}{e149a88b62225457621de067ef63b1b4}
+      \strng{authorfullhash}{e149a88b62225457621de067ef63b1b4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{04}
+      \field{note}{Verkregen 5 september 2023}
+      \field{title}{Vakantiekiekje}
+      \field{type}{PDF}
+      \field{year}{2023}
+    \endentry
     \entry{JSON}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ad90c0260e5700a35440b298dd7b46ed}{%
@@ -495,6 +526,38 @@
       \endverb
       \verb{url}
       \verb https://www.snakeware.com/what-we-do
+      \endverb
+    \endentry
+    \entry{Typescript}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4acb4b1d4eec85d3d75b9529f86317b7}{%
+           family={Typescript.org},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \strng{fullhash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \strng{bibnamehash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \strng{authorbibnamehash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \strng{authornamehash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \strng{authorfullhash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Typescript is JavaScript with syntax for types}
+      \field{urlday}{16}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.typescriptlang.org/
+      \endverb
+      \verb{url}
+      \verb https://www.typescriptlang.org/
       \endverb
     \endentry
     \entry{ScrumPoker}{online}{}
@@ -777,6 +840,37 @@
       \field{type}{PDF}
       \field{year}{2022}
     \endentry
+    \entry{BerberVerslag}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e149a88b62225457621de067ef63b1b4}{%
+           family={Bouma},
+           familyi={B\bibinitperiod},
+           given={Berber},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {NHL Stenden Hogeschool}%
+      }
+      \strng{namehash}{e149a88b62225457621de067ef63b1b4}
+      \strng{fullhash}{e149a88b62225457621de067ef63b1b4}
+      \strng{bibnamehash}{e149a88b62225457621de067ef63b1b4}
+      \strng{authorbibnamehash}{e149a88b62225457621de067ef63b1b4}
+      \strng{authornamehash}{e149a88b62225457621de067ef63b1b4}
+      \strng{authorfullhash}{e149a88b62225457621de067ef63b1b4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{04}
+      \field{note}{Verkregen 5 september 2023}
+      \field{title}{Vakantiekiekje}
+      \field{type}{PDF}
+      \field{year}{2023}
+    \endentry
     \entry{JSON}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ad90c0260e5700a35440b298dd7b46ed}{%
@@ -1107,6 +1201,38 @@
       \endverb
       \verb{url}
       \verb https://www.snakeware.com/what-we-do
+      \endverb
+    \endentry
+    \entry{Typescript}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4acb4b1d4eec85d3d75b9529f86317b7}{%
+           family={Typescript.org},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \strng{fullhash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \strng{bibnamehash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \strng{authorbibnamehash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \strng{authornamehash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \strng{authorfullhash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Typescript is JavaScript with syntax for types}
+      \field{urlday}{16}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.typescriptlang.org/
+      \endverb
+      \verb{url}
+      \verb https://www.typescriptlang.org/
       \endverb
     \endentry
     \entry{ScrumPoker}{online}{}
