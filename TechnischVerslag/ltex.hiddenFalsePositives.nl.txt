@@ -1,0 +1,1 @@
+{"rule":"NL_SIMPLE_REPLACE","sentence":"^\\Q[2] Het ontwerp wordt gemaakt doormiddel van het 4 + 1 view model bron.\\E$"}
