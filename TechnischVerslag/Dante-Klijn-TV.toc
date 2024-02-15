@@ -8,18 +8,18 @@
 \contentsline {section}{\numberline {1.4}Opdrachtomschrijving}{4}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Leeswijzer}{4}{section.1.5}%
 \contentsline {chapter}{\numberline {2}Ontwerp}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Scenario's}{5}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Logical View}{5}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Development view}{5}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Process View}{5}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Physical view}{5}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Realisatie}{6}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Tools}{6}{section.3.1}%
-\contentsline {chapter}{\numberline {4}Beheer, Validatie en Verificatie}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Codereviews en Afstudeerstage voortgang}{7}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Versiebeheer}{7}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Codestandaarden}{7}{section.4.3}%
+\contentsline {section}{\numberline {2.1}Scenario's}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Logical View}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Development view}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Process View}{6}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Physical view}{6}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Realisatie}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Tools}{7}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Beheer, Validatie en Verificatie}{8}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Codereviews en Afstudeerstage voortgang}{8}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Versiebeheer}{8}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Codestandaarden}{8}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Process en bewaking}{8}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Testrapport}{8}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Conclusie}{9}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Reflectie}{10}{chapter.6}%
+\contentsline {section}{\numberline {4.5}Testrapport}{9}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Conclusie}{10}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Reflectie}{11}{chapter.6}%
