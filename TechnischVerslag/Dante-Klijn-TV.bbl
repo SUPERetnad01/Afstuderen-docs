@@ -19,6 +19,97 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
+    \entry{DanteOnderzoek}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ae9e0e96f4c9399d8c66cdbef62f9ecb}{%
+           family={Klijn},
+           familyi={K\bibinitperiod},
+           given={Dante},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {NHL Stendejn Hogeschool}%
+      }
+      \strng{namehash}{ae9e0e96f4c9399d8c66cdbef62f9ecb}
+      \strng{fullhash}{ae9e0e96f4c9399d8c66cdbef62f9ecb}
+      \strng{bibnamehash}{ae9e0e96f4c9399d8c66cdbef62f9ecb}
+      \strng{authorbibnamehash}{ae9e0e96f4c9399d8c66cdbef62f9ecb}
+      \strng{authornamehash}{ae9e0e96f4c9399d8c66cdbef62f9ecb}
+      \strng{authorfullhash}{ae9e0e96f4c9399d8c66cdbef62f9ecb}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{08}
+      \field{note}{Verkregen febuari 2024}
+      \field{title}{Onderzoeksverslag}
+      \field{type}{PDF}
+      \field{year}{2023}
+    \endentry
+    \entry{4+1ViewModelPaper}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1d00515fe991ba26ce9b4c5ca06934fa}{%
+           family={Kruchten},
+           familyi={K\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{fullhash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{bibnamehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{authorbibnamehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{authornamehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{authorfullhash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{08}
+      \field{note}{Verkregen 15 febuari 2024}
+      \field{title}{The 4+1 View Model of Architecture}
+      \field{type}{PDF}
+      \field{year}{1995}
+    \endentry
+    \entry{UseCaseDiagram}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a945dfc050b9f284bd166d0bd342094b}{%
+           family={lucidchart},
+           familyi={l\bibinitperiod}}}%
+      }
+      \strng{namehash}{a945dfc050b9f284bd166d0bd342094b}
+      \strng{fullhash}{a945dfc050b9f284bd166d0bd342094b}
+      \strng{bibnamehash}{a945dfc050b9f284bd166d0bd342094b}
+      \strng{authorbibnamehash}{a945dfc050b9f284bd166d0bd342094b}
+      \strng{authornamehash}{a945dfc050b9f284bd166d0bd342094b}
+      \strng{authorfullhash}{a945dfc050b9f284bd166d0bd342094b}
+      \field{sortinit}{l}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{UML Use Case Diagram Tutorial}
+      \field{urlday}{15}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.typescriptlang.org/
+      \endverb
+      \verb{url}
+      \verb https://www.typescriptlang.org/
+      \endverb
+    \endentry
     \entry{CSharp}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
@@ -296,6 +387,97 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
+    \entry{DanteOnderzoek}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ae9e0e96f4c9399d8c66cdbef62f9ecb}{%
+           family={Klijn},
+           familyi={K\bibinitperiod},
+           given={Dante},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {NHL Stendejn Hogeschool}%
+      }
+      \strng{namehash}{ae9e0e96f4c9399d8c66cdbef62f9ecb}
+      \strng{fullhash}{ae9e0e96f4c9399d8c66cdbef62f9ecb}
+      \strng{bibnamehash}{ae9e0e96f4c9399d8c66cdbef62f9ecb}
+      \strng{authorbibnamehash}{ae9e0e96f4c9399d8c66cdbef62f9ecb}
+      \strng{authornamehash}{ae9e0e96f4c9399d8c66cdbef62f9ecb}
+      \strng{authorfullhash}{ae9e0e96f4c9399d8c66cdbef62f9ecb}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{08}
+      \field{note}{Verkregen febuari 2024}
+      \field{title}{Onderzoeksverslag}
+      \field{type}{PDF}
+      \field{year}{2023}
+    \endentry
+    \entry{4+1ViewModelPaper}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1d00515fe991ba26ce9b4c5ca06934fa}{%
+           family={Kruchten},
+           familyi={K\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{fullhash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{bibnamehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{authorbibnamehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{authornamehash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \strng{authorfullhash}{1d00515fe991ba26ce9b4c5ca06934fa}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{08}
+      \field{note}{Verkregen 15 febuari 2024}
+      \field{title}{The 4+1 View Model of Architecture}
+      \field{type}{PDF}
+      \field{year}{1995}
+    \endentry
+    \entry{UseCaseDiagram}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a945dfc050b9f284bd166d0bd342094b}{%
+           family={lucidchart},
+           familyi={l\bibinitperiod}}}%
+      }
+      \strng{namehash}{a945dfc050b9f284bd166d0bd342094b}
+      \strng{fullhash}{a945dfc050b9f284bd166d0bd342094b}
+      \strng{bibnamehash}{a945dfc050b9f284bd166d0bd342094b}
+      \strng{authorbibnamehash}{a945dfc050b9f284bd166d0bd342094b}
+      \strng{authornamehash}{a945dfc050b9f284bd166d0bd342094b}
+      \strng{authorfullhash}{a945dfc050b9f284bd166d0bd342094b}
+      \field{sortinit}{l}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{UML Use Case Diagram Tutorial}
+      \field{urlday}{15}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.typescriptlang.org/
+      \endverb
+      \verb{url}
+      \verb https://www.typescriptlang.org/
+      \endverb
+    \endentry
     \entry{CSharp}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
