@@ -1,19 +1,19 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'Dante-Klijn-TV.blg'
-[111] biber-MSWIN64:340> INFO - === 
-[150] Biber.pm:419> INFO - Reading 'Dante-Klijn-TV.bcf'
-[270] Biber.pm:979> INFO - Found 11 citekeys in bib section 0
-[291] Biber.pm:4419> INFO - Processing section 0
-[303] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[354] bibtex.pm:1713> INFO - LaTeX decoding ...
-[379] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
-[455] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[455] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[455] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[455] Biber.pm:4245> INFO - No sort tailoring available for locale 'nl-NL'
-[473] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[473] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[474] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[474] Biber.pm:4245> INFO - No sort tailoring available for locale 'nl-NL'
-[486] bbl.pm:660> INFO - Writing 'Dante-Klijn-TV.bbl' with encoding 'UTF-8'
-[494] bbl.pm:763> INFO - Output to Dante-Klijn-TV.bbl
+[103] biber-MSWIN64:340> INFO - === 
+[137] Biber.pm:419> INFO - Reading 'Dante-Klijn-TV.bcf'
+[249] Biber.pm:979> INFO - Found 11 citekeys in bib section 0
+[268] Biber.pm:4419> INFO - Processing section 0
+[281] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[330] bibtex.pm:1713> INFO - LaTeX decoding ...
+[359] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[431] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[432] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[432] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[432] Biber.pm:4245> INFO - No sort tailoring available for locale 'nl-NL'
+[449] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[449] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[450] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[450] Biber.pm:4245> INFO - No sort tailoring available for locale 'nl-NL'
+[460] bbl.pm:660> INFO - Writing 'Dante-Klijn-TV.bbl' with encoding 'UTF-8'
+[468] bbl.pm:763> INFO - Output to Dante-Klijn-TV.bbl
