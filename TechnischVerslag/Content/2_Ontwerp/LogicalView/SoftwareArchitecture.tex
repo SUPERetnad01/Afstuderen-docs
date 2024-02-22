@@ -1,33 +1,47 @@
 \subsection{Software architectuur}
 Om de onderhoudbaarheid te verbeteren van het huidige CMS is er ook nagedacht over het opzetten van de code.
-De prencipe houd het volgende in: 
+De principe houd het volgende in: 
 \begin{enumerate}
-    \item \textbf{single-responsibility}
-    
-    \whitespace
-    test ffffffffffffffffffffffffffff
+    \item \textbf{Single-responsibility principle}
+    Dit betekent dat een class, maar 1 verantwoordelijk mag hebben en bij definitie ook maar 1 taak.
+    Als een class te veel verantwoordelijkheden heeft dan wordt het moeilijker om de code te begrijpen en aan te passen.
 
-    \item \textbf{Open-closed} 
+    \item \textbf{Open-closed principle}
+    Dit houdt in als class of functie of een andere software uitgebreid moet worden dat het wordt gedaan door middel van een extentie(open) in plaats van modificatie(closed).
+    Hierdoor hou je oude code intact en heb je geen risico dat je bestaande code stuk gaat vanwege de nieuwe functionaliteit die geschreven is. 
         
-    \whitespace
-    test ffffffffffffffffffffffffffff
-    
-    \item \textbf{Liskov substitution} 
-        
-    \whitespace
-    test ffffffffffffffffffffffffffffp
+    \item \textbf{Liskov substitution principle} 
+    Een class die afgeleid is van een base class, zou moeten vervangen kunnen worden voor  een andere instantie van die base class.
+    Dit moet gedaan kunnen worden zonder de validiteit (corectness) van het programma te beïnvloeden.
+    Door het gebruik van LSP verhoog je de consistentiteit en de verwachte uitkomst van je progamma.
+
     \item \textbf{Interface segregation} 
+    Een interface moet alleen de methods geven die nodig is voor de client. 
+    Geen client moet geforceerd zijn om methodes te implementeren waar die geen gebruik van kan maken.
+    Dit uit zich vaak in plaats van grote interface gebruik meerdere kleinere interfaces.
+    Deze interfaces zijn verantwoordelijk voor meer specifike usecases inplaats van generaliseerde usecases
 
-    \whitespace
-    test ffffffffffffffffffffffffffff
     \item \textbf{Dependency inversion} 
-    
-    \whitespace
-    test ffffffffffffffffffffffffffff
+    Een class of module zou niet moeten afhangen van implementaties maar van abstracties.
+    Hier door verminder je de koppeling van de modules/classes, en verhoog je de code onderhoudbaarheid.
+    Om aan dit principe te voldoen wordt er vaak gebruik gemaakt van dependency injection.
+
 \end{enumerate}
 
+\whitespace[2]
+Deze principes hebben geleid tot de keuze van een handler software architectuur.
+De handler structuur heeft elementen van het Chain of responsibility design pattern.
+Hierbij heeft elke handler 1 functie waar die aan voldoet.
+Hierdoor blijft de code makkelijk te begrijpen en beter onderhoudbaar.
 
-
+\begin{graphic}
+    \captionsetup{type=figure}
+    \caption{Sequence diagram Handler structuur}
+    \includegraphics[scale=0.2]{Placeholder.jpg}
+    \label{fig:SequenceDiagramHandlerStructure}
+\end{graphic}
+\whitespace
+- misschien software entiteit gebruiken plaats van class
 - solid
 - handlers
 - units of work aan kaarten
