@@ -3,14 +3,15 @@ Het Datamodel bestaat uit 4 \textbf{objecten} wat in zijn geheel leid naar de ui
 Deze objecten zijn Item Definition, Item Value, Visual Component en ItemVisual.
 
 \whitespace[2]
-\textbf{Item Value}: De Item Value slaat encapsuleert de content/data van het systeem op.
-Item Values kunnen meerdere Item values bevatten, waardoor je een geneste structuur krijgt.
-De Item value bevat ook 1 of meerdere FieldValueEntityBase.
-Deze abstracte class zorgt er voor dat er verschillende data types kunnen opgeslagen worden in het het zelfde item.
-In het klassen diagram (zie figuur \ref{fig:ItemValueEntityClassDiagram}) zijn de huidige implementatie mogelijkheden.
-Deze zijn String,Bool,Int en Api deze lijst zou in de toekomst uitgebruikt kunnen worden.
-Een bezondere is de Api FieldType, met dit veld maakt je een http get request naar een ander url.
-Hierdoor kan je dynamisch externe content ophalen, bijvoorbeelde de Oembed data van een youtube video.
+\textbf{Item value}: De item value is de entiteit dat de data/content encapsuleert van het systeem.
+Om de data structuur zo flexibel mogelijk te houden is er gekozen om de item value 1 of meerdere referenties naar andere item values te geven.
+Dit is gedaan zodat de item value structuur een geneste strucuuur wordt en gemakkelijk door de interface gerenderd kan worden.
+De daat werkelijke data/content is opgeslagen in de fields van de item value.
+Deze fields maken gebruik van een abstacte base class die er voor zorgt dat er meerde data types in een item value gebruikt kunnen worden.
+De lijst van huidige field values is String,Bool,Int en api.
+Doordat de gebruik is gemaakt is van een abstractie, kunnen er acties uitgevoerd worden op de fields.
+Een speciale van deze fields is het api field, dit field heeft de mogelijkheid om dynamisch content op te halen.
+Dit wordt nu gebruikt bij het ophalen van up to date data op te halen van youtube of andere video platformen. 
 
 \whitespace[2]
 \begin{graphic}
@@ -57,8 +58,7 @@ Verder geeft dit object ook aan welke mogelijke stijling of layout op het item m
 \end{graphic}
 
 \whitespace[2]
-Om de data te renderen op een froentend wordt er gebruik van de ItemVisualDTO zie figuur \ref{fig:ItemVisualDTOClassDiagram}.
-De data wordt hier genest en geordend op basis van de ordering.
+Om de data te renderen op een froentend wordt de itemVisual geparesed naar een ItemVisualDTO zie figuur \ref{fig:ItemVisualDTOClassDiagram}.
 
 \whitespace[2]
 \begin{graphic}
@@ -66,4 +66,5 @@ De data wordt hier genest en geordend op basis van de ordering.
 	\caption{Klassen diagram ItemVisual}
 	\includegraphics[scale=0.7]{ItemVisualDTO.png}
 	\label{fig:ItemVisualDTOClassDiagram}
+
 \end{graphic}

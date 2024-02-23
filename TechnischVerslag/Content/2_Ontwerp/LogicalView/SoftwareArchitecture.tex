@@ -1,23 +1,27 @@
 \subsection{Software architectuur}
 Om de onderhoudbaarheid te verbeteren van het huidige CMS is er ook nagedacht over het opzetten van de code.
-De principe houd het volgende in: 
+Hiervoor is er gekeken hoe de architectuur zich houd aan de verschillende SOLID principes. 
+SOLID is een acroniem dat 5 verschillende principes in houd.
+Deze principes zorgen er voor dat de code beter te onderhoudbaar is en makkelijker te begrijpen is.
+SOLID bestaat uit de volgende principes:
+
 \begin{enumerate}
     \item \textbf{Single-responsibility principle}
     Dit betekent dat een class, maar 1 verantwoordelijk mag hebben en bij definitie ook maar 1 taak.
     Als een class te veel verantwoordelijkheden heeft dan wordt het moeilijker om de code te begrijpen en aan te passen.
 
     \item \textbf{Open-closed principle}
-    Dit houdt in als class of functie of een andere software uitgebreid moet worden dat het wordt gedaan door middel van een extentie(open) in plaats van modificatie(closed).
+    Dit houdt in als class of functie of een andere software entiteit uitgebreid moet worden dat het wordt gedaan door middel van een extentie(open) in plaats van modificatie(closed).
     Hierdoor hou je oude code intact en heb je geen risico dat je bestaande code stuk gaat vanwege de nieuwe functionaliteit die geschreven is. 
         
     \item \textbf{Liskov substitution principle} 
     Een class die afgeleid is van een base class, zou moeten vervangen kunnen worden voor  een andere instantie van die base class.
     Dit moet gedaan kunnen worden zonder de validiteit (corectness) van het programma te beïnvloeden.
-    Door het gebruik van LSP verhoog je de consistentiteit en de verwachte uitkomst van je progamma.
+    Door het gebruik van het Liskov substitution principle verhoog je de consistentiteit en de verwachte uitkomst van je progamma.
 
     \item \textbf{Interface segregation} 
     Een interface moet alleen de methods geven die nodig is voor de client. 
-    Geen client moet geforceerd zijn om methodes te implementeren waar die geen gebruik van kan maken.
+    Geen client moet geforceerd zijn om methodes te implementeren waar die geen gebruik van maakt.
     Dit uit zich vaak in plaats van grote interface gebruik meerdere kleinere interfaces.
     Deze interfaces zijn verantwoordelijk voor meer specifike usecases inplaats van generaliseerde usecases
 
@@ -29,10 +33,12 @@ De principe houd het volgende in:
 \end{enumerate}
 
 \whitespace[2]
-Deze principes hebben geleid tot de keuze van een handler software architectuur.
-De handler structuur heeft elementen van het Chain of responsibility design pattern.
-Hierbij heeft elke handler 1 functie waar die aan voldoet.
-Hierdoor blijft de code makkelijk te begrijpen en beter onderhoudbaar.
+Er is gekozen om een \qw{Hanlder architectuur} te gebruiken.
+Deze architectuur stijl is gebruikt bij het Poiesz team met veel success.
+De structuur bestaat uit een controller die de request afhandeld.
+Vervolgens wordt er door een ketting van handlers de data verwerkt.
+En als laatste is er een access layer gemaakt die de database operaties afhandeld.
+in figuur \ref{fig:SequenceDiagramHandlerStructure} is een voorbeeld te zien van de dataflow van het systeem.
 
 \begin{graphic}
     \captionsetup{type=figure}
@@ -40,10 +46,8 @@ Hierdoor blijft de code makkelijk te begrijpen en beter onderhoudbaar.
     \includegraphics[scale=0.2]{Placeholder.jpg}
     \label{fig:SequenceDiagramHandlerStructure}
 \end{graphic}
-\whitespace
-- misschien software entiteit gebruiken plaats van class
-- solid
-- handlers
-- units of work aan kaarten
-plaatje als voor beeld
 
+\whitespace
+De handlers hebben maar 1 taak hier bij kun je denken aan de data ophalen of verwijderen uit de database.
+Omdat ze maar een taak hebben zijn ze makkelijk te begrijpen en te onderhouden.
+Verder wordt er gebruik gemaakt van dependency injection om de handlers erg decoppeld te maken.
