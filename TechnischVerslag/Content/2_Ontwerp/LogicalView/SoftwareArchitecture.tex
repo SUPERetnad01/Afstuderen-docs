@@ -1,6 +1,6 @@
 \subsection{Software architectuur}
 Om de onderhoudbaarheid te verbeteren van het huidige CMS is er ook nagedacht over het opzetten van de code.
-Hiervoor is er gekeken hoe de architectuur zich houd aan de verschillende SOLID principes. 
+Hiervoor is er gekeken hoe de architectuur zich houd aan de verschillende SOLID principes \parencite{SOLID}. 
 SOLID is een acroniem dat 5 verschillende principes in houd.
 Deze principes zorgen er voor dat de code beter te onderhoudbaar is en makkelijker te begrijpen is.
 SOLID bestaat uit de volgende principes:
@@ -29,25 +29,37 @@ SOLID bestaat uit de volgende principes:
     Een class of module zou niet moeten afhangen van implementaties maar van abstracties.
     Hier door verminder je de koppeling van de modules/classes, en verhoog je de code onderhoudbaarheid.
     Om aan dit principe te voldoen wordt er vaak gebruik gemaakt van dependency injection.
-
 \end{enumerate}
 
-\whitespace[2]
-Er is gekozen om een \qw{Hanlder architectuur} te gebruiken.
-Deze architectuur stijl is gebruikt bij het Poiesz team met veel success.
-De structuur bestaat uit een controller die de request afhandeld.
-Vervolgens wordt er door een ketting van handlers de data verwerkt.
-En als laatste is er een access layer gemaakt die de database operaties afhandeld.
-in figuur \ref{fig:SequenceDiagramHandlerStructure} is een voorbeeld te zien van de dataflow van het systeem.
+\whitespace
+Om de verschillende aspecten van SOLID te implementeren is er gekozen om gebruik te maken van handlers.
+Hierbij heeft elke handler één taak hier bij kan je denken aan het ophalen of updaten van data.
+Daarnaast wordt er ook gebruik gemaakt van een repository pattern om met de database te communiseren.
+Er is gekozen om gebruik te maken van een repository pattern zodat er geen afhankelijkheid is van de database.
+Een sequesnce diagram van deze architectuur is te zien in figuur \ref{fig:SequenceDiagramHandlerStructure}
+
+% Er is gekozen om een \qw{Hanlder architectuur} te gebruiken.
+% Deze architectuur stijl is gebruikt bij het Poiesz team met veel success.
+% De structuur bestaat uit een controller die de request afhandeld.
+% Vervolgens wordt er door een ketting van handlers de data verwerkt.
+% En als laatste is er een access layer gemaakt die de database operaties afhandeld.
+% in figuur \ref{fig:SequenceDiagramHandlerStructure} is een voorbeeld te zien van de dataflow van het systeem.
 
 \begin{graphic}
     \captionsetup{type=figure}
     \caption{Sequence diagram Handler structuur}
-    \includegraphics[scale=0.2]{Placeholder.jpg}
+    \includegraphics[scale=0.4]{SequenceDiagramArchitectureStructure.png}
     \label{fig:SequenceDiagramHandlerStructure}
 \end{graphic}
 
 \whitespace
-De handlers hebben maar 1 taak hier bij kun je denken aan de data ophalen of verwijderen uit de database.
-Omdat ze maar een taak hebben zijn ze makkelijk te begrijpen en te onderhouden.
-Verder wordt er gebruik gemaakt van dependency injection om de handlers erg decoppeld te maken.
+De verschillende handlres zorgen er voor dat het single-responsibility na gevolgt wordt.
+Omdat elke handler maar een taak heeft.
+Verder worden er kleine interfaces gebruikt om aan het Interface segregation principle te volgen.
+En als laatste worden de verschillende dependencies geinjecteerd (dependency injection pattern) om harde koppeling te voorkomen.
+% Daarnaast wordt het open-closed principle gevolgt omdat handlers extend worden
+
+% De handlers hebben maar 1 taak hier bij kun je denken aan de data ophalen of verwijderen uit de database.
+% Omdat ze maar een taak hebben zijn ze makkelijk te begrijpen en te onderhouden.
+% Verder wordt er gebruik gemaakt van dependency injection om de handlers minder coppeld te maken.
+
