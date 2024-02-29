@@ -19,6 +19,36 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
+    \entry{Docker}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=65c120727ba10f1ddf8378964212bae2}{%
+           family={Docker.com},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{65c120727ba10f1ddf8378964212bae2}
+      \strng{fullhash}{65c120727ba10f1ddf8378964212bae2}
+      \strng{bibnamehash}{65c120727ba10f1ddf8378964212bae2}
+      \strng{authorbibnamehash}{65c120727ba10f1ddf8378964212bae2}
+      \strng{authornamehash}{65c120727ba10f1ddf8378964212bae2}
+      \strng{authorfullhash}{65c120727ba10f1ddf8378964212bae2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is Docker}
+      \field{urlday}{28}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.docker.com/
+      \endverb
+      \verb{url}
+      \verb https://www.docker.com/
+      \endverb
+    \endentry
     \entry{DanteOnderzoek}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ae9e0e96f4c9399d8c66cdbef62f9ecb}{%
@@ -387,6 +417,36 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
+    \entry{Docker}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=65c120727ba10f1ddf8378964212bae2}{%
+           family={Docker.com},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{65c120727ba10f1ddf8378964212bae2}
+      \strng{fullhash}{65c120727ba10f1ddf8378964212bae2}
+      \strng{bibnamehash}{65c120727ba10f1ddf8378964212bae2}
+      \strng{authorbibnamehash}{65c120727ba10f1ddf8378964212bae2}
+      \strng{authornamehash}{65c120727ba10f1ddf8378964212bae2}
+      \strng{authorfullhash}{65c120727ba10f1ddf8378964212bae2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is Docker}
+      \field{urlday}{28}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.docker.com/
+      \endverb
+      \verb{url}
+      \verb https://www.docker.com/
+      \endverb
+    \endentry
     \entry{DanteOnderzoek}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ae9e0e96f4c9399d8c66cdbef62f9ecb}{%

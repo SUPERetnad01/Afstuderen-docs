@@ -1,51 +1,51 @@
 \subsection{Datamodel}
-Een van de belangrijkere onderdelen van de afstudeer opdracht was dat er nieuw datamodel moest komen.
-Met als belangrijkste uitgangspunten het versimpliceren van het huidige datamodel.
+Een van de belangrijkere onderdelen van de afstudeeropdracht was dat er nieuw datamodel moest komen.
+Met als belangrijkste uitgangspunten het simplificeren van het huidige datamodel.
 Hiervoor moet het datamodel minder verschillende \textbf{entiteiten} bevatten en simplistisch zijn.
-Er is gekozen om een data model optezetten dat bestaat uit een generiek item.
-Dit item kan meerdere varianten van zich zelf hebben zodat er een geneste structuur ontstaat.
+Er is gekozen om een datamodel op te zetten dat bestaat uit een generiek item.
+Dit item kan meerdere varianten van zichzelf hebben, zodat er een geneste structuur ontstaat.
 
 \whitespace
-Het datamodel bestaat uit 4 \textbf{objecten} wat in zijn geheel leid naar de uitendelijke data die naar de frontend wordt gestuurd.
+Het datamodel bestaat uit 4 \textbf{objecten} wat in zijn geheel leidt naar de uiteindelijke data die naar de frontend wordt gestuurd.
 Deze objecten zijn Item Definition, Item Value, Visual Component en ItemVisual.
 
 \whitespace[2]
 \textbf{Item value}: De content van het CMS wordt opgeslagen in het itemvalue entiteit.
-Waarbij de waardes van de content worden in een of meerdere \textbf{fieldvalues}.
+Waarbij de waardes van de content worden opgeslagen in een of meerdere \textbf{fieldvalues}.
 Deze fieldvalues kunnen verschillende data types hebben zoals string, boolean en interger.
-Verder kunnen itemvalues meerdere itemvalues bevatten waardoor er complexe data structuren kunnen ontstaan.
+Verder kunnen itemvalues meerdere itemvalues bevatten waardoor er complexe datastructuren kunnen ontstaan.
 Om meer inzicht in het datamodel te geven is er een klassendiagram van de itemvalues in figuur \ref{fig:ItemValueEntityClassDiagram}.
 
 \whitespace[2]
 \begin{graphic}
     \captionsetup{type=figure}
     \caption{Klassendiagram ItemValue}
-    \includegraphics[scale=0.7]{ItemValueEntityClassDiagram.png}
+    \includegraphics[scale=0.4]{ItemValueEntityClassDiagram.png}
     \label{fig:ItemValueEntityClassDiagram}
 \end{graphic}
 
 \whitespace[2]
-\textbf{Item Definition}: Om structuur aan te geven aan de item values wordt er gebruik gemaakt van een item definition (zie figuur \ref{fig:ItemDefinitionClassDiagram}).
+\textbf{Item Definition}: Om structuur aan item values te geven wordt er gebruikgemaakt van een item definition (zie figuur \ref{fig:ItemDefinitionClassDiagram}).
 De belangrijkste functionaliteit van de definition is om aan te geven welke velden er op verschillende items zitten en welke daarvan verplicht zijn.
 
 \whitespace[2]
 \begin{graphic}
     \captionsetup{type=figure}
     \caption{Klassendiagram  ItemDefinition}
-    \includegraphics[scale=0.8]{ItemDefinitionClassDiagram.png}
+    \includegraphics[scale=0.5]{ItemDefinitionClassDiagram.png}
     \label{fig:ItemDefinitionClassDiagram}
 \end{graphic}
 
 \whitespace
-\textbf{VisualComponent}: Om de data te renderen moeten er components gebruikt worden in de frontend om dit af te handelen waar nodig.
-De visualcomponent wordt gebruikt om deze componenten aan te geven welke er zijn en welke definition er bij hoordt.
+\textbf{VisualComponent}: Om de data te renderen moeten er componenten gebruikt worden in de frontend om dit af te handelen waar nodig.
+De visualcomponent wordt gebruikt om deze componenten aan te geven welke er zijn en welke definition er bij hoort.
 Een klasse diagram van de visual component is te zien in figuur \ref{fig:VisualComponentEntityClassDiagram}.
 
 \whitespace[2]
 \begin{graphic}
     \captionsetup{type=figure}
     \caption{Klassendiagram VisualComponent}
-    \includegraphics[scale=0.8]{VisualComponentEntityClassDiagram.png}
+    \includegraphics[scale=0.6]{VisualComponentEntityClassDiagram.png}
     \label{fig:VisualComponentEntityClassDiagram}
 \end{graphic}
 
@@ -58,7 +58,7 @@ Om de data te renderen op een frontend wordt de itemVisual geparesed naar een it
 \begin{graphic}
 	\captionsetup{type=figure}
 	\caption{Klassendiagram ItemVisual}
-	\includegraphics[scale=0.8]{ItemVisualEntityClassDiagram.png}
+	\includegraphics[scale=0.6]{ItemVisualEntityClassDiagram.png}
 	\label{fig:ItemVisualEntityClassDiagram}
 \end{graphic}
 
@@ -66,6 +66,6 @@ Om de data te renderen op een frontend wordt de itemVisual geparesed naar een it
 \begin{graphic}
 	\captionsetup{type=figure}
 	\caption{Klassendiagram ItemVisualDTO}
-	\includegraphics[scale=0.7]{ItemVisualDTO.png}
+	\includegraphics[scale=0.4]{ItemVisualDTO.png}
 	\label{fig:ItemVisualDTOClassDiagram}
 \end{graphic}

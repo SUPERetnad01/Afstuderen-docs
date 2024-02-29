@@ -3078,6 +3078,7 @@
     <bcf:citekey order="17" intorder="1">SOLID</bcf:citekey>
     <bcf:citekey order="18" intorder="1">4+1ViewModelPaper</bcf:citekey>
     <bcf:citekey order="19" intorder="1">4+1ViewModelPaper</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">Docker</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

@@ -11,19 +11,10 @@
 \contentsline {section}{\numberline {2.1}Scenario's}{6}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Logical View}{7}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Datamodel}{7}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Software architectuur}{10}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Process View}{12}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Backend}{12}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Frontend}{13}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Development view}{13}{section.2.4}%
+\contentsline {subsection}{\numberline {2.2.2}Software architectuur}{9}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Process View}{11}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Backend}{11}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Frontend}{12}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Development view}{12}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Physical view}{13}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Realisatie}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Tools}{15}{section.3.1}%
-\contentsline {chapter}{\numberline {4}Beheer, Validatie en Verificatie}{16}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Codereviews en Afstudeerstage voortgang}{16}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Versiebeheer}{16}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Codestandaarden}{16}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Process en bewaking}{16}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Testrapport}{17}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Conclusie}{18}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Reflectie}{19}{chapter.6}%
+\contentsline {chapter}{\numberline {A}Figuren UML}{15}{appendix.A}%
