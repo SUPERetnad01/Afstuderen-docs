@@ -1,71 +1,140 @@
 \subsection{Datamodel}
-Een van de belangrijkere onderdelen van de afstudeeropdracht was dat er nieuw datamodel moest komen.
-Met als belangrijkste uitgangspunten het simplificeren van het huidige datamodel.
-Hiervoor moet het datamodel minder verschillende \textbf{entiteiten} bevatten en simplistisch zijn.
-Er is gekozen om een datamodel op te zetten dat bestaat uit een generiek item.
-Dit item kan meerdere varianten van zichzelf hebben, zodat er een geneste structuur ontstaat.
+Een van de belangrijkste doelen van de afstudeeropdracht is om een nieuw datamodel te maken voor een CMS-systeem.
+Dit datamodel moet veel verschillende soorten datastructuren kunnen ondersteunen en deze kunnen presenteren op een klant zijn website.
+Het huidige CMS van Snakeware doet dit doormiddel van een complexe structuur.
+Deze structuur zorgt ervoor dat het moeilijk is om nieuwe functionaliteit toe te voegen en dat het systeem lastig is te onderhouden.
 
 \whitespace
-Het datamodel bestaat uit 4 \textbf{objecten} wat in zijn geheel leidt naar de uiteindelijke data die naar de frontend wordt gestuurd.
-Deze objecten zijn Item Definition, Item Value, Visual Component en ItemVisual.
+Daarom heeft het nieuwe datamodel twee belangrijke uitgangspunten om de pijnpunten van het oude CMS te voorkomen.
+Het datamodel moet generiek blijven, zodat er veel verschillende datastructuren in opgeslagen kunnen worden.
+Door het datamodel generiek en flexibel te houden hoeft het systeem niet uitgebreid te worden om een nieuwe datastructuren te ondersteunen.
+Verder moet de structuur van het datamodel simpel blijven zodat het makkelijk te onderhouden is.
+Het ontwerp bestaat uit verschillende onderdelen met verschillende taken.
+Er wordt op elk onderdeel ingezoomd om een beter beeld te schetsen aan het ontwerp.
 
 \whitespace[2]
-\textbf{Item value}: De content van het CMS wordt opgeslagen in het itemvalue entiteit.
-Waarbij de waardes van de content worden opgeslagen in een of meerdere \textbf{fieldvalues}.
-Deze fieldvalues kunnen verschillende data types hebben zoals string, boolean en interger.
-Verder kunnen itemvalues meerdere itemvalues bevatten waardoor er complexe datastructuren kunnen ontstaan.
-Om meer inzicht in het datamodel te geven is er een klassendiagram van de itemvalues in figuur \ref{fig:ItemValueEntityClassDiagram}.
+\textbf{De content}
+
+\whitespace
+Om de content op te slaan wordt er gebruikgemaakt van een geneste structuur.
+Om deze geneste structuur op te bouwen is er gekozen om de data op te delen in 2 groepen.
+
+\whitespace
+\begin{itemize}
+    \item[1] \textbf{Simpele data}: hier worden de basis types van het systeem in opgeslagen.
+    Dit zijn de primaire types van de content voorbeelden van deze types zijn tekst, nummer en boolean.
+    In het ontwerp is simpele data genoteerd als \textbf{fieldvalues}.
+    \item[2] \textbf{Complexe data} is een samenstelling van 0 of meerdere \textbf{fieldvalues}.
+    Verder kan complexe data meerdere complexe data bevatten. 
+    Hierdoor kunnen er complexe structuren gemaakt worden.
+    Dit is gerepresenteerd als \textbf{ItemValues} in het ontwerp.
+\end{itemize}
+
+\whitespace
+Om structuur aan de data te geven worden ze voorzien door een definitie.
+Er zijn definities voor \textbf{itemvalues} en \textbf{fieldvalues}.
+Dit is gedaan zodat als er een nieuwe instantie van een stuk complexe data gemaakt moet worden dat dit op basis van de definitie gedaan kan worden.
+Om dit weer te geven is er een klassendiagram gemaakt die te zien is in figuur \ref{fig:DeContentClassDiagram}.
 
 \whitespace[2]
 \begin{graphic}
     \captionsetup{type=figure}
     \caption{Klassendiagram ItemValue}
-    \includegraphics[scale=0.4]{ItemValueEntityClassDiagram.png}
-    \label{fig:ItemValueEntityClassDiagram}
+    \includegraphics[scale=0.35]{ItemValueEntityClassDiagram.png}
+    \label{fig:DeContentClassDiagram}
 \end{graphic}
 
-\whitespace[2]
-\textbf{Item Definition}: Om structuur aan item values te geven wordt er gebruikgemaakt van een item definition (zie figuur \ref{fig:ItemDefinitionClassDiagram}).
-De belangrijkste functionaliteit van de definition is om aan te geven welke velden er op verschillende items zitten en welke daarvan verplicht zijn.
-
-\whitespace[2]
-\begin{graphic}
-    \captionsetup{type=figure}
-    \caption{Klassendiagram  ItemDefinition}
-    \includegraphics[scale=0.5]{ItemDefinitionClassDiagram.png}
-    \label{fig:ItemDefinitionClassDiagram}
-\end{graphic}
+\newpage
 
 \whitespace
-\textbf{VisualComponent}: Om de data te renderen moeten er componenten gebruikt worden in de frontend om dit af te handelen waar nodig.
-De visualcomponent wordt gebruikt om deze componenten aan te geven welke er zijn en welke definition er bij hoort.
+\textbf{De componenten}
+
+\whitespace
+Om de content een vorm te geven wordt er gebruik gemaakt van componenten.
+Voorbeelden van componenten zijn card, artikel en afbeelding.
+Door de componenten en de content te scheiden van elkaar geeft dat de mogelijkheid om verschillende componenten te gebruiken op hetzelfde stuk content.
+Om ervoor te zorgen dat een component een stuk content kan interperteren wordt er gebruik gemaakt van definities.
+Als een stuk content alle \textit{required FiedlDefinitions} heeft kan de component de content renderen.
+De componenten worden gerepresenteerd door \textbf{visualcomponent} in het ontwerp. 
 Een klasse diagram van de visual component is te zien in figuur \ref{fig:VisualComponentEntityClassDiagram}.
 
 \whitespace[2]
 \begin{graphic}
     \captionsetup{type=figure}
     \caption{Klassendiagram VisualComponent}
-    \includegraphics[scale=0.6]{VisualComponentEntityClassDiagram.png}
+    \includegraphics[scale=0.8]{VisualComponentEntityClassDiagram.png}
     \label{fig:VisualComponentEntityClassDiagram}
 \end{graphic}
 
-\whitespace[2]
-\textbf{ItemVisual}: Dit is het object dat de visualcomponent en de item value samen voegt tot een geheel waardoor er content gerenderd kan worden op de pagina.
-Verder geeft dit object ook aan welke mogelijke stijling of layout op het item moet worden toegepast (zie figuur \ref{fig:ItemVisualEntityClassDiagram}.
-Om de data te renderen op een frontend wordt de itemVisual geparesed naar een itemvisualDTO zie figuur \ref{fig:ItemVisualDTOClassDiagram}.
+\whitespace
+\textbf{De visualalisatie}
 
-\whitespace[2]
+\whitespace
+Om content op een pagina te renderen moet de content gekoppeld worden samen met de componenten.
+Dit wordt gerepresenteerd door het \textbf{itemvisual} in het ontwerp.
+Verder kan een itemvisual ook meerdere itemvisuals bevatten waardoor er een geneste structuur ontstaat.
+Hierdoor is het mogelijk om complexe websitestructuren te maken.
+Verder wordt ook op het itemvisual stijling en layout meegegeven zodat dit niet component afhankelijk is.
+Het klassen diagram voor het gehele ontwerp is te zien in figuur \ref{fig:ClassDiagramEntireSystem}
+
+\newpage
 \begin{graphic}
-	\captionsetup{type=figure}
-	\caption{Klassendiagram ItemVisual}
-	\includegraphics[scale=0.6]{ItemVisualEntityClassDiagram.png}
-	\label{fig:ItemVisualEntityClassDiagram}
+    \captionsetup{type=figure}
+    \caption{Klassendiagram ItemValue}
+    \includegraphics[scale=0.45,angle=90]{ClassDiagramEntireSystem.png}
+    \label{fig:ClassDiagramEntireSystem}
 \end{graphic}
 
-\whitespace[2]
-\begin{graphic}
-	\captionsetup{type=figure}
-	\caption{Klassendiagram ItemVisualDTO}
-	\includegraphics[scale=0.4]{ItemVisualDTO.png}
-	\label{fig:ItemVisualDTOClassDiagram}
-\end{graphic}
+% \whitespace
+% Het datamodel bestaat uit 4 \textbf{objecten} wat in zijn geheel leidt naar de uiteindelijke data die naar de frontend wordt gestuurd.
+% Deze objecten zijn Item Definition, Item Value, Visual Component en ItemVisual.
+%
+% \whitespace[2]
+% \textbf{Item value}: De content van het CMS wordt opgeslagen in het itemvalue entiteit.
+% Waarbij de waardes van de content worden opgeslagen in een of meerdere \textbf{fieldvalues}.
+% Deze fieldvalues kunnen verschillende data types hebben zoals string, boolean en interger.
+% Verder kunnen itemvalues meerdere itemvalues bevatten waardoor er complexe datastructuren kunnen ontstaan.
+% Om meer inzicht in het datamodel te geven is er een klassendiagram van de itemvalues in figuur \ref{fig:ItemValueEntityClassDiagram}.
+%
+% \whitespace[2]
+
+%
+% \whitespace[2]
+% \textbf{Item Definition}: Om structuur aan item values te geven wordt er gebruikgemaakt van een item definition (zie figuur \ref{fig:ItemDefinitionClassDiagram}).
+% De belangrijkste functionaliteit van de definition is om aan te geven welke velden er op verschillende items zitten en welke daarvan verplicht zijn.
+%
+% \whitespace[2]
+% \begin{graphic}
+%     \captionsetup{type=figure}
+%     \caption{Klassendiagram  ItemDefinition}
+%     \includegraphics[scale=0.5]{ItemDefinitionClassDiagram.png}
+%     \label{fig:ItemDefinitionClassDiagram}
+% \end{graphic}
+%
+% \whitespace
+% \textbf{VisualComponent}: Om de data te renderen moeten er componenten gebruikt worden in de frontend om dit af te handelen waar nodig.
+% De visualcomponent wordt gebruikt om deze componenten aan te geven welke er zijn en welke definition er bij hoort.
+% Een klasse diagram van de visual component is te zien in figuur \ref{fig:VisualComponentEntityClassDiagram}.
+%
+
+%
+% \whitespace[2]
+% \textbf{ItemVisual}: Dit is het object dat de visualcomponent en de item value samen voegt tot een geheel waardoor er content gerenderd kan worden op de pagina.
+% Verder geeft dit object ook aan welke mogelijke stijling of layout op het item moet worden toegepast (zie figuur \ref{fig:ItemVisualEntityClassDiagram}.
+% Om de data te renderen op een frontend wordt de itemVisual geparesed naar een itemvisualDTO zie figuur \ref{fig:ItemVisualDTOClassDiagram}.
+%
+% \whitespace[2]
+% \begin{graphic}
+% 	\captionsetup{type=figure}
+% 	\caption{Klassendiagram ItemVisual}
+% 	\includegraphics[scale=0.6]{ItemVisualEntityClassDiagram.png}
+% 	\label{fig:ItemVisualEntityClassDiagram}
+% \end{graphic}
+%
+% \whitespace[2]
+% \begin{graphic}
+% 	\captionsetup{type=figure}
+% 	\caption{Klassendiagram ItemVisualDTO}
+% 	\includegraphics[scale=0.4]{ItemVisualDTO.png}
+% 	\label{fig:ItemVisualDTOClassDiagram}
+% \end{graphic}
