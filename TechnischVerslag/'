@@ -7,15 +7,15 @@ SOLID bestaat uit de volgende principes:
 
 \begin{enumerate}
     \item \textbf{Single-responsibility principle}
-    Dit betekent dat een class\slash module, maar 1 verantwoordelijk mag hebben.
-    Als een class\slash module te veel verantwoordelijkheden heeft dan wordt het moeilijker om de code te begrijpen en aan te passen.
+        Dit betekent dat een class\slash module, maar 1 verantwoordelijk mag hebben en bij definitie ook maar 1 taak.
+    Als een class \slash module te veel verantwoordelijkheden heeft dan wordt het moeilijker om de code te begrijpen en aan te passen.
 
     \item \textbf{Open-closed principle}
     Dit houdt in als class of functie of een andere software entiteit uitgebreid moet worden dat het wordt gedaan door middel van een extentie(open) in plaats van modificatie(closed).
     Hierdoor hou je oude code intact en heb je geen risico dat je bestaande code stuk gaat vanwege de nieuwe functionaliteit die geschreven is. 
         
-    \item \textbf{Liskov substitution principle}
-    Een class die afgeleid is van een super class zou moeten vervangen kunnen worden van een andere afgeleiden variant van die superclass
+    \item \textbf{Liskov substitution principle} 
+    Een class die afgeleid is van een base class, zou moeten vervangen kunnen worden voor  een andere instantie van die base class.
     Dit moet gedaan kunnen worden zonder de validiteit (corectness) van het programma te beïnvloeden.
     Door het gebruik van het Liskov substitution principle verhoog je de consistentiteit en de verwachte uitkomst van je programma.
 
@@ -46,7 +46,7 @@ Een sequencediagram van deze architectuur is te zien in figuur \ref{fig:Sequence
 \end{graphic}
 
 \whitespace
-De verschillende handlres zorgen ervoor dat het single-responsibility principle na gevolgt wordt.
-Omdat elke handler maar 1 verantwoordelijk heeft.
+De verschillende handlres zorgen ervoor dat het single-responsibility na gevolgt wordt.
+Omdat elke handler maar een taak heeft.
 Verder worden er kleine interfaces gebruikt om aan het Interface segregation principle te volgen.
 En als laatste worden de verschillende dependencies geinjecteerd (dependency injection pattern) om harde koppeling te voorkomen.

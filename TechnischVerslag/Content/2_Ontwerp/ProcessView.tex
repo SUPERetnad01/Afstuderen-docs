@@ -10,31 +10,26 @@ Dit zijn de Controller, Datahandler, handler en access layer.
 De logica om te bepalen of het een succesvolle request was zit in de datahandler.
 Logica om het verwachte object terug te krijgen zit in de handler.
 En als laatste is er de access layer die de data uit de database haalt.
-% Het process begint met een request te maken naar het Get endpoint van de ItemVisualController.
-% De datahandler handeld de verschillende responses af voor de request.
-% Daarna wordt het GetItemvVisualWithChildren handler voor de itemvisual.
-% Het belangrijkste wat deze handler doet is het nesten van de data zodat het uit eindelijk een complete strucuur wordt.
-% Daarna wordt er door de itemVisualRepository de data opgehaald uit de database.
 
 \whitespace
 \begin{graphic}
     \captionsetup{type=figure}
     \caption{Sequencediagram ItemValue}
-    \includegraphics[scale=0.3]{SequenceDiagramItemValueWithChildren.png}
+    \includegraphics[scale=0.4]{SequenceDiagramItemValueWithChildren.png}
     \label{fig:SequenceDiagramItemValueWithChildren}
 \end{graphic}
 
-\whitespace
-Een belangrijke functionaliteit in het nesten van de data zodat de frontend het makkelijk kan renderen.
-Dit wordt gedaan in de NestData functie om meer inzicht te geven van het proces van de functie is er een flowchart gemaakt (zie figuur \ref{fig:FlowchartNestData}).
-
-\whitespace[2]
-\begin{graphic}
-    \captionsetup{type=figure}
-    \caption{flowchart diagram NestData}
-    \includegraphics[scale=0.3]{NestingDataFlowchart.png}
-    \label{fig:FlowchartNestData}
-\end{graphic}
+% \whitespace
+% Een belangrijke functionaliteit in het nesten van de data zodat de frontend het makkelijk kan renderen.
+% Dit wordt gedaan in de NestData functie om meer inzicht te geven van het proces van de functie is er een flowchart gemaakt (zie figuur \ref{fig:FlowchartNestData}).
+%
+% \whitespace[2]
+% \begin{graphic}
+%     \captionsetup{type=figure}
+%     \caption{flowchart diagram NestData}
+%     \includegraphics[scale=0.3]{NestingDataFlowchart.png}
+%     \label{fig:FlowchartNestData}
+% \end{graphic}
 
 \newpage
 \subsection{Frontend}
@@ -49,7 +44,7 @@ Verder kunnen containers ook meerdere containers encapsuleren.
 \begin{graphic}
     \captionsetup{type=figure}
     \caption{flowchart diagram frontend}
-    \includegraphics[scale=0.4]{FlowchartFrontend.png}
+    \includegraphics[scale=0.34]{FlowchartFrontend.png}
     \label{fig:FlowchartFrontend}
 \end{graphic}
 
