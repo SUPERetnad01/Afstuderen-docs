@@ -1,0 +1,6 @@
+\babel@toc {dutch}{}\relax 
+\contentsline {chapter}{Samenvatting}{iii}{chapter*.1}%
+\contentsline {chapter}{Woordenlijst}{v}{chapter*.5}%
+\contentsline {chapter}{\numberline {1}Inleiding}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Organisatieomschrijving}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Context}{2}{section.1.2}%

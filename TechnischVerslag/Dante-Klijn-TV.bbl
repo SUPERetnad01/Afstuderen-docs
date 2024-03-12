@@ -49,6 +49,38 @@
       \verb https://aws.amazon.com/what-is/sql/
       \endverb
     \endentry
+    \entry{RepositoryPattern}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9d2ec3b12f470ccab9a36c10d1722aa6}{%
+           family={DevIQ},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d2ec3b12f470ccab9a36c10d1722aa6}
+      \strng{fullhash}{9d2ec3b12f470ccab9a36c10d1722aa6}
+      \strng{bibnamehash}{9d2ec3b12f470ccab9a36c10d1722aa6}
+      \strng{authorbibnamehash}{9d2ec3b12f470ccab9a36c10d1722aa6}
+      \strng{authornamehash}{9d2ec3b12f470ccab9a36c10d1722aa6}
+      \strng{authorfullhash}{9d2ec3b12f470ccab9a36c10d1722aa6}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{RepositoryPattern}
+      \field{urlday}{11}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://deviq.com/design-patterns/repository-pattern
+      \endverb
+      \verb{url}
+      \verb https://deviq.com/design-patterns/repository-pattern
+      \endverb
+    \endentry
     \entry{Docker}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=65c120727ba10f1ddf8378964212bae2}{%
@@ -77,6 +109,99 @@
       \endverb
       \verb{url}
       \verb https://www.docker.com/
+      \endverb
+    \endentry
+    \entry{Drawio}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d4692cbbb63c5b240a959769f12019f4}{%
+           family={draw.io},
+           familyi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4692cbbb63c5b240a959769f12019f4}
+      \strng{fullhash}{d4692cbbb63c5b240a959769f12019f4}
+      \strng{bibnamehash}{d4692cbbb63c5b240a959769f12019f4}
+      \strng{authorbibnamehash}{d4692cbbb63c5b240a959769f12019f4}
+      \strng{authornamehash}{d4692cbbb63c5b240a959769f12019f4}
+      \strng{authorfullhash}{d4692cbbb63c5b240a959769f12019f4}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Draw.io homepage}
+      \field{urlday}{5}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.drawio.com/
+      \endverb
+      \verb{url}
+      \verb https://www.drawio.com/
+      \endverb
+    \endentry
+    \entry{xUnit}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e59dd1d902ad1b8f887754b6d1ef7032}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={.NET},
+           giveni={.\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e59dd1d902ad1b8f887754b6d1ef7032}
+      \strng{fullhash}{e59dd1d902ad1b8f887754b6d1ef7032}
+      \strng{bibnamehash}{e59dd1d902ad1b8f887754b6d1ef7032}
+      \strng{authorbibnamehash}{e59dd1d902ad1b8f887754b6d1ef7032}
+      \strng{authornamehash}{e59dd1d902ad1b8f887754b6d1ef7032}
+      \strng{authorfullhash}{e59dd1d902ad1b8f887754b6d1ef7032}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{About xUnit}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://xunit.net/
+      \endverb
+      \verb{url}
+      \verb https://xunit.net/
+      \endverb
+    \endentry
+    \entry{Webstorm}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f84bd4b4caa44b11103f3eba38223a9c}{%
+           family={Jetbrains},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f84bd4b4caa44b11103f3eba38223a9c}
+      \strng{fullhash}{f84bd4b4caa44b11103f3eba38223a9c}
+      \strng{bibnamehash}{f84bd4b4caa44b11103f3eba38223a9c}
+      \strng{authorbibnamehash}{f84bd4b4caa44b11103f3eba38223a9c}
+      \strng{authornamehash}{f84bd4b4caa44b11103f3eba38223a9c}
+      \strng{authorfullhash}{f84bd4b4caa44b11103f3eba38223a9c}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The JavaScript and TypeScript IDE}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.jetbrains.com/webstorm/
+      \endverb
+      \verb{url}
+      \verb https://www.jetbrains.com/webstorm/
       \endverb
     \endentry
     \entry{DanteOnderzoek}{report}{}
@@ -138,6 +263,36 @@
       \field{type}{PDF}
       \field{year}{1995}
     \endentry
+    \entry{Latex}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a7403f513d342f9ef3ab242d5947b1cd}{%
+           family={latex-project},
+           familyi={l\bibinithyphendelim p\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7403f513d342f9ef3ab242d5947b1cd}
+      \strng{fullhash}{a7403f513d342f9ef3ab242d5947b1cd}
+      \strng{bibnamehash}{a7403f513d342f9ef3ab242d5947b1cd}
+      \strng{authorbibnamehash}{a7403f513d342f9ef3ab242d5947b1cd}
+      \strng{authornamehash}{a7403f513d342f9ef3ab242d5947b1cd}
+      \strng{authorfullhash}{a7403f513d342f9ef3ab242d5947b1cd}
+      \field{sortinit}{l}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Latex - A document preparation system}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.latex-project.org/
+      \endverb
+      \verb{url}
+      \verb https://www.latex-project.org/
+      \endverb
+    \endentry
     \entry{UseCaseDiagram}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a945dfc050b9f284bd166d0bd342094b}{%
@@ -170,7 +325,7 @@
       \verb https://www.typescriptlang.org/
       \endverb
     \endentry
-    \entry{MSQLServer}{online}{}
+    \entry{DotNet8}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
            family={Microsoft},
@@ -185,6 +340,71 @@
       \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Build. Test. Deploy}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dotnet.microsoft.com/en-us/
+      \endverb
+      \verb{url}
+      \verb https://dotnet.microsoft.com/en-us/
+      \endverb
+    \endentry
+    \entry{VisualStudio}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Github Copilot and Visual Studio 2022}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://visualstudio.microsoft.com/vs/
+      \endverb
+      \verb{url}
+      \verb https://visualstudio.microsoft.com/vs/
+      \endverb
+    \endentry
+    \entry{MSQLServer}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{3}
       \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -213,7 +433,7 @@
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{2}
+      \field{extraname}{4}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -267,7 +487,7 @@
       \verb https://www.mongodb.com
       \endverb
     \endentry
-    \entry{NoSQL}{online}{}
+    \entry{MongoDBCompas}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=206e3718af092fd1d12f80cae771ccac}{%
            family={MongoDB},
@@ -283,6 +503,38 @@
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradate}{2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Compass. The GUI for MongoDB}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mongodb.com/products/tools/compass
+      \endverb
+      \verb{url}
+      \verb https://www.mongodb.com/products/tools/compass
+      \endverb
+    \endentry
+    \entry{NoSQL}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=206e3718af092fd1d12f80cae771ccac}{%
+           family={MongoDB},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{fullhash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{bibnamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authorbibnamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authornamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authorfullhash}{206e3718af092fd1d12f80cae771ccac}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{3}
       \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -404,6 +656,96 @@
       \verb https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML
       \endverb
     \endentry
+    \entry{NeoVim}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9708c429053f3c21782b9484b17b1d91}{%
+           family={Neovim-team},
+           familyi={N\bibinithyphendelim t\bibinitperiod}}}%
+      }
+      \strng{namehash}{9708c429053f3c21782b9484b17b1d91}
+      \strng{fullhash}{9708c429053f3c21782b9484b17b1d91}
+      \strng{bibnamehash}{9708c429053f3c21782b9484b17b1d91}
+      \strng{authorbibnamehash}{9708c429053f3c21782b9484b17b1d91}
+      \strng{authornamehash}{9708c429053f3c21782b9484b17b1d91}
+      \strng{authorfullhash}{9708c429053f3c21782b9484b17b1d91}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Vision}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://neovim.io/charter/
+      \endverb
+      \verb{url}
+      \verb https://neovim.io/charter/
+      \endverb
+    \endentry
+    \entry{Nuxt}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7d692b6fe018d8884bad18ef0f2eda28}{%
+           family={Nuxt},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d692b6fe018d8884bad18ef0f2eda28}
+      \strng{fullhash}{7d692b6fe018d8884bad18ef0f2eda28}
+      \strng{bibnamehash}{7d692b6fe018d8884bad18ef0f2eda28}
+      \strng{authorbibnamehash}{7d692b6fe018d8884bad18ef0f2eda28}
+      \strng{authornamehash}{7d692b6fe018d8884bad18ef0f2eda28}
+      \strng{authorfullhash}{7d692b6fe018d8884bad18ef0f2eda28}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Intuitive Vue Framework}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://nuxt.com/
+      \endverb
+      \verb{url}
+      \verb https://nuxt.com/
+      \endverb
+    \endentry
+    \entry{Obsidian}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a1b97edc1a72ab1252ed75a4241a657d}{%
+           family={Obsidian},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1b97edc1a72ab1252ed75a4241a657d}
+      \strng{fullhash}{a1b97edc1a72ab1252ed75a4241a657d}
+      \strng{bibnamehash}{a1b97edc1a72ab1252ed75a4241a657d}
+      \strng{authorbibnamehash}{a1b97edc1a72ab1252ed75a4241a657d}
+      \strng{authornamehash}{a1b97edc1a72ab1252ed75a4241a657d}
+      \strng{authorfullhash}{a1b97edc1a72ab1252ed75a4241a657d}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sharpen your thinking}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://obsidian.md/
+      \endverb
+      \verb{url}
+      \verb https://obsidian.md/
+      \endverb
+    \endentry
     \entry{PostmanWorkflows}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=89ea536a4254e2a12a7789df96c0c33f}{%
@@ -503,6 +845,70 @@
       \endverb
       \verb{url}
       \verb https://www.snakeware.com/what-we-do
+      \endverb
+    \endentry
+    \entry{Typescript}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4acb4b1d4eec85d3d75b9529f86317b7}{%
+           family={Typescript.org},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \strng{fullhash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \strng{bibnamehash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \strng{authorbibnamehash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \strng{authornamehash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \strng{authorfullhash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Typescript is JavaScript with syntax for types}
+      \field{urlday}{16}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.typescriptlang.org/
+      \endverb
+      \verb{url}
+      \verb https://www.typescriptlang.org/
+      \endverb
+    \endentry
+    \entry{Vue}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=92c20fa79e5da5d183b78dca5a073cb4}{%
+           family={Vuejs.org},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{92c20fa79e5da5d183b78dca5a073cb4}
+      \strng{fullhash}{92c20fa79e5da5d183b78dca5a073cb4}
+      \strng{bibnamehash}{92c20fa79e5da5d183b78dca5a073cb4}
+      \strng{authorbibnamehash}{92c20fa79e5da5d183b78dca5a073cb4}
+      \strng{authornamehash}{92c20fa79e5da5d183b78dca5a073cb4}
+      \strng{authorfullhash}{92c20fa79e5da5d183b78dca5a073cb4}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Progressive JavaScript Framework}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://vuejs.org/
+      \endverb
+      \verb{url}
+      \verb https://vuejs.org/
       \endverb
     \endentry
     \entry{SOLID}{online}{}
@@ -573,6 +979,38 @@
       \verb https://aws.amazon.com/what-is/sql/
       \endverb
     \endentry
+    \entry{RepositoryPattern}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9d2ec3b12f470ccab9a36c10d1722aa6}{%
+           family={DevIQ},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d2ec3b12f470ccab9a36c10d1722aa6}
+      \strng{fullhash}{9d2ec3b12f470ccab9a36c10d1722aa6}
+      \strng{bibnamehash}{9d2ec3b12f470ccab9a36c10d1722aa6}
+      \strng{authorbibnamehash}{9d2ec3b12f470ccab9a36c10d1722aa6}
+      \strng{authornamehash}{9d2ec3b12f470ccab9a36c10d1722aa6}
+      \strng{authorfullhash}{9d2ec3b12f470ccab9a36c10d1722aa6}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{RepositoryPattern}
+      \field{urlday}{11}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://deviq.com/design-patterns/repository-pattern
+      \endverb
+      \verb{url}
+      \verb https://deviq.com/design-patterns/repository-pattern
+      \endverb
+    \endentry
     \entry{Docker}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=65c120727ba10f1ddf8378964212bae2}{%
@@ -601,6 +1039,99 @@
       \endverb
       \verb{url}
       \verb https://www.docker.com/
+      \endverb
+    \endentry
+    \entry{Drawio}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d4692cbbb63c5b240a959769f12019f4}{%
+           family={draw.io},
+           familyi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4692cbbb63c5b240a959769f12019f4}
+      \strng{fullhash}{d4692cbbb63c5b240a959769f12019f4}
+      \strng{bibnamehash}{d4692cbbb63c5b240a959769f12019f4}
+      \strng{authorbibnamehash}{d4692cbbb63c5b240a959769f12019f4}
+      \strng{authornamehash}{d4692cbbb63c5b240a959769f12019f4}
+      \strng{authorfullhash}{d4692cbbb63c5b240a959769f12019f4}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Draw.io homepage}
+      \field{urlday}{5}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.drawio.com/
+      \endverb
+      \verb{url}
+      \verb https://www.drawio.com/
+      \endverb
+    \endentry
+    \entry{xUnit}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e59dd1d902ad1b8f887754b6d1ef7032}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={.NET},
+           giveni={.\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e59dd1d902ad1b8f887754b6d1ef7032}
+      \strng{fullhash}{e59dd1d902ad1b8f887754b6d1ef7032}
+      \strng{bibnamehash}{e59dd1d902ad1b8f887754b6d1ef7032}
+      \strng{authorbibnamehash}{e59dd1d902ad1b8f887754b6d1ef7032}
+      \strng{authornamehash}{e59dd1d902ad1b8f887754b6d1ef7032}
+      \strng{authorfullhash}{e59dd1d902ad1b8f887754b6d1ef7032}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{About xUnit}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://xunit.net/
+      \endverb
+      \verb{url}
+      \verb https://xunit.net/
+      \endverb
+    \endentry
+    \entry{Webstorm}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f84bd4b4caa44b11103f3eba38223a9c}{%
+           family={Jetbrains},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f84bd4b4caa44b11103f3eba38223a9c}
+      \strng{fullhash}{f84bd4b4caa44b11103f3eba38223a9c}
+      \strng{bibnamehash}{f84bd4b4caa44b11103f3eba38223a9c}
+      \strng{authorbibnamehash}{f84bd4b4caa44b11103f3eba38223a9c}
+      \strng{authornamehash}{f84bd4b4caa44b11103f3eba38223a9c}
+      \strng{authorfullhash}{f84bd4b4caa44b11103f3eba38223a9c}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The JavaScript and TypeScript IDE}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.jetbrains.com/webstorm/
+      \endverb
+      \verb{url}
+      \verb https://www.jetbrains.com/webstorm/
       \endverb
     \endentry
     \entry{DanteOnderzoek}{report}{}
@@ -662,6 +1193,36 @@
       \field{type}{PDF}
       \field{year}{1995}
     \endentry
+    \entry{Latex}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a7403f513d342f9ef3ab242d5947b1cd}{%
+           family={latex-project},
+           familyi={l\bibinithyphendelim p\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7403f513d342f9ef3ab242d5947b1cd}
+      \strng{fullhash}{a7403f513d342f9ef3ab242d5947b1cd}
+      \strng{bibnamehash}{a7403f513d342f9ef3ab242d5947b1cd}
+      \strng{authorbibnamehash}{a7403f513d342f9ef3ab242d5947b1cd}
+      \strng{authornamehash}{a7403f513d342f9ef3ab242d5947b1cd}
+      \strng{authorfullhash}{a7403f513d342f9ef3ab242d5947b1cd}
+      \field{sortinit}{l}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Latex - A document preparation system}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.latex-project.org/
+      \endverb
+      \verb{url}
+      \verb https://www.latex-project.org/
+      \endverb
+    \endentry
     \entry{UseCaseDiagram}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a945dfc050b9f284bd166d0bd342094b}{%
@@ -694,7 +1255,7 @@
       \verb https://www.typescriptlang.org/
       \endverb
     \endentry
-    \entry{MSQLServer}{online}{}
+    \entry{DotNet8}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
            family={Microsoft},
@@ -709,6 +1270,71 @@
       \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Build. Test. Deploy}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dotnet.microsoft.com/en-us/
+      \endverb
+      \verb{url}
+      \verb https://dotnet.microsoft.com/en-us/
+      \endverb
+    \endentry
+    \entry{VisualStudio}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Github Copilot and Visual Studio 2022}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://visualstudio.microsoft.com/vs/
+      \endverb
+      \verb{url}
+      \verb https://visualstudio.microsoft.com/vs/
+      \endverb
+    \endentry
+    \entry{MSQLServer}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{3}
       \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -737,7 +1363,7 @@
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{2}
+      \field{extraname}{4}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -791,7 +1417,7 @@
       \verb https://www.mongodb.com
       \endverb
     \endentry
-    \entry{NoSQL}{online}{}
+    \entry{MongoDBCompas}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=206e3718af092fd1d12f80cae771ccac}{%
            family={MongoDB},
@@ -807,6 +1433,38 @@
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradate}{2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Compass. The GUI for MongoDB}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mongodb.com/products/tools/compass
+      \endverb
+      \verb{url}
+      \verb https://www.mongodb.com/products/tools/compass
+      \endverb
+    \endentry
+    \entry{NoSQL}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=206e3718af092fd1d12f80cae771ccac}{%
+           family={MongoDB},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{fullhash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{bibnamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authorbibnamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authornamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authorfullhash}{206e3718af092fd1d12f80cae771ccac}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{3}
       \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -928,6 +1586,96 @@
       \verb https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML
       \endverb
     \endentry
+    \entry{NeoVim}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9708c429053f3c21782b9484b17b1d91}{%
+           family={Neovim-team},
+           familyi={N\bibinithyphendelim t\bibinitperiod}}}%
+      }
+      \strng{namehash}{9708c429053f3c21782b9484b17b1d91}
+      \strng{fullhash}{9708c429053f3c21782b9484b17b1d91}
+      \strng{bibnamehash}{9708c429053f3c21782b9484b17b1d91}
+      \strng{authorbibnamehash}{9708c429053f3c21782b9484b17b1d91}
+      \strng{authornamehash}{9708c429053f3c21782b9484b17b1d91}
+      \strng{authorfullhash}{9708c429053f3c21782b9484b17b1d91}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Vision}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://neovim.io/charter/
+      \endverb
+      \verb{url}
+      \verb https://neovim.io/charter/
+      \endverb
+    \endentry
+    \entry{Nuxt}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7d692b6fe018d8884bad18ef0f2eda28}{%
+           family={Nuxt},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d692b6fe018d8884bad18ef0f2eda28}
+      \strng{fullhash}{7d692b6fe018d8884bad18ef0f2eda28}
+      \strng{bibnamehash}{7d692b6fe018d8884bad18ef0f2eda28}
+      \strng{authorbibnamehash}{7d692b6fe018d8884bad18ef0f2eda28}
+      \strng{authornamehash}{7d692b6fe018d8884bad18ef0f2eda28}
+      \strng{authorfullhash}{7d692b6fe018d8884bad18ef0f2eda28}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Intuitive Vue Framework}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://nuxt.com/
+      \endverb
+      \verb{url}
+      \verb https://nuxt.com/
+      \endverb
+    \endentry
+    \entry{Obsidian}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a1b97edc1a72ab1252ed75a4241a657d}{%
+           family={Obsidian},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1b97edc1a72ab1252ed75a4241a657d}
+      \strng{fullhash}{a1b97edc1a72ab1252ed75a4241a657d}
+      \strng{bibnamehash}{a1b97edc1a72ab1252ed75a4241a657d}
+      \strng{authorbibnamehash}{a1b97edc1a72ab1252ed75a4241a657d}
+      \strng{authornamehash}{a1b97edc1a72ab1252ed75a4241a657d}
+      \strng{authorfullhash}{a1b97edc1a72ab1252ed75a4241a657d}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sharpen your thinking}
+      \field{urlday}{5}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://obsidian.md/
+      \endverb
+      \verb{url}
+      \verb https://obsidian.md/
+      \endverb
+    \endentry
     \entry{PostmanWorkflows}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=89ea536a4254e2a12a7789df96c0c33f}{%
@@ -1027,6 +1775,70 @@
       \endverb
       \verb{url}
       \verb https://www.snakeware.com/what-we-do
+      \endverb
+    \endentry
+    \entry{Typescript}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4acb4b1d4eec85d3d75b9529f86317b7}{%
+           family={Typescript.org},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \strng{fullhash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \strng{bibnamehash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \strng{authorbibnamehash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \strng{authornamehash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \strng{authorfullhash}{4acb4b1d4eec85d3d75b9529f86317b7}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Typescript is JavaScript with syntax for types}
+      \field{urlday}{16}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.typescriptlang.org/
+      \endverb
+      \verb{url}
+      \verb https://www.typescriptlang.org/
+      \endverb
+    \endentry
+    \entry{Vue}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=92c20fa79e5da5d183b78dca5a073cb4}{%
+           family={Vuejs.org},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{92c20fa79e5da5d183b78dca5a073cb4}
+      \strng{fullhash}{92c20fa79e5da5d183b78dca5a073cb4}
+      \strng{bibnamehash}{92c20fa79e5da5d183b78dca5a073cb4}
+      \strng{authorbibnamehash}{92c20fa79e5da5d183b78dca5a073cb4}
+      \strng{authornamehash}{92c20fa79e5da5d183b78dca5a073cb4}
+      \strng{authorfullhash}{92c20fa79e5da5d183b78dca5a073cb4}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Progressive JavaScript Framework}
+      \field{urlday}{30}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://vuejs.org/
+      \endverb
+      \verb{url}
+      \verb https://vuejs.org/
       \endverb
     \endentry
     \entry{SOLID}{online}{}
