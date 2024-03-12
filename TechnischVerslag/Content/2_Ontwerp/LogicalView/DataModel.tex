@@ -15,7 +15,7 @@ Om deze doelen te bereiken is er gebruik gemaakt van de volgende concepten.
 \textbf{Fields}
 
 \whitespace
-Content op websites bestaan uit kleinere stukken data/ content.
+Content op websites bestaan uit kleinere stukken data\slash content.
 Fields representeren de kleinste laag content op een website. 
 Hierbij kun je denken aan een stukje tekst of aan een nummer op een site.
 Om bij fields een beter beeld te schetsen is er een stuk van de Snakeware website gebruikt als voorbeeld.
@@ -50,17 +50,36 @@ In het voorbeeld (figuur \ref{fig:VisualisationItems}) is te zien dat het item \
 Deze fields zijn \qw{Title} en \qw{Body} en bevatten de teksten voor de gedefinieerde gedeeltes van het item.
 Een ander functionaliteit van een item is dat het meerdere items kan bevatten. 
 Door dit te doen is het mogelijk om complexe structuren op te bouwen.
-Voor deze structuur is ook een klassen diagram gemaakt wat te zien is in figuur \ref{fig:ClassDiagramItemField}.
+% Voor deze structuur is ook een klassen diagram gemaakt wat te zien is in figuur \ref{fig:ClassDiagramItemField}.
+% Het datatype \qw{Content} zou verschillende primaire types kunnen bevatten zoals integer, string, boolean ect..
+% Dit kan per programmeertaal anders opgelost worden daarom is ervoor gekozen om de implementatie mogelijkheden niet te noteren.
+
+% \whitespace[2]
+% \begin{graphic}
+%     \captionsetup{type=figure}
+%     \caption{Visualisatie van een item}
+%     \includegraphics[scale=0.35]{ClassDiagramItemField.png}
+%     \label{fig:ClassDiagramItemField}
+% \end{graphic}
+%
+% \whitespace[2]
+% \textbf{Templating}
+
+\whitespace
+Om er voor te zorgen dat items her gebruikt kunnen worden, wordt er gebruik gemaakt van templating.
+Hierom zijn er item en field definities gemaakt die aangeven welke fields verplicht zijn op een item en welke optioneel.
+In het ontwerp worden deze definities ItemDefinition en FieldDefinition genoemd.
+Een klassendiagram met het integreerde templating systeem is te zien in figuur \ref{fig:ClassDiagramItemFieldWithDefinition}.
 Het datatype \qw{Content} zou verschillende primaire types kunnen bevatten zoals integer, string, boolean ect..
-Dit kan per programmeertaal anders opgelost worden daarom is ervoor gekozen om de implementatie mogelijkheden niet te noteren.
 
 \whitespace[2]
 \begin{graphic}
     \captionsetup{type=figure}
-    \caption{Visualisatie van een item}
-    \includegraphics[scale=0.35]{ClassDiagramItemField.png}
-    \label{fig:ClassDiagramItemField}
+    \caption{Klassendiagram datastructuur afstudeeropdracht}
+    \includegraphics[scale=0.6]{ClassDiagramItemFieldWithDefinition.png}
+    \label{fig:ClassDiagramItemFieldWithDefinition}
 \end{graphic}
+
 %
 % \whitespace
 % \textbf{Ontwerp Notes?}

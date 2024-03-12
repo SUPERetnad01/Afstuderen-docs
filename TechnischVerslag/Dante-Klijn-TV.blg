@@ -1,21 +1,21 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'Dante-Klijn-TV.blg'
-[114] biber-MSWIN64:340> INFO - === 
-[153] Biber.pm:419> INFO - Reading 'Dante-Klijn-TV.bcf'
-[267] Biber.pm:979> INFO - Found 24 citekeys in bib section 0
-[286] Biber.pm:4419> INFO - Processing section 0
-[297] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[346] bibtex.pm:1713> INFO - LaTeX decoding ...
-[399] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
-[504] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[504] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[504] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[504] Biber.pm:4245> INFO - No sort tailoring available for locale 'nl-NL'
-[534] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[534] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[534] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[534] Biber.pm:4245> INFO - No sort tailoring available for locale 'nl-NL'
-[553] bbl.pm:660> INFO - Writing 'Dante-Klijn-TV.bbl' with encoding 'UTF-8'
-[570] bbl.pm:763> INFO - Output to Dante-Klijn-TV.bbl
-[575] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\dante\AppData\Local\Temp\biber_tmp_VVnh\f4d088b3f9f145b5c3058da33afd57d4_19348.utf8, line 300, warning: 20 characters of junk seen at toplevel
-[575] Biber.pm:133> INFO - WARNINGS: 1
+[95] biber-MSWIN64:340> INFO - === 
+[121] Biber.pm:419> INFO - Reading 'Dante-Klijn-TV.bcf'
+[229] Biber.pm:979> INFO - Found 16 citekeys in bib section 0
+[246] Biber.pm:4419> INFO - Processing section 0
+[256] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[306] bibtex.pm:1713> INFO - LaTeX decoding ...
+[354] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[439] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[439] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[439] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[439] Biber.pm:4245> INFO - No sort tailoring available for locale 'nl-NL'
+[462] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[462] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[462] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[462] Biber.pm:4245> INFO - No sort tailoring available for locale 'nl-NL'
+[478] bbl.pm:660> INFO - Writing 'Dante-Klijn-TV.bbl' with encoding 'UTF-8'
+[493] bbl.pm:763> INFO - Output to Dante-Klijn-TV.bbl
+[493] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\Dante\AppData\Local\Temp\biber_tmp_XOGQ\f4d088b3f9f145b5c3058da33afd57d4_148144.utf8, line 300, warning: 20 characters of junk seen at toplevel
+[493] Biber.pm:133> INFO - WARNINGS: 1

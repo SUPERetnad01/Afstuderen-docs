@@ -1,1 +1,2 @@
 {"rule":"NL_SIMPLE_REPLACE","sentence":"^\\Q[2] Het ontwerp wordt gemaakt doormiddel van het 4 + 1 view model bron.\\E$"}
+{"rule":"GEREALISEERD","sentence":"^\\Q[2] Voor de backend code is er gebruik gemaakt van C 12 \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q en het .NET 8 framework \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q Er is voor deze taal en framework gekozen omdat een randvoorwaarden is dat het in de huistaal van Snakeware gerealiseerd moet worden.\\E$"}
