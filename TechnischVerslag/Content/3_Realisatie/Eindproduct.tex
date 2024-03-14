@@ -1,2 +1,50 @@
 \section{Eindproduct}
-Het eindproduct
+Het doel van de afstudeer opdracht was een CMS systeem te maken.
+Hierbij was de CMS interface weg te laten om de scope te beperken.
+De gebruikte interface om met het CMS te interacteren is een swagger interface.
+Swagger is een software oplossing dat de enpoints laat zien van een gegeven API.
+Hierdoor is redelijk makkelijk om met het CMS te testen. 
+% Omdat het eindproduct een proof of concept is er niet een traditionele interface voor de CMS-applicatie.
+% De applicatie is bereiken door verschillende HTTP requesten te maken naar de API die opgesteld is.
+% Voor een visuele inzage van endpoints is er gebruik gemaakt van Swagger wat standaard geïnstalleerd is bij .NET 8.
+% De verschillende endpoints die gemaakt zijn te zien in figuur \ref{fig:SwaggerApi}.
+
+\whitespace
+\begin{graphic}
+    \captionsetup{type=figure}
+    \caption{Swagger interface}
+    \includegraphics[scale=0.2]{Placeholder.jpg}
+    \label{fig:SwaggerApi}
+\end{graphic}
+
+\whitespace
+\textbf{Datamodel implementatie}
+
+\whitespace
+Om het datamodel wat beschreven staat in paragraaf \ref{subsection:Datamodel}.
+In dit datamodel wordt er gebruik gemaakt van een Content datatype wat meerdere verschillende types kan zijn.
+Dit is makkelijk op te lossen in niet statische getypte talen, maar in statische talen is dit een kleine uitdaging.
+
+\whitespace
+Dit is opgelost door gebruik te maken van een abstracte superklassen \textit{FieldValueBase}.
+Deze superklassen heeft verschillende implementaties die de verschillende datatypes ondersteunen.
+Een klasse diagram hier van is te zien in figuur \ref{fig:ImplementatieFields}.
+
+\whitespace
+\begin{graphic}
+    \captionsetup{type=figure}
+    \caption{Swagger interface}
+    \includegraphics[scale=0.2]{Placeholder.jpg}
+    \label{fig:ImplementatieFields}
+\end{graphic}
+
+Wat misschien kan opvallen is dat er gebruikt wordt van een dictionary wat een \textit{Language} als key heeft.
+Dit is gedaan zodat elke field een optie voor multilingual te implementeren.
+Er zijn ook varianten die maar waarde opslaan om het zo generiek mogelijk te houden.
+
+\whitespace
+Het nadeel van abstracte klasses zijn dat de standaard C\# \textit{Json Deserialisation} oplossing niet werkt met het interpeteren van de data.
+Om dit probleem op te lossen is er gebruik gemaakt van ModelBinders.
+ModelBinders zijn een C\# oplossing waarbij je logica kan uitvoeren voordat de data bij de controller aan komt.
+Hier wordt gekeken naar welke implementatie van de \textit{FieldValueBase} nodig is en wordt dan vervolgens correct gesiraliseerd.
+

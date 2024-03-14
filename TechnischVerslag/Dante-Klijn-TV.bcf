@@ -3087,17 +3087,18 @@
     <bcf:citekey order="26" intorder="1">NeoVim</bcf:citekey>
     <bcf:citekey order="27" intorder="1">Drawio</bcf:citekey>
     <bcf:citekey order="28" intorder="1">Obsidian</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">Vue</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">Nuxt</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">JavaScript</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">Typescript</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">Webstorm</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">CSharp</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">DotNet8</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">xUnit</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">VisualStudio</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">MongoDBCompas</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">RepositoryPattern</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">Jira</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">Vue</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">Nuxt</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">JavaScript</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">Typescript</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">Webstorm</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">CSharp</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">DotNet8</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">xUnit</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">VisualStudio</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">MongoDBCompas</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">RepositoryPattern</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
