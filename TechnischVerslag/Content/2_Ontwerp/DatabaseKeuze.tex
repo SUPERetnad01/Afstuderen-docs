@@ -1,16 +1,49 @@
 \section{Database Keuze}
 Omdat dit een nieuw datamodel is, is er ook nagedacht over welke database gebruikt zal worden.
-De meeste gebruikte databases binnen Snakeware zijn SQL databasen \parencite{SQL}. 
+De meeste gebruikte databases binnen Snakeware zijn SQL-databases \parencite{SQL}.
 De specifieke database die het huidige CMS gebruikt is Microsoft SQL Server \parencite{MSQLServer}.
+Voor de afstudeeropdracht is er gekozen om van dit pad af te stappen en een NoSQL \parencite{NoSQL} database te gebruiken.
 
 \whitespace
-Voor de afstudeeropdracht is er gekozen om van dit pad af te stappen en een NoSQL \parencite{NoSQL} database te gebruiken.
-De reden hier voor heeft te maken hoe de data wordt opgeslagen en de mogelijke uitbreidingen op het systeem.
-De meeste data van het CMS zal ongestructureerde data zijn, verder is het systeem ook zo opgesteld door gebruik te maken van nesting.
+Er is voor een NoSQL database oplossing gekozen omdat het belangrijk is dat het systeem zo flexibel mogelijk blijft.
+Omdat het datamodel bij definitie semigestructureerde opslaat zorgt een SQL database voor extra overhead.
+Verder geeft een NoSQL-database meer vrijheid in het uitbreiden van het systeem.
+% Het huidige CMS moet de vershillende edge cases afhandelen van de semigestructureerde data.
+% Dat is een van de redenen dat het CMS nu 288 SQL tabellen heeft en complexe querries nodig heeft om te data te combineren.
+
+\whitespace
+Voor de specifieke database keuzes is er gekeken naar een paar kwantitatieve punten die gebruikt worden om verschillende tegenover elkaar te zetten.
+Omdat er gebruik gemaakt gaat worden van een NoSQL database zijn de volgende opties in consideratie genomen.
+De vergelijkingen van de databases zijn te zien in tabel \ref{Tabel:DatabaseProviders}.
+
+\whitespace[2]
+\begin{graphic}
+	\captionsetup{type=table}
+	\caption{Database providers vergelijking}
+	\begin{tabular}{ |p{6.2em}||p{2.2cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{2.4cm}| }
+		\hline
+		\multicolumn{6}{|c|}{Database providers}                                                                                                             \\
+		\hline
+		Criteria       & MongoDB                     & SurrealDB   & Redis                       & CouchBase                   & Cassandra                   \\
+		\hline
+		Datamodel      & Document                    & Document    & key-value                   & Document                    & Wide column                 \\
+		\hline
+		Licentiekosten & Nee                         & Nee         & Nee                         & Ja                          & Nee                         \\
+		\hline
+		C\# SDK        & Ja                          & Ja          & Ja                          & Ja                          & Ja                          \\
+		\hline
+		Schaalbaarheid & Horizontaal\slash verticaal & Horizontaal & Horizontaal\slash verticaal & Horizontaal\slash verticaal & Horizontaal\slash verticaal \\
+		\hline
+		ACID           & Ja                          & Ja          & Nee                         & Nee                         & Nee                         \\
+		\hline
+	\end{tabular}
+	\label{Tabel:DatabaseProviders}
+\end{graphic}
+
+\todo[inline]{Uitleggen ACID}
 
 \whitespace
 Voor de specifieke database is er gekozen voor MongoDB \parencite{MongoDB}.
-MongoDB is een open-source document database, waarbij de data wordt opgeslagen in een json achtige format (Bson).
-De redenen dat er voor MongoDB is gekozen is omdat het open-source is en dus geen licentie kosten hoeft te betalen.
-Verder is MongoDB de meest gebruikte NoSQL databases waardoor er veel informatie over te vinden is.
-Ook zijn er goede C\# drivers wat het makkelijk maakt om er mee te programmeren.
+Deze keuze is gemaakt op basis van de verschillende criteria die gesteld zijn in tabel \ref{Tabel:DatabaseProviders}
+MongoDB is een open-source document database, waarbij de data wordt opgeslagen in een json achtige format (Bson \parencite{Bson}).
+Verder is MongoDB de meest gebruikte NoSQL database waardoor er veel informatie over te vinden is.

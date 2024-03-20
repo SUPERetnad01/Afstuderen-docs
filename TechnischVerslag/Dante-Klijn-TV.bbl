@@ -79,6 +79,34 @@
       \verb https://www.atlassian.com/nl/software/jira
       \endverb
     \endentry
+    \entry{BitBucket}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3b06adaccec858239426bbced386dfef}{%
+           family={Bitbucket},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b06adaccec858239426bbced386dfef}
+      \strng{fullhash}{3b06adaccec858239426bbced386dfef}
+      \strng{bibnamehash}{3b06adaccec858239426bbced386dfef}
+      \strng{authorbibnamehash}{3b06adaccec858239426bbced386dfef}
+      \strng{authornamehash}{3b06adaccec858239426bbced386dfef}
+      \strng{authorfullhash}{3b06adaccec858239426bbced386dfef}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://bitbucket.org/
+      \endverb
+      \verb{url}
+      \verb https://bitbucket.org/
+      \endverb
+    \endentry
     \entry{RepositoryPattern}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9d2ec3b12f470ccab9a36c10d1722aa6}{%
@@ -204,6 +232,36 @@
       \verb https://xunit.net/
       \endverb
     \endentry
+    \entry{Git}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0d03e86de72880665fdafdef7524a821}{%
+           family={Git-scm},
+           familyi={G\bibinithyphendelim s\bibinitperiod}}}%
+      }
+      \strng{namehash}{0d03e86de72880665fdafdef7524a821}
+      \strng{fullhash}{0d03e86de72880665fdafdef7524a821}
+      \strng{bibnamehash}{0d03e86de72880665fdafdef7524a821}
+      \strng{authorbibnamehash}{0d03e86de72880665fdafdef7524a821}
+      \strng{authornamehash}{0d03e86de72880665fdafdef7524a821}
+      \strng{authorfullhash}{0d03e86de72880665fdafdef7524a821}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{About}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://git-scm.com/about
+      \endverb
+      \verb{url}
+      \verb https://git-scm.com/about
+      \endverb
+    \endentry
     \entry{Webstorm}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f84bd4b4caa44b11103f3eba38223a9c}{%
@@ -265,7 +323,7 @@
       \field{type}{PDF}
       \field{year}{2023}
     \endentry
-    \entry{4+1ViewModelPaper}{report}{}
+    \entry{4p1Model}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=1d00515fe991ba26ce9b4c5ca06934fa}{%
            family={Kruchten},
@@ -273,6 +331,9 @@
            given={Philippe},
            giveni={P\bibinitperiod},
            givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Rational Software Corp.}%
       }
       \strng{namehash}{1d00515fe991ba26ce9b4c5ca06934fa}
       \strng{fullhash}{1d00515fe991ba26ce9b4c5ca06934fa}
@@ -287,11 +348,46 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{08}
-      \field{note}{Verkregen 15 febuari 2024}
-      \field{title}{The 4+1 View Model of Architecture}
-      \field{type}{PDF}
+      \field{month}{11}
+      \field{title}{Architectural Blueprints--The \qw{4+1} View Model of Software Architecture}
+      \field{type}{report}
       \field{year}{1995}
+      \field{dateera}{ce}
+    \endentry
+    \entry{ModelBinders}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=52dd937b395afc41a82bf9747881872a}{%
+           family={Larkin},
+           familyi={L\bibinitperiod},
+           given={Kirk},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{52dd937b395afc41a82bf9747881872a}
+      \strng{fullhash}{52dd937b395afc41a82bf9747881872a}
+      \strng{bibnamehash}{52dd937b395afc41a82bf9747881872a}
+      \strng{authorbibnamehash}{52dd937b395afc41a82bf9747881872a}
+      \strng{authornamehash}{52dd937b395afc41a82bf9747881872a}
+      \strng{authorfullhash}{52dd937b395afc41a82bf9747881872a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Custom Model Binding in ASP.NET Core}
+      \field{urlday}{14}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/aspnet/core/mvc/advanced/custom-model-binding?view=aspnetcore-8.0
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/aspnet/core/mvc/advanced/custom-model-binding?view=aspnetcore-8.0
+      \endverb
     \endentry
     \entry{Latex}{online}{}
       \name{author}{1}{}{%
@@ -549,7 +645,7 @@
       \verb https://www.mongodb.com/products/tools/compass
       \endverb
     \endentry
-    \entry{NoSQL}{online}{}
+    \entry{Bson}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=206e3718af092fd1d12f80cae771ccac}{%
            family={MongoDB},
@@ -565,6 +661,38 @@
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradate}{3}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Json and Bson}
+      \field{urlday}{15}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mongodb.com/json-and-bson
+      \endverb
+      \verb{url}
+      \verb https://www.mongodb.com/json-and-bson
+      \endverb
+    \endentry
+    \entry{NoSQL}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=206e3718af092fd1d12f80cae771ccac}{%
+           family={MongoDB},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{fullhash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{bibnamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authorbibnamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authornamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authorfullhash}{206e3718af092fd1d12f80cae771ccac}
+      \field{extraname}{4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{4}
       \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -776,6 +904,40 @@
       \verb https://obsidian.md/
       \endverb
     \endentry
+    \entry{VModel}{image}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=90c7426871854b545001dbd291c0b3bb}{%
+           family={Oppermann},
+           familyi={O\bibinitperiod},
+           given={Artem},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{90c7426871854b545001dbd291c0b3bb}
+      \strng{fullhash}{90c7426871854b545001dbd291c0b3bb}
+      \strng{bibnamehash}{90c7426871854b545001dbd291c0b3bb}
+      \strng{authorbibnamehash}{90c7426871854b545001dbd291c0b3bb}
+      \strng{authornamehash}{90c7426871854b545001dbd291c0b3bb}
+      \strng{authorfullhash}{90c7426871854b545001dbd291c0b3bb}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://builtin.com/software-engineering-perspectives/v-model
+      \endverb
+      \verb{url}
+      \verb https://builtin.com/software-engineering-perspectives/v-model
+      \endverb
+    \endentry
     \entry{PostmanWorkflows}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=89ea536a4254e2a12a7789df96c0c33f}{%
@@ -875,6 +1037,36 @@
       \endverb
       \verb{url}
       \verb https://www.snakeware.com/what-we-do
+      \endverb
+    \endentry
+    \entry{Swagger}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=336ff1e9aa6177ea7a71984fa8c241b9}{%
+           family={Swagger},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{336ff1e9aa6177ea7a71984fa8c241b9}
+      \strng{fullhash}{336ff1e9aa6177ea7a71984fa8c241b9}
+      \strng{bibnamehash}{336ff1e9aa6177ea7a71984fa8c241b9}
+      \strng{authorbibnamehash}{336ff1e9aa6177ea7a71984fa8c241b9}
+      \strng{authornamehash}{336ff1e9aa6177ea7a71984fa8c241b9}
+      \strng{authorfullhash}{336ff1e9aa6177ea7a71984fa8c241b9}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{API Development for Everyone}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://swagger.io/
+      \endverb
+      \verb{url}
+      \verb https://swagger.io/
       \endverb
     \endentry
     \entry{Typescript}{online}{}
@@ -1039,6 +1231,34 @@
       \verb https://www.atlassian.com/nl/software/jira
       \endverb
     \endentry
+    \entry{BitBucket}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3b06adaccec858239426bbced386dfef}{%
+           family={Bitbucket},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b06adaccec858239426bbced386dfef}
+      \strng{fullhash}{3b06adaccec858239426bbced386dfef}
+      \strng{bibnamehash}{3b06adaccec858239426bbced386dfef}
+      \strng{authorbibnamehash}{3b06adaccec858239426bbced386dfef}
+      \strng{authornamehash}{3b06adaccec858239426bbced386dfef}
+      \strng{authorfullhash}{3b06adaccec858239426bbced386dfef}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://bitbucket.org/
+      \endverb
+      \verb{url}
+      \verb https://bitbucket.org/
+      \endverb
+    \endentry
     \entry{RepositoryPattern}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9d2ec3b12f470ccab9a36c10d1722aa6}{%
@@ -1164,6 +1384,36 @@
       \verb https://xunit.net/
       \endverb
     \endentry
+    \entry{Git}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0d03e86de72880665fdafdef7524a821}{%
+           family={Git-scm},
+           familyi={G\bibinithyphendelim s\bibinitperiod}}}%
+      }
+      \strng{namehash}{0d03e86de72880665fdafdef7524a821}
+      \strng{fullhash}{0d03e86de72880665fdafdef7524a821}
+      \strng{bibnamehash}{0d03e86de72880665fdafdef7524a821}
+      \strng{authorbibnamehash}{0d03e86de72880665fdafdef7524a821}
+      \strng{authornamehash}{0d03e86de72880665fdafdef7524a821}
+      \strng{authorfullhash}{0d03e86de72880665fdafdef7524a821}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{About}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://git-scm.com/about
+      \endverb
+      \verb{url}
+      \verb https://git-scm.com/about
+      \endverb
+    \endentry
     \entry{Webstorm}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f84bd4b4caa44b11103f3eba38223a9c}{%
@@ -1225,7 +1475,7 @@
       \field{type}{PDF}
       \field{year}{2023}
     \endentry
-    \entry{4+1ViewModelPaper}{report}{}
+    \entry{4p1Model}{report}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=1d00515fe991ba26ce9b4c5ca06934fa}{%
            family={Kruchten},
@@ -1233,6 +1483,9 @@
            given={Philippe},
            giveni={P\bibinitperiod},
            givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Rational Software Corp.}%
       }
       \strng{namehash}{1d00515fe991ba26ce9b4c5ca06934fa}
       \strng{fullhash}{1d00515fe991ba26ce9b4c5ca06934fa}
@@ -1247,11 +1500,46 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{08}
-      \field{note}{Verkregen 15 febuari 2024}
-      \field{title}{The 4+1 View Model of Architecture}
-      \field{type}{PDF}
+      \field{month}{11}
+      \field{title}{Architectural Blueprints--The \qw{4+1} View Model of Software Architecture}
+      \field{type}{report}
       \field{year}{1995}
+      \field{dateera}{ce}
+    \endentry
+    \entry{ModelBinders}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=52dd937b395afc41a82bf9747881872a}{%
+           family={Larkin},
+           familyi={L\bibinitperiod},
+           given={Kirk},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{52dd937b395afc41a82bf9747881872a}
+      \strng{fullhash}{52dd937b395afc41a82bf9747881872a}
+      \strng{bibnamehash}{52dd937b395afc41a82bf9747881872a}
+      \strng{authorbibnamehash}{52dd937b395afc41a82bf9747881872a}
+      \strng{authornamehash}{52dd937b395afc41a82bf9747881872a}
+      \strng{authorfullhash}{52dd937b395afc41a82bf9747881872a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Custom Model Binding in ASP.NET Core}
+      \field{urlday}{14}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/aspnet/core/mvc/advanced/custom-model-binding?view=aspnetcore-8.0
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/aspnet/core/mvc/advanced/custom-model-binding?view=aspnetcore-8.0
+      \endverb
     \endentry
     \entry{Latex}{online}{}
       \name{author}{1}{}{%
@@ -1509,7 +1797,7 @@
       \verb https://www.mongodb.com/products/tools/compass
       \endverb
     \endentry
-    \entry{NoSQL}{online}{}
+    \entry{Bson}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=206e3718af092fd1d12f80cae771ccac}{%
            family={MongoDB},
@@ -1525,6 +1813,38 @@
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradate}{3}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Json and Bson}
+      \field{urlday}{15}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mongodb.com/json-and-bson
+      \endverb
+      \verb{url}
+      \verb https://www.mongodb.com/json-and-bson
+      \endverb
+    \endentry
+    \entry{NoSQL}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=206e3718af092fd1d12f80cae771ccac}{%
+           family={MongoDB},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{fullhash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{bibnamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authorbibnamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authornamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authorfullhash}{206e3718af092fd1d12f80cae771ccac}
+      \field{extraname}{4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{4}
       \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -1736,6 +2056,40 @@
       \verb https://obsidian.md/
       \endverb
     \endentry
+    \entry{VModel}{image}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=90c7426871854b545001dbd291c0b3bb}{%
+           family={Oppermann},
+           familyi={O\bibinitperiod},
+           given={Artem},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{90c7426871854b545001dbd291c0b3bb}
+      \strng{fullhash}{90c7426871854b545001dbd291c0b3bb}
+      \strng{bibnamehash}{90c7426871854b545001dbd291c0b3bb}
+      \strng{authorbibnamehash}{90c7426871854b545001dbd291c0b3bb}
+      \strng{authornamehash}{90c7426871854b545001dbd291c0b3bb}
+      \strng{authorfullhash}{90c7426871854b545001dbd291c0b3bb}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://builtin.com/software-engineering-perspectives/v-model
+      \endverb
+      \verb{url}
+      \verb https://builtin.com/software-engineering-perspectives/v-model
+      \endverb
+    \endentry
     \entry{PostmanWorkflows}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=89ea536a4254e2a12a7789df96c0c33f}{%
@@ -1835,6 +2189,36 @@
       \endverb
       \verb{url}
       \verb https://www.snakeware.com/what-we-do
+      \endverb
+    \endentry
+    \entry{Swagger}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=336ff1e9aa6177ea7a71984fa8c241b9}{%
+           family={Swagger},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{336ff1e9aa6177ea7a71984fa8c241b9}
+      \strng{fullhash}{336ff1e9aa6177ea7a71984fa8c241b9}
+      \strng{bibnamehash}{336ff1e9aa6177ea7a71984fa8c241b9}
+      \strng{authorbibnamehash}{336ff1e9aa6177ea7a71984fa8c241b9}
+      \strng{authornamehash}{336ff1e9aa6177ea7a71984fa8c241b9}
+      \strng{authorfullhash}{336ff1e9aa6177ea7a71984fa8c241b9}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{API Development for Everyone}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://swagger.io/
+      \endverb
+      \verb{url}
+      \verb https://swagger.io/
       \endverb
     \endentry
     \entry{Typescript}{online}{}
