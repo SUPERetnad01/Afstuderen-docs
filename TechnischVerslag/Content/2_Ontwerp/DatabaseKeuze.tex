@@ -8,13 +8,24 @@ Voor de afstudeeropdracht is er gekozen om van dit pad af te stappen en een NoSQ
 Er is voor een NoSQL database oplossing gekozen omdat het belangrijk is dat het systeem zo flexibel mogelijk blijft.
 Omdat het datamodel bij definitie semigestructureerde opslaat zorgt een SQL database voor extra overhead.
 Verder geeft een NoSQL-database meer vrijheid in het uitbreiden van het systeem.
-% Het huidige CMS moet de vershillende edge cases afhandelen van de semigestructureerde data.
-% Dat is een van de redenen dat het CMS nu 288 SQL tabellen heeft en complexe querries nodig heeft om te data te combineren.
 
 \whitespace
 Voor de specifieke database keuzes is er gekeken naar een paar kwantitatieve punten die gebruikt worden om verschillende tegenover elkaar te zetten.
 Omdat er gebruik gemaakt gaat worden van een NoSQL database zijn de volgende opties in consideratie genomen.
 De vergelijkingen van de databases zijn te zien in tabel \ref{Tabel:DatabaseProviders}.
+
+\whitespace
+Een van de criteria die gebruikt wordt is ACID \parencite{ACID} wat staat voor atomicity, consistency, isolation en durability.
+\begin{enumerate}
+	\item{\textbf{Atomicity:} Alle veranderingen worden uit gevoerd als een operatie.
+	      Als een van de veranderingen faalt alle veranderingen}
+	\item{\textbf{Consistency:} De data in de database is consistent aan het begin van de transactie en aan het einde.}
+	\item{\textbf{Isolation:} De stand van een transactie heeft geen involed op andere gelijktijdige transacties }
+	\item{\textbf{Durability:} Als de transactie succesvol is afgerond zijn permanent en gaan niet verloren, zelfs niet bij systeemfouten  }
+\end{enumerate}
+
+In essentie biedt ACID een set van eigenschappen die ervoor zorgen dat transacties op een betrouwbare en consistente manier worden uitgevoerd in een databasesysteem, wat cruciaal is voor gegevensintegriteit en betrouwbaarheid.
+
 
 \whitespace[2]
 \begin{graphic}
@@ -39,8 +50,6 @@ De vergelijkingen van de databases zijn te zien in tabel \ref{Tabel:DatabaseProv
 	\end{tabular}
 	\label{Tabel:DatabaseProviders}
 \end{graphic}
-
-\todo[inline]{Uitleggen ACID}
 
 \whitespace
 Voor de specifieke database is er gekozen voor MongoDB \parencite{MongoDB}.

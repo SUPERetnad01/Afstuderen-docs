@@ -677,7 +677,7 @@
       \verb https://www.mongodb.com/json-and-bson
       \endverb
     \endentry
-    \entry{NoSQL}{online}{}
+    \entry{ACID}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=206e3718af092fd1d12f80cae771ccac}{%
            family={MongoDB},
@@ -693,6 +693,38 @@
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradate}{4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What are ACID Properties in Database Management Systems?}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mongodb.com/basics/acid-transactions
+      \endverb
+      \verb{url}
+      \verb https://www.mongodb.com/basics/acid-transactions
+      \endverb
+    \endentry
+    \entry{NoSQL}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=206e3718af092fd1d12f80cae771ccac}{%
+           family={MongoDB},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{fullhash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{bibnamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authorbibnamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authornamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authorfullhash}{206e3718af092fd1d12f80cae771ccac}
+      \field{extraname}{5}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{5}
       \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -1829,7 +1861,7 @@
       \verb https://www.mongodb.com/json-and-bson
       \endverb
     \endentry
-    \entry{NoSQL}{online}{}
+    \entry{ACID}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=206e3718af092fd1d12f80cae771ccac}{%
            family={MongoDB},
@@ -1845,6 +1877,38 @@
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradate}{4}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What are ACID Properties in Database Management Systems?}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mongodb.com/basics/acid-transactions
+      \endverb
+      \verb{url}
+      \verb https://www.mongodb.com/basics/acid-transactions
+      \endverb
+    \endentry
+    \entry{NoSQL}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=206e3718af092fd1d12f80cae771ccac}{%
+           family={MongoDB},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{fullhash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{bibnamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authorbibnamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authornamehash}{206e3718af092fd1d12f80cae771ccac}
+      \strng{authorfullhash}{206e3718af092fd1d12f80cae771ccac}
+      \field{extraname}{5}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{5}
       \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
