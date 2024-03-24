@@ -21,6 +21,7 @@ En als laatste is er de repository die de data uit de database haalt.
 
 \newpage
 \subsection{Frontend}
+\label{sec:FrontendProcessView}
 Om de geneste structuur van het datamodel te renderen wordt er gebruikgemaakt van 2 verschillende component types.
 Deze component types worden appart toegelicht om een beter beeld te schetsen.
 
@@ -59,23 +60,17 @@ De uitgebreide versie is te zien in figuur \ref{fig:MultipleComponents}.
     \includegraphics[scale=0.27]{ExampleContainerFrontend.png}
     \label{fig:MultipleComponents}
 \end{graphic}
-% Om de data te renderen wordt er gebruikgemaakt van 2 verschillende entiteiten types.
-% Het eerste type zijn de voorgedefinieerde componenten in de frontend applicatie.
-% Een voorbeeld hiervan zou kunnen zijn een artikel component.
-% In figuur \ref{fig:VisualisationItems} is een artikel component te zien. 
-% Deze componenten bevat de data van de verschillende items die gebruikt worden.
-% Type 1 is een voor gedefinieerd component, hierbij kun je denken aan een artikel, card, afbeelding etc.
-% Het andere type is een generiek component dat het type 1 componenten \textit{encapsulate}.
-% Deze componenten worden containers genoemd omdat ze verschillende items encapsuleren.
-% Verder kunnen containers ook meerdere containers encapsuleren.
 
 \newpage
-In figuur \ref{fig:FlowchartFrontend} wordt er getoond hoe de frontend met deze container structuur om gaat.
-Na het ophalen van de data van de api wordt er meestal de root container gerendered.
+
+\whitespace
+Figuur \ref{fig:FlowchartFrontend} laat zien hoe de frontend omgaat met deze containerstructuur.
+% In figuur \ref{fig:FlowchartFrontend} wordt er getoond hoe de frontend met deze container structuur om gaat.
+Na het ophalen van de data van de api wordt de root container gerendered.
 Eerst wordt er gekeken of het huidige object 1 of meer items heeft.
 Daarna wordt er gecontroleerd of het item een valide implementatie component heeft.
 Als het item een container is dan wordt deze recursief gerenderd.
-Dit wordt door gedaan tot dat alle items gerenderd zijn.
+Dit wordt gedaan tot dat alle items gerenderd zijn.
 
 \whitespace
 \begin{graphic}

@@ -139,6 +139,36 @@
       \verb https://deviq.com/design-patterns/repository-pattern
       \endverb
     \endentry
+    \entry{DockerDesktop}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c5fd214cdd0d2b3b4272e73b022ba5c2}{%
+           family={Docker},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{fullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{bibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authorbibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authornamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authorfullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The 1 containerization software for developers and teams}
+      \field{urlday}{21}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.docker.com/products/docker-desktop/
+      \endverb
+      \verb{url}
+      \verb https://www.docker.com/products/docker-desktop/
+      \endverb
+    \endentry
     \entry{Docker}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=65c120727ba10f1ddf8378964212bae2}{%
@@ -417,6 +447,36 @@
       \endverb
       \verb{url}
       \verb https://www.latex-project.org/
+      \endverb
+    \endentry
+    \entry{Agile}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5014f6fc10894e825f7b4687078cef1e}{%
+           family={LeanSixSigmaGroup},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{5014f6fc10894e825f7b4687078cef1e}
+      \strng{fullhash}{5014f6fc10894e825f7b4687078cef1e}
+      \strng{bibnamehash}{5014f6fc10894e825f7b4687078cef1e}
+      \strng{authorbibnamehash}{5014f6fc10894e825f7b4687078cef1e}
+      \strng{authornamehash}{5014f6fc10894e825f7b4687078cef1e}
+      \strng{authorfullhash}{5014f6fc10894e825f7b4687078cef1e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wat is Agile}
+      \field{urlday}{21}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://leansixsigmagroep.nl/lean-agile-en-six-sigma/wat-is-agile/
+      \endverb
+      \verb{url}
+      \verb https://leansixsigmagroep.nl/lean-agile-en-six-sigma/wat-is-agile/
       \endverb
     \endentry
     \entry{UseCaseDiagram}{online}{}
@@ -1003,6 +1063,42 @@
       \verb https://learning.postman.com/docs/collections/running-collections/building-workflows/
       \endverb
     \endentry
+    \entry{IsolationTest}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3067832e213b3d8730d2050d1e6eb1c6}{%
+           family={Sheth},
+           familyi={S\bibinitperiod},
+           given={Himanshu},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3067832e213b3d8730d2050d1e6eb1c6}
+      \strng{fullhash}{3067832e213b3d8730d2050d1e6eb1c6}
+      \strng{bibnamehash}{3067832e213b3d8730d2050d1e6eb1c6}
+      \strng{authorbibnamehash}{3067832e213b3d8730d2050d1e6eb1c6}
+      \strng{authornamehash}{3067832e213b3d8730d2050d1e6eb1c6}
+      \strng{authorfullhash}{3067832e213b3d8730d2050d1e6eb1c6}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{03}
+      \field{title}{NUnit vs. XUnit vs. MSTest: Unit Testing Frameworks}
+      \field{urlday}{21}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.lambdatest.com/blog/nunit-vs-xunit-vs-mstest/
+      \endverb
+      \verb{url}
+      \verb https://www.lambdatest.com/blog/nunit-vs-xunit-vs-mstest/
+      \endverb
+    \endentry
     \entry{SnakewareCases}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b00d3dced3aa1b30ed8fb90f3f1d2c7d}{%
@@ -1131,6 +1227,39 @@
       \endverb
       \verb{url}
       \verb https://www.typescriptlang.org/
+      \endverb
+    \endentry
+    \entry{Scrum}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ce6189e6f11904dbcb779d3d5f749760}{%
+           family={Vennix},
+           familyi={V\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ce6189e6f11904dbcb779d3d5f749760}
+      \strng{fullhash}{ce6189e6f11904dbcb779d3d5f749760}
+      \strng{bibnamehash}{ce6189e6f11904dbcb779d3d5f749760}
+      \strng{authorbibnamehash}{ce6189e6f11904dbcb779d3d5f749760}
+      \strng{authornamehash}{ce6189e6f11904dbcb779d3d5f749760}
+      \strng{authorfullhash}{ce6189e6f11904dbcb779d3d5f749760}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wat is Scrum?}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://leanagilegroep.nl/wat-is-scrum/
+      \endverb
+      \verb{url}
+      \verb https://leanagilegroep.nl/wat-is-scrum/
       \endverb
     \endentry
     \entry{Vue}{online}{}
@@ -1323,6 +1452,36 @@
       \verb https://deviq.com/design-patterns/repository-pattern
       \endverb
     \endentry
+    \entry{DockerDesktop}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c5fd214cdd0d2b3b4272e73b022ba5c2}{%
+           family={Docker},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{fullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{bibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authorbibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authornamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authorfullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The 1 containerization software for developers and teams}
+      \field{urlday}{21}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.docker.com/products/docker-desktop/
+      \endverb
+      \verb{url}
+      \verb https://www.docker.com/products/docker-desktop/
+      \endverb
+    \endentry
     \entry{Docker}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=65c120727ba10f1ddf8378964212bae2}{%
@@ -1601,6 +1760,36 @@
       \endverb
       \verb{url}
       \verb https://www.latex-project.org/
+      \endverb
+    \endentry
+    \entry{Agile}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5014f6fc10894e825f7b4687078cef1e}{%
+           family={LeanSixSigmaGroup},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{5014f6fc10894e825f7b4687078cef1e}
+      \strng{fullhash}{5014f6fc10894e825f7b4687078cef1e}
+      \strng{bibnamehash}{5014f6fc10894e825f7b4687078cef1e}
+      \strng{authorbibnamehash}{5014f6fc10894e825f7b4687078cef1e}
+      \strng{authornamehash}{5014f6fc10894e825f7b4687078cef1e}
+      \strng{authorfullhash}{5014f6fc10894e825f7b4687078cef1e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wat is Agile}
+      \field{urlday}{21}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://leansixsigmagroep.nl/lean-agile-en-six-sigma/wat-is-agile/
+      \endverb
+      \verb{url}
+      \verb https://leansixsigmagroep.nl/lean-agile-en-six-sigma/wat-is-agile/
       \endverb
     \endentry
     \entry{UseCaseDiagram}{online}{}
@@ -2187,6 +2376,42 @@
       \verb https://learning.postman.com/docs/collections/running-collections/building-workflows/
       \endverb
     \endentry
+    \entry{IsolationTest}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3067832e213b3d8730d2050d1e6eb1c6}{%
+           family={Sheth},
+           familyi={S\bibinitperiod},
+           given={Himanshu},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3067832e213b3d8730d2050d1e6eb1c6}
+      \strng{fullhash}{3067832e213b3d8730d2050d1e6eb1c6}
+      \strng{bibnamehash}{3067832e213b3d8730d2050d1e6eb1c6}
+      \strng{authorbibnamehash}{3067832e213b3d8730d2050d1e6eb1c6}
+      \strng{authornamehash}{3067832e213b3d8730d2050d1e6eb1c6}
+      \strng{authorfullhash}{3067832e213b3d8730d2050d1e6eb1c6}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{03}
+      \field{title}{NUnit vs. XUnit vs. MSTest: Unit Testing Frameworks}
+      \field{urlday}{21}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.lambdatest.com/blog/nunit-vs-xunit-vs-mstest/
+      \endverb
+      \verb{url}
+      \verb https://www.lambdatest.com/blog/nunit-vs-xunit-vs-mstest/
+      \endverb
+    \endentry
     \entry{SnakewareCases}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b00d3dced3aa1b30ed8fb90f3f1d2c7d}{%
@@ -2315,6 +2540,39 @@
       \endverb
       \verb{url}
       \verb https://www.typescriptlang.org/
+      \endverb
+    \endentry
+    \entry{Scrum}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ce6189e6f11904dbcb779d3d5f749760}{%
+           family={Vennix},
+           familyi={V\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ce6189e6f11904dbcb779d3d5f749760}
+      \strng{fullhash}{ce6189e6f11904dbcb779d3d5f749760}
+      \strng{bibnamehash}{ce6189e6f11904dbcb779d3d5f749760}
+      \strng{authorbibnamehash}{ce6189e6f11904dbcb779d3d5f749760}
+      \strng{authornamehash}{ce6189e6f11904dbcb779d3d5f749760}
+      \strng{authorfullhash}{ce6189e6f11904dbcb779d3d5f749760}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wat is Scrum?}
+      \field{urlday}{12}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://leanagilegroep.nl/wat-is-scrum/
+      \endverb
+      \verb{url}
+      \verb https://leanagilegroep.nl/wat-is-scrum/
       \endverb
     \endentry
     \entry{Vue}{online}{}
