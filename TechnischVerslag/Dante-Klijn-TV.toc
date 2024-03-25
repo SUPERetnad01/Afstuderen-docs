@@ -31,9 +31,9 @@
 \contentsline {section}{\numberline {4.2}Versiebeheer}{25}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Codestandaarden}{25}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Process en bewaking}{26}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Testrapport}{26}{section.4.5}%
+\contentsline {section}{\numberline {4.5}Testrapport}{27}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Unittesten}{27}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Intergratietesten}{27}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Systeemtesten}{27}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Acceptatie testen}{27}{subsection.4.5.4}%
-\contentsline {chapter}{\numberline {A}Figuren UML}{31}{appendix.A}%
+\contentsline {subsection}{\numberline {4.5.2}Intergratietesten}{29}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Systeemtesten}{29}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Acceptatie testen}{29}{subsection.4.5.4}%
+\contentsline {chapter}{\numberline {A}Figuren UML}{33}{appendix.A}%

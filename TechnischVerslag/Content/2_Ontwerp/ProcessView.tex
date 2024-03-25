@@ -46,12 +46,19 @@ En hetzelfde wordt ook gedaan voor het nummer en de body van het component.
 \textbf{Type 2: Containers}
 
 \whitespace
-Omdat Implementatie componenten in elkaar genest kunnen zitten wordt er ook gebruik gemaakt van containers.
-Containers zijn generieke componenten die een of meerdere implementatie componenten kan renderen.
-Verder kunnen containers ook meerdere containers renderen.
-Door dit te doen kunnen complexe structuren gerenderd.
+Omdat de datastructuur meerder componenten moet kunnen groeperen wordt er gebruik gemaakt van containers.
+Containers zijn generieke componenten die een of meerdere implementatie componenten of meerdere containers kan renderen kan renderen.
+Door het gebruik van een generieke structuur is het mogelijk om elke complexe datastructuur te renderen zonderen enige aanpassingen te maken aan het model zelf.
+%
+%
+% Omdat Implementatie componenten in elkaar genest kunnen zitten wordt er ook gebruik gemaakt van containers.
+% Verder kunnen containers ook meerdere containers renderen.
+% Door dit te doen kunnen complexe structuren gerenderd.
 Om hier een beter beeld bij te schetsen is het vorige voorbeeld (zie figuur \ref{fig:SingleComponent}) uitgebreid.
 De uitgebreide versie is te zien in figuur \ref{fig:MultipleComponents}.
+Verder is er in figuur \ref{fig:ExampleDataStructure} een voorbeeld gemaakt van 1 versimpelde site architectuur.
+Normaliter bevatten de \textit{content container} en de \textit{footer container} ook meerdere containers en implementatie componenten.
+Deze zijn weg gelaten om mee voor meer duidelijkheid te geven aan het figuur.
 
 \whitespace
 \begin{graphic}
@@ -62,6 +69,13 @@ De uitgebreide versie is te zien in figuur \ref{fig:MultipleComponents}.
 \end{graphic}
 
 \newpage
+\whitespace
+\begin{graphic}
+    \captionsetup{type=figure}
+    \caption{Visualisatie containers}
+    \includegraphics[scale=0.27]{ExampleDataStructure.png}
+    \label{fig:ExampleDataStructure}
+\end{graphic}
 
 \whitespace
 Figuur \ref{fig:FlowchartFrontend} laat zien hoe de frontend omgaat met deze containerstructuur.
