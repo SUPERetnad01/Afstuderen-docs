@@ -33,7 +33,8 @@
 \contentsline {section}{\numberline {4.4}Process en bewaking}{26}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Testrapport}{27}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Unittesten}{27}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Intergratietesten}{29}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Systeemtesten}{29}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Acceptatie testen}{29}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.2}Intergratie testen}{28}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Systeemtesten}{28}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Acceptatie testen}{28}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Orginele eisen en wensen}{28}{section.4.6}%
 \contentsline {chapter}{\numberline {A}Figuren UML}{33}{appendix.A}%
