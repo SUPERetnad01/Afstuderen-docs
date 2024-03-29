@@ -1364,6 +1364,36 @@
       \verb https://www.bmc.com/blogs/solid-design-principles/
       \endverb
     \endentry
+    \entry{SDLC}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d5e67b3ffb2e1463375d81634389322}{%
+           family={{Zuci Systems}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{fullhash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{bibnamehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{authorbibnamehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{authornamehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{authorfullhash}{5d5e67b3ffb2e1463375d81634389322}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Levenscyclus van softwareontwikkeling | Wat is SDLC}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.zucisystems.com/nl/diensten/levenscyclus-van-softwareontwikkeling-wat-is-sdlc/
+      \endverb
+      \verb{url}
+      \verb https://www.zucisystems.com/nl/diensten/levenscyclus-van-softwareontwikkeling-wat-is-sdlc/
+      \endverb
+    \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
     \entry{SQL}{online}{}
@@ -2709,6 +2739,36 @@
       \endverb
       \verb{url}
       \verb https://www.bmc.com/blogs/solid-design-principles/
+      \endverb
+    \endentry
+    \entry{SDLC}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d5e67b3ffb2e1463375d81634389322}{%
+           family={{Zuci Systems}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{fullhash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{bibnamehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{authorbibnamehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{authornamehash}{5d5e67b3ffb2e1463375d81634389322}
+      \strng{authorfullhash}{5d5e67b3ffb2e1463375d81634389322}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Levenscyclus van softwareontwikkeling | Wat is SDLC}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.zucisystems.com/nl/diensten/levenscyclus-van-softwareontwikkeling-wat-is-sdlc/
+      \endverb
+      \verb{url}
+      \verb https://www.zucisystems.com/nl/diensten/levenscyclus-van-softwareontwikkeling-wat-is-sdlc/
       \endverb
     \endentry
   \enddatalist

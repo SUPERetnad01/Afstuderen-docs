@@ -56,9 +56,11 @@ Door het gebruik van een generieke structuur is het mogelijk om elke complexe da
 % Door dit te doen kunnen complexe structuren gerenderd.
 Om hier een beter beeld bij te schetsen is het vorige voorbeeld (zie figuur \ref{fig:SingleComponent}) uitgebreid.
 De uitgebreide versie is te zien in figuur \ref{fig:MultipleComponents}.
-Verder is er in figuur \ref{fig:ExampleDataStructure} een voorbeeld gemaakt van 1 versimpelde site architectuur.
-Normaliter bevatten de \textit{content container} en de \textit{footer container} ook meerdere containers en implementatie componenten.
+Verder is er in figuur \ref{fig:ExampleDataStructure} een voorbeeld gemaakt van een versimpelde site architectuur.
+Normaliter bevatten de \textit{content container} ook meerdere containers en implementatie componenten.
 Deze zijn weg gelaten om mee voor meer duidelijkheid te geven aan het figuur.
+Verder is het figuur in rechter kant van elke container en implementatie component een nummer te zien.
+Deze nummers laten zien in welke volgorde de componenten gerenderd worden.
 
 \whitespace
 \begin{graphic}
@@ -73,13 +75,12 @@ Deze zijn weg gelaten om mee voor meer duidelijkheid te geven aan het figuur.
 \begin{graphic}
     \captionsetup{type=figure}
     \caption{Visualisatie containers}
-    \includegraphics[scale=0.27]{ExampleDataStructure.png}
+    \includegraphics[scale=0.4]{ExampleDataStructure.png}
     \label{fig:ExampleDataStructure}
 \end{graphic}
 
 \whitespace
 Figuur \ref{fig:FlowchartFrontend} laat zien hoe de frontend omgaat met deze containerstructuur.
-% In figuur \ref{fig:FlowchartFrontend} wordt er getoond hoe de frontend met deze container structuur om gaat.
 Na het ophalen van de data van de api wordt de root container gerendered.
 Eerst wordt er gekeken of het huidige object 1 of meer items heeft.
 Daarna wordt er gecontroleerd of het item een valide implementatie component heeft.
