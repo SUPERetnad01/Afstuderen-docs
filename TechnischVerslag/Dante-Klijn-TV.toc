@@ -1,6 +1,7 @@
 \babel@toc {dutch}{}\relax 
 \contentsline {chapter}{Samenvatting}{iii}{chapter*.1}%
 \contentsline {chapter}{Woordenlijst}{v}{chapter*.5}%
+\contentsline {chapter}{Lijst van figuren}{vi}{chapter*.6}%
 \contentsline {chapter}{\numberline {1}Inleiding}{2}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Organisatieomschrijving}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Context}{2}{section.1.2}%
@@ -26,16 +27,18 @@
 \contentsline {section}{\numberline {3.3}Eindproduct}{21}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Implementatie Datamodel}{21}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Implementatie Frontend}{23}{subsection.3.3.2}%
-\contentsline {chapter}{\numberline {4}Beheer, Validatie en Verificatie}{25}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Codereviews en Afstudeerstage voortgang}{25}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Versiebeheer}{25}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Codestandaarden}{25}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Process en bewaking}{26}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Testrapport}{27}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Unittesten}{27}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Intergratie testen}{28}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Systeemtesten}{29}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Acceptatie testen}{29}{subsection.4.5.4}%
-\contentsline {section}{\numberline {4.6}Orginele eisen en wensen}{29}{section.4.6}%
-\contentsline {chapter}{\numberline {5}Conclusie}{30}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Figuren UML}{35}{appendix.A}%
+\contentsline {chapter}{\numberline {4}Beheer, Validatie en Verificatie}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Codereviews en Afstudeerstage voortgang}{27}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Versiebeheer}{27}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Codestandaarden}{27}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Process en bewaking}{28}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Testrapport}{29}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Unittesten}{29}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Integratie testen}{30}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Systeemtesten}{31}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Acceptatie testen}{31}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Originele eisen en wensen}{31}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Conclusie}{32}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Aanbevelingen}{33}{section.5.1}%
+\contentsline {chapter}{\numberline {A}Figuren UML}{37}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Code conventies}{38}{appendix.B}%

@@ -1,7 +1,7 @@
 \section{Bouwomgeving}
 \label{section:Bouwomgeving}
 Tijdens de laatste fase van het afstudeerproces is er verschillende software gebruikt.
-Deze software omvat library's, frameworks, database tools en modelleringssoftware.
+Deze software omvat libraries, frameworks, database tools en modelleringssoftware.
 % Deze software verschilt zich tot library's, frameworks, database tools en modelleringssoftware.
 In deze sectie wordt de software besproken en toegelicht waarom deze keuze gemaakt.
 
@@ -9,25 +9,27 @@ In deze sectie wordt de software besproken en toegelicht waarom deze keuze gemaa
 \textit{Proces en documentatie}
 
 \whitespace[2]
-Voor het maken van documenten tijdens het afstudeerproces (Plan van aanpak, Onderzoek en Technisch verslag) is er gebruik gemaakt van \textbf{Latex} \parencite{Latex}.
+Voor het maken van documenten tijdens het afstudeerproces (Plan van aanpak, Onderzoek en Technisch verslag) is er gebruikgemaakt van \textbf{Latex} \parencite{Latex}.
+Er is voor Latex gekozen omdat het vergeleken met andere documenten programma's het professioneelste resultaat geeft.
 De latex teksten zijn geschreven in de code-editor \textbf{Neovim} \parencite{NeoVim}.
-Om de verschillende diagrammen te maken is er gebruik gemaakt van \textbf{Draw.io} \parencite{Drawio}.
-Voor het noteren van het proces is er gebruik gemaakt van de notitie applicatie \textbf{Obsidian} \parencite{Obsidian}.
+Om de verschillende diagrammen te maken is er gebruikgemaakt van \textbf{Draw.io} \parencite{Drawio}.
+Voor het noteren van het proces is er gebruikgemaakt van de notitie applicatie \textbf{Obsidian} \parencite{Obsidian}.
 Hier werden de verschillende sprints bijgehouden en genoteerd.
 Er is voor Obsidian gekozen omdat dit een simpele manier om de sprints bij te houden.
-Binnen Snakeware wordt er gebruik gemaakt van het platform Jira \parencite{Jira}.
+Binnen Snakeware wordt er gebruikgemaakt van het platform Jira \parencite{Jira}.
 Jira is een erg extensief pakket wat voor de scope van de opdracht te groot is.
+% \todo[inline]{Uitleggen tools verder zoals latex}
 
 \whitespace[2]
 \textit{Frontend}
 
 \whitespace[2]
-Voor het realiseren van de frontend applicatie is er gebruik gemaakt van \textbf{Vue 3} \parencite{Vue} en \textbf{Nuxt 3} \parencite{Nuxt}.
-Vue 3 is een Javascript \parencite{JavaScript} / Typescript \parencite{Typescript} framework dat het makkelijker maakt om web applicaties te maken.
-Nuxt 3 is een Vue framework wat het makkelijker maakt om Vue applicaties te maken en meerdere rendering opties aan biedt.
-Er is voor Vue 3 met \textbf{Typescript} en Nuxt 3 gekozen om dat de gebruikte standaard is binnen Snakeware.
+Voor het realiseren van de frontend applicatie is er gebruikgemaakt van \textbf{Vue 3} \parencite{Vue} en \textbf{Nuxt 3} \parencite{Nuxt}.
+Vue 3 is een Javascript \parencite{JavaScript} / Typescript \parencite{Typescript} framework dat het makkelijker maakt om webapplicaties te maken.
+Nuxt 3 is een Vue framework wat het makkelijker maakt om Vue applicaties te maken en meerdere rendering opties aanbiedt.
+Er is voor Vue 3 met \textbf{Typescript} en Nuxt 3 gekozen omdat de gebruikte standaard is binnen Snakeware.
 Hierdoor ontstaat er meer draagvlak binnen de frontend developers.
-Voor het schrijven van de frontend code is gebruik gemaakt van \textbf{Webstorm} \parencite{Webstorm}.
+Voor het schrijven van de frontend code is gebruikgemaakt van \textbf{Webstorm} \parencite{Webstorm}.
 
 \newpage
 
@@ -35,19 +37,23 @@ Voor het schrijven van de frontend code is gebruik gemaakt van \textbf{Webstorm}
 \textit{Backend}
 
 \whitespace[2]
-Voor de backend code is er gebruik gemaakt van \textbf{C\# 12} \parencite{CSharp} en het \textbf{.NET 8} framework \parencite{DotNet8}.
+Voor de backend code is er gebruikgemaakt van \textbf{C\# 12} \parencite{CSharp} en het \textbf{.NET 8} framework \parencite{DotNet8}.
 Er is voor deze taal en framework gekozen omdat het een van de randvoorwaarden is van de afstudeeropdracht.
-Verder wordt er gebruik gemaakt van \textbf{xUnit} \parencite{xUnit} om de unit test te maken.
+Verder wordt er gebruikgemaakt van \textbf{xUnit} \parencite{xUnit} om de unit testen te maken.
 Er is voor xUnit gekozen omdat dit framework het beste is in het isoleren van de testen \parencite{IsolationTest}. 
 Verder is xUnit ook het meest gebruikte test-framework binnen snakeware.
-Om de code te schrijven wordt er gebruik gemaakt van \textbf{Visual Studio 2022} \parencite{VisualStudio}.
+Om de code te schrijven wordt er gebruikgemaakt van \textbf{Visual Studio 2022} \parencite{VisualStudio}.
+% \todo[inline]{aspnet}
 
 \whitespace[2]
 \textit{Overig}
 
 \whitespace[2]
-Voor het managen van de database is er gebruik gemaakt van \textbf{MongoDB Compas} \parencite{MongoDBCompas}.
+Zoals besproken in \ref{section:DatabaseKeuze} wordt er gebruikgemaakt van MongoDB.
+Voor het managen van de database is er gebruikgemaakt van \textbf{MongoDB Compas} \parencite{MongoDBCompas}.
 Met deze tool is het mogelijk om querries uit te testen en de data makkelijk te bekijken.
-Voor de frontend en backend is er gebruik gemaakt van versie beheer.
+Voor de frontend en backend is er gebruikgemaakt van versiebeheer.
 De tools die hier voor zijn gebruikt zijn \textbf{Git} \parencite{Git} en als repository platform \textbf{Bitbucket} \parencite{BitBucket}.
-Verder is er voor het beheren van de docker omgeving gebruik gemaakt van \textbf{Docker desktop} \Parencite{DockerDesktop}.
+Verder is er voor het beheren van de docker omgeving gebruikgemaakt van \textbf{Docker desktop} \Parencite{DockerDesktop}.
+
+% \todo[inline]{Toelichten mongodb}

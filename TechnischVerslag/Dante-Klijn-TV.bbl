@@ -1064,39 +1064,6 @@
       \verb https://builtin.com/software-engineering-perspectives/v-model
       \endverb
     \endentry
-    \entry{PostmanWorkflows}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=89ea536a4254e2a12a7789df96c0c33f}{%
-           family={Postman.com},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{89ea536a4254e2a12a7789df96c0c33f}
-      \strng{fullhash}{89ea536a4254e2a12a7789df96c0c33f}
-      \strng{bibnamehash}{89ea536a4254e2a12a7789df96c0c33f}
-      \strng{authorbibnamehash}{89ea536a4254e2a12a7789df96c0c33f}
-      \strng{authornamehash}{89ea536a4254e2a12a7789df96c0c33f}
-      \strng{authorfullhash}{89ea536a4254e2a12a7789df96c0c33f}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Customzie request order in a collection run}
-      \field{urlday}{6}
-      \field{urlmonth}{10}
-      \field{urlyear}{2023}
-      \field{year}{2023}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://learning.postman.com/docs/collections/running-collections/building-workflows/
-      \endverb
-      \verb{url}
-      \verb https://learning.postman.com/docs/collections/running-collections/building-workflows/
-      \endverb
-    \endentry
     \entry{IsolationTest}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3067832e213b3d8730d2050d1e6eb1c6}{%
@@ -2439,39 +2406,6 @@
       \endverb
       \verb{url}
       \verb https://builtin.com/software-engineering-perspectives/v-model
-      \endverb
-    \endentry
-    \entry{PostmanWorkflows}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=89ea536a4254e2a12a7789df96c0c33f}{%
-           family={Postman.com},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{89ea536a4254e2a12a7789df96c0c33f}
-      \strng{fullhash}{89ea536a4254e2a12a7789df96c0c33f}
-      \strng{bibnamehash}{89ea536a4254e2a12a7789df96c0c33f}
-      \strng{authorbibnamehash}{89ea536a4254e2a12a7789df96c0c33f}
-      \strng{authornamehash}{89ea536a4254e2a12a7789df96c0c33f}
-      \strng{authorfullhash}{89ea536a4254e2a12a7789df96c0c33f}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Customzie request order in a collection run}
-      \field{urlday}{6}
-      \field{urlmonth}{10}
-      \field{urlyear}{2023}
-      \field{year}{2023}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://learning.postman.com/docs/collections/running-collections/building-workflows/
-      \endverb
-      \verb{url}
-      \verb https://learning.postman.com/docs/collections/running-collections/building-workflows/
       \endverb
     \endentry
     \entry{IsolationTest}{online}{}

@@ -3,8 +3,8 @@ Tijdens het realiseren zijn de ontwerpprincipes van SOLID (zie \ref{subsecion:So
 In deze sectie wordt er meer ingezoomd naar de implementatie van de SOLID principes en hoe dat tot uiting is gekomen.
 
 \whitespace
-De software architectuur maakt gebruik van handlers.
-Een hanlder is een encapsulatie van de buisness logica voor een bepaalde context.
+De softwarearchitectuur maakt gebruik van handlers.
+Een handler is een encapsulatie van de business logica voor een bepaalde context.
 Deze handler heeft maar één taak waardoor het aan het \textit{Single-responsibility principle} voldoet.
 In het voorbeeld (figuur \ref{fig:ImplementationUpsertItemHandler}) is te zien dat deze handlers als taak heeft het upserten van Items.
 In figuur \ref{fig:interfaceUpsertItemHandler} is te zien dat hij 2 methodes heeft, maar beide methodes hebben dezelfde \qw{taak}, het upserten van items.
@@ -26,13 +26,20 @@ In figuur \ref{fig:interfaceUpsertItemHandler} is te zien dat hij 2 methodes hee
 \end{graphic}
 
 \whitespace
-In de verschillende handlers wordt er gebruik gemaakt van het \textit{Open\slash Closed principle}.
-Dit is gedaan zodat er makkelijk een nieuwe implementatie geïnjecteerd kan worden zonder de oude code base aan te passen.
-De verschillende dependencies kunnen vervangen worden door een andere concrete implementaties.
-Hierdoor wordt er ook voldaan aan het \textit{Liskov substitution principle}.
+In de verschillende handlers wordt er gebruikgemaakt van het \textit{Open\slash Closed principle}.
+Doordat de handler gebruik maakt van de interface \textit{IUpsertItemHandler} zou er makkelijk een nieuwe implementatie toegevoegt kunnen worden.
+%
+% \todo[inline]{Niet duidelijke zin}
+%
+% Dit is gedaan zodat er makkelijk een nieuwe implementatie geïnjecteerd kan worden zonder de oude code base aan te passen.
+% De verschillende dependencies kunnen vervangen worden door een andere concrete implementaties.
+%
+%
+%
+% Hierdoor wordt er ook voldaan aan het \textit{Liskov substitution principle}.
 Omdat de handlers maar één taak hebben blijft hun interface erg klein (meestal 1 of 2 methoden).
-Dit zorgt dat de interfaces erg gefocust blijven op hun taak en er dan voldaan wordt aan het \textit{Interface segrigation principle}.
-De injectie van de concrete implementatie wordt gedaan doormiddel van \textit{Dependency injection}.
+Dit zorgt dat de interfaces erg gefocust blijven op hun taak en er daarmee voldaan wordt aan het \textit{Interface segrigation principle}.
+De injectie van de concrete implementatie wordt gedaan door middel van \textit{Dependency injection}.
 Door gebruik te maken van \textit{depencency injection} wordt er ook voldaan aan het \textit{Depencency inversion principle}.
 
 % \whitespace
@@ -48,7 +55,7 @@ Bovendien voorkomt dit dat de codebase afhankelijk is van één specifieke datab
 
 \whitespace
 Dit is geïmplementeerd door de logica af te laten hangen van een interface in plaats van een concrete implementatie.
-Vervolgens wordt bij initialisatie van de applicatie  een concrete versie \textit{gedependency inject}.
+Vervolgens wordt bij initialisatie van de applicatie  een concrete versie geïnjecteerd.
 Een visualisatie van de geïmplementeerde versie is te zien in figuur \ref{fig:RepositoryPattern}.
 Er is ook een klassen diagram gemaakt van de implementatie die is te vinden in \ref{fig:RepositoryPatternUML}.
 

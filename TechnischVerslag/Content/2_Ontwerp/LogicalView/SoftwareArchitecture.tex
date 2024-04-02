@@ -1,6 +1,6 @@
 \subsection{Software architectuur}
 \label{subsecion:SoftwareArhitectuur}
-Om in het afstudeerproject niet dezelfde fouten te maken als het huidige \gls{CMS}-systeem is er ook nagedacht over de development princpes waar de code aan moet voldoen.
+Om in het afstudeerproject niet dezelfde fouten te maken als het huidige \gls{CMS}-systeem is er ook nagedacht over de development principes waar de code aan moet voldoen.
 Hiervoor is er gekeken hoe de architectuur zich houdt aan de verschillende SOLID principes \parencite{SOLID}. 
 SOLID is een acroniem dat 5 verschillende principes inhoudt.
 Deze principes zorgen ervoor dat de code beter te onderhoudbaar is en makkelijker te begrijpen is.
@@ -23,12 +23,12 @@ SOLID bestaat uit de volgende principes:
     \item \textbf{Interface segregation} 
     Een interface moet alleen de methodes geven die nodig zijn voor de client. 
     Geen client moet geforceerd zijn om methodes te implementeren waar die geen gebruik van maakt.
-    Dit kan verminderd worden door meerdere kleinere interfaces te maken in plaatst van een grote interface.
+    Dit kan verminderd worden door meerdere kleinere interfaces te maken in plaats van een grote interface.
     Deze interfaces behandelen specifiekere use-cases in plaats van gegeneraliseerde use-cases.
     \item \textbf{Dependency inversion} 
     Een class of module zou niet moeten afhangen van implementaties maar van abstracties.
     Hierdoor de koppelingen van de modules/classes verminderd, en verhoog je de code onder houdbaarheid.
-    Om aan dit principe te voldoen wordt er vaak gebruik gemaakt van dependency injection.
+    Om aan dit principe te voldoen wordt er vaak gebruikgemaakt van dependency injection.
 \end{enumerate}
 
 \whitespace

@@ -1,42 +1,43 @@
 \chapter{Conclusie}
-Het doel van de afstudeeropdracht was het maken van een proof of concept \gls{CMS} systeem te maken.
-Dit product zou moeten aantonen dat door het gebruik te maken van een nieuw datamodel en systeemarchitectuur.
-Door gebruik te maken van een flexibel datamodel zou er minder maat werk gedaan  moeten worden waardoor er ook services verleend kunnen worden aan kleinere klanten.
-Tijdens de afstudeer periode is de \gls{SDLC} een keer doorlopen.
+Het doel van de afstudeeropdracht was het maken van een proof of concept \gls{CMS}.
+Dit \gls{CMS} moet het mogelijk maken dat er ook services verleend kunnen worden aan kleinere klanten.
+Hiervoor moet een nieuw datamodel en systeemarchitectuur komen om het systeem flexibel en onderhoudbaar te maken.
+Tijdens de afstudeerperiode is de \gls{SDLC} een keer doorlopen.
+% waarbij ook services verleend kunnen worden aan kleinere klanten.
 
-\whitespace
+
+
+% Dit product zou moeten aantonen dat door het gebruik te maken van een nieuw datamodel en systeemarchitectuur services ook verleend kunnen worden aan kleinere klanten.
+% Door gebruik te maken van een flexibel datamodel zou er minder maat werk gedaan  moeten worden waardoor er ook services verleend kunnen worden aan kleinere klanten.
+
 \begin{center}
 \textit{Requirement analysis fase}
 \end{center}
 
 \whitespace
-Tijdens deze fase is er een onderzoek gedaan naar de requirement van het proof of concept applicatie \Parencite{DanteOnderzoek}.
-Uit dit onderzoek is een lijst van geprioriteerde requirements uit gekomen die gebruikt zijn om het product te realiseren.
+Tijdens deze fase is er een onderzoek gedaan naar de requirements van het proof of concept \Parencite{DanteOnderzoek}.
+Uit dit onderzoek is er een lijst van geprioriteerde requirements gekomen die gebruikt zijn om het product te realiseren.
 
-\whitespace
 \begin{center}
 \textit{Designfase}
 \end{center}
 
 \whitespace
-Tijdens de ontwerp fase is er een datamodel en systeemarchitectuur die de requirements kan ondersteunen.
-Hierbij is een concreete manier van het opbouwen van de software in beeld gebracht (zie sectie \ref{subsecion:SoftwareArhitectuur}).
-Verder is er een concreet datamodel ontworpen dat complexe structuren van content kan bevatten zonder extra code toe te voegen.
+Tijdens de ontwerpfase is er een nieuw datamodel ontworpen wat de gedefinieerde requirements kan ondersteunen.
+Het datamodel is ontworpen zodat het complexe structuren kan bevatten zonder extra code toe te voegen.
+Hierdoor is het generiek en kan het voor veel doeleinden gebruikt worden.
+Er is ook een ontwerp gemaakt voor de systeemarchitectuur van het proof of concept.
+Deze architectuur zorgt ervoor dat het systeem beter te onderhouden is.
 
-\todo[inline]{Niet super tevreden mee}
-
-\whitespace
 \begin{center}
 \textit{Implementatiefase}
 \end{center}
 
 \whitespace
-Na dat het ontwerp gemaakt was is het geimplementeerd in 2 producten, een Nuxt 3 frontend applicatie en een .NET 8 API.
-Voor het realiseren van de API is de gekozen softwarearchitectuur geimplementeerd.
-Tijdens het realiseren van het eindproduct is er gebruik gemaakt van de agile methode Scrum.
-Er werdt elke werkdag een  \textit{Daily standup} gedaan met de leden van het R\&D team. 
+Na dat het ontwerp gemaakt was, is het geïmplementeerd in 2 producten, een Nuxt 3 frontend applicatie en een .NET 8 API.
+Voor het realiseren van de API is de gekozen softwarearchitectuur geïmplementeerd.
+Tijdens het realiseren van het eindproduct is er gebruikgemaakt van de agile methode Scrum.
 
-\whitespace
 \begin{center}
 \textit{Testfase}
 \end{center}
@@ -45,17 +46,39 @@ Er werdt elke werkdag een  \textit{Daily standup} gedaan met de leden van het R\
 De testfase liep tegelijk met de implementatiefase van het project.
 Voor het maken van de testen is er een testplan gemaakt die tijdens de testfase doorlopen is.
 Het testplan maakt gebruik van het V-Model waarbij elke stap doorlopen is behalve de acceptatie testen.
-Dit is gedaan om dat de functionaliteiten moeilijk te testen zijn door onbekende gebruikers.
-Voor het unit testen van de API is er gebruik gemaakt van xUnit.
-Dit is gedaan omdat het beste geisoleerde testen kan runnen vergeleken met de andere frameworks.
+% \todo[inline]{Beter verwoorden}
+% Er is gekozen om niet de acceptatie testen uit te voeren omdat de verschillende functionaliteiten moeilijk te testen te zijn voor onbekende gebruikers
+% Dit is gedaan om dat de functionaliteiten moeilijk te testen zijn door onbekende gebruikers.
+Voor het unit testen van de API is er gebruikgemaakt van xUnit.
+Er is voor xUnit gekozen omdat het beste geïsoleerde testen kan runnen vergeleken met de andere frameworks.
 
 \whitespace
+% \todo[inline]{Ipv inhoudelijk te behandelen welke requirements je niet hebt gerealiseerd/kunnen realiseren, is het misschien handiger om dit samen te vatten? E.g., dat je enkel gegaan bent voor de essentiele requirments die waarde toevoegen in het bewijzen van je POC oid?}
 Het proof of concept voldoet bijna aan alle eisen en wensen van de stakeholders op 2 na.
-Dit zijn het aan kunnen maken van formulieren en het authenticeren van \gls{Beheerder}s.
-Voor het kunnen authenticeren en indentificeren van beheerders is tijdens de realisatiefase gerealiseerd dat de prioriteit van de requirement verkeerd ingeschat was.
-Daarom is besloten om de requirement niet te realiseren vanwege dat er andere requirements een hogere prioriteit hadden.
+Dit is gedaan omdat deze niet veel zouden bewijzen voor het proof of concept.
+% Dit zijn het aan kunnen maken van formulieren en het authenticeren van \gls{Beheerder}s.
+% Voor het kunnen authenticeren en identificeren van beheerders is tijdens de realisatiefase geïdentificeerd dat de prioriteit van de requirement verkeerd ingeschat was.
+% Daarom is besloten om de requirement niet te realiseren omdat d andere requirements een hogere prioriteit hadden.
+%
+% \whitespace
+% Het kunnen aan maken van formulieren en het gebruik daar van bleek een te grote functionaliteit te zijn voor de realisatiefase.
+% Hierom was besloten om dit in een mogelijk volgend stadium te implementeren.
 
 \whitespace
-Het kunnen aan maken van formulieren en het gebruik daar van bleek een te grote functionaliteit te zijn voor de realisatiefase.
-Hierom was besloten omdit in een mogelijk volgend stadium te implementeren.
+Het gerealiseerde CMS heeft de doelen gehaald van het proof of concept.
+Door middel van de datastructuur hoeft er minder maatwerk gedaan te worden voor de \gls{Eindgebruiker} webapplicatie. 
+Verder is het systeem onderhoudbaar door middel van de softwarearchitectuur die ontworpen is.
 
+
+
+\section{Aanbevelingen}
+In deze sectie worden de mogelijke aanbevelingen besproken die in een vervolg stadium gemaakt kunnen worden.
+Naast de niet geïmplementeerde requirements die in een volgend stadium mee genomen kunnen worden.
+
+\whitespace
+Een van de grotere missende componenten van het proof of concept is de \gls{Beheerder} interface.
+Door deze applicatie te realiseren is er een compleet proof of concept van een \gls{CMS}-applicatie.
+
+\whitespace
+Verder is het verlenen van webshops niet mee genomen vanwege de scope van de afstudeeropdracht.
+Dit zou een goede vervolgstap zijn na het realiseren van de \gls{Beheerder} interface.
