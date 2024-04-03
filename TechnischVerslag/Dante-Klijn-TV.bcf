@@ -3101,20 +3101,23 @@
     <bcf:citekey order="42" intorder="1">Webstorm</bcf:citekey>
     <bcf:citekey order="43" intorder="1">CSharp</bcf:citekey>
     <bcf:citekey order="44" intorder="1">DotNet8</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">xUnit</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">IsolationTest</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">VisualStudio</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">MongoDBCompas</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">Git</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">BitBucket</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">DockerDesktop</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">RepositoryPattern</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">Swagger</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">ModelBinders</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">CodestandaardCSharp</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">Agile</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">Scrum</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">DanteOnderzoek</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">ASPNET</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">xUnit</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">IsolationTest</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">VisualStudio</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">MongoDBCompas</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">Git</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">BitBucket</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">DockerDesktop</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">RepositoryPattern</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">Swagger</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">ModelBinders</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">CodestandaardCSharp</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">Agile</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">Scrum</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">DanteOnderzoek</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">HBOICompetenties</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">BeginningReflectivePractice</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

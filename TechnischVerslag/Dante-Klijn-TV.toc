@@ -40,5 +40,14 @@
 \contentsline {section}{\numberline {4.6}Originele eisen en wensen}{31}{section.4.6}%
 \contentsline {chapter}{\numberline {5}Conclusie}{32}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Aanbevelingen}{33}{section.5.1}%
-\contentsline {chapter}{\numberline {A}Figuren UML}{37}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Code conventies}{38}{appendix.B}%
+\contentsline {chapter}{\numberline {6}Reflectie}{34}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Competenties}{34}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Analyseren}{34}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Adviseren}{34}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Ontwerpen}{35}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}Realiseren}{35}{subsection.6.1.4}%
+\contentsline {subsection}{\numberline {6.1.5}Manage \& Control}{35}{subsection.6.1.5}%
+\contentsline {subsection}{\numberline {6.1.6}Professioneel handelen}{36}{subsection.6.1.6}%
+\contentsline {section}{\numberline {6.2}Reflectie op afstudeerstage}{36}{section.6.2}%
+\contentsline {chapter}{\numberline {A}Figuren UML}{40}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Code conventies}{41}{appendix.B}%

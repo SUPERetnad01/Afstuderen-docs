@@ -292,6 +292,64 @@
       \verb https://git-scm.com/about
       \endverb
     \endentry
+    \entry{HBOICompetenties}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d356e5ce2d6878b40cb46634b5bd06fc}{%
+           family={HBO-i},
+           familyi={H\bibinithyphendelim i\bibinitperiod}}}%
+      }
+      \strng{namehash}{d356e5ce2d6878b40cb46634b5bd06fc}
+      \strng{fullhash}{d356e5ce2d6878b40cb46634b5bd06fc}
+      \strng{bibnamehash}{d356e5ce2d6878b40cb46634b5bd06fc}
+      \strng{authorbibnamehash}{d356e5ce2d6878b40cb46634b5bd06fc}
+      \strng{authornamehash}{d356e5ce2d6878b40cb46634b5bd06fc}
+      \strng{authorfullhash}{d356e5ce2d6878b40cb46634b5bd06fc}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Domein model}
+      \field{urlday}{2}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dotnet.microsoft.com/en-us/apps/aspnet
+      \endverb
+      \verb{url}
+      \verb https://dotnet.microsoft.com/en-us/apps/aspnet
+      \endverb
+    \endentry
+    \entry{BeginningReflectivePractice}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=979b5283880bcf5bb5e5d86319a346e7}{%
+           family={Jasper},
+           familyi={J\bibinitperiod},
+           given={Melanie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nelson Thornes}%
+      }
+      \strng{namehash}{979b5283880bcf5bb5e5d86319a346e7}
+      \strng{fullhash}{979b5283880bcf5bb5e5d86319a346e7}
+      \strng{bibnamehash}{979b5283880bcf5bb5e5d86319a346e7}
+      \strng{authorbibnamehash}{979b5283880bcf5bb5e5d86319a346e7}
+      \strng{authornamehash}{979b5283880bcf5bb5e5d86319a346e7}
+      \strng{authorfullhash}{979b5283880bcf5bb5e5d86319a346e7}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Beginning Reflective Practice}
+      \field{year}{2013}
+    \endentry
     \entry{Webstorm}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f84bd4b4caa44b11103f3eba38223a9c}{%
@@ -511,7 +569,7 @@
       \verb https://www.typescriptlang.org/
       \endverb
     \endentry
-    \entry{DotNet8}{online}{}
+    \entry{ASPNET}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
            family={Microsoft},
@@ -527,6 +585,38 @@
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradate}{1}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ASP.NET Core}
+      \field{urlday}{21}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dotnet.microsoft.com/en-us/apps/aspnet
+      \endverb
+      \verb{url}
+      \verb https://dotnet.microsoft.com/en-us/apps/aspnet
+      \endverb
+    \endentry
+    \entry{DotNet8}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{2}
       \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -555,10 +645,10 @@
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{2}
+      \field{extradate}{3}
       \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -587,10 +677,10 @@
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{3}
+      \field{extradate}{4}
       \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -619,7 +709,7 @@
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -653,7 +743,7 @@
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -1636,6 +1726,64 @@
       \verb https://git-scm.com/about
       \endverb
     \endentry
+    \entry{HBOICompetenties}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d356e5ce2d6878b40cb46634b5bd06fc}{%
+           family={HBO-i},
+           familyi={H\bibinithyphendelim i\bibinitperiod}}}%
+      }
+      \strng{namehash}{d356e5ce2d6878b40cb46634b5bd06fc}
+      \strng{fullhash}{d356e5ce2d6878b40cb46634b5bd06fc}
+      \strng{bibnamehash}{d356e5ce2d6878b40cb46634b5bd06fc}
+      \strng{authorbibnamehash}{d356e5ce2d6878b40cb46634b5bd06fc}
+      \strng{authornamehash}{d356e5ce2d6878b40cb46634b5bd06fc}
+      \strng{authorfullhash}{d356e5ce2d6878b40cb46634b5bd06fc}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Domein model}
+      \field{urlday}{2}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dotnet.microsoft.com/en-us/apps/aspnet
+      \endverb
+      \verb{url}
+      \verb https://dotnet.microsoft.com/en-us/apps/aspnet
+      \endverb
+    \endentry
+    \entry{BeginningReflectivePractice}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=979b5283880bcf5bb5e5d86319a346e7}{%
+           family={Jasper},
+           familyi={J\bibinitperiod},
+           given={Melanie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nelson Thornes}%
+      }
+      \strng{namehash}{979b5283880bcf5bb5e5d86319a346e7}
+      \strng{fullhash}{979b5283880bcf5bb5e5d86319a346e7}
+      \strng{bibnamehash}{979b5283880bcf5bb5e5d86319a346e7}
+      \strng{authorbibnamehash}{979b5283880bcf5bb5e5d86319a346e7}
+      \strng{authornamehash}{979b5283880bcf5bb5e5d86319a346e7}
+      \strng{authorfullhash}{979b5283880bcf5bb5e5d86319a346e7}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Beginning Reflective Practice}
+      \field{year}{2013}
+    \endentry
     \entry{Webstorm}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f84bd4b4caa44b11103f3eba38223a9c}{%
@@ -1855,7 +2003,7 @@
       \verb https://www.typescriptlang.org/
       \endverb
     \endentry
-    \entry{DotNet8}{online}{}
+    \entry{ASPNET}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
            family={Microsoft},
@@ -1871,6 +2019,38 @@
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradate}{1}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ASP.NET Core}
+      \field{urlday}{21}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dotnet.microsoft.com/en-us/apps/aspnet
+      \endverb
+      \verb{url}
+      \verb https://dotnet.microsoft.com/en-us/apps/aspnet
+      \endverb
+    \endentry
+    \entry{DotNet8}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{2}
       \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -1899,10 +2079,10 @@
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{2}
+      \field{extradate}{3}
       \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -1931,10 +2111,10 @@
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{3}
+      \field{extraname}{4}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradate}{3}
+      \field{extradate}{4}
       \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -1963,7 +2143,7 @@
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{4}
+      \field{extraname}{5}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -1997,7 +2177,7 @@
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{5}
+      \field{extraname}{6}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
