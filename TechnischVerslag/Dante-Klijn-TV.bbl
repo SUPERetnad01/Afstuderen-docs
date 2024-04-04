@@ -151,8 +151,10 @@
       \strng{authorbibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
       \strng{authornamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
       \strng{authorfullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \field{extraname}{1}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradate}{1}
       \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -171,18 +173,20 @@
     \endentry
     \entry{Docker}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=65c120727ba10f1ddf8378964212bae2}{%
-           family={Docker.com},
+        {{un=0,uniquepart=base,hash=c5fd214cdd0d2b3b4272e73b022ba5c2}{%
+           family={Docker},
            familyi={D\bibinitperiod}}}%
       }
-      \strng{namehash}{65c120727ba10f1ddf8378964212bae2}
-      \strng{fullhash}{65c120727ba10f1ddf8378964212bae2}
-      \strng{bibnamehash}{65c120727ba10f1ddf8378964212bae2}
-      \strng{authorbibnamehash}{65c120727ba10f1ddf8378964212bae2}
-      \strng{authornamehash}{65c120727ba10f1ddf8378964212bae2}
-      \strng{authorfullhash}{65c120727ba10f1ddf8378964212bae2}
+      \strng{namehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{fullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{bibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authorbibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authornamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authorfullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \field{extraname}{2}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradate}{2}
       \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -1585,8 +1589,10 @@
       \strng{authorbibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
       \strng{authornamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
       \strng{authorfullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \field{extraname}{1}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradate}{1}
       \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
@@ -1605,18 +1611,20 @@
     \endentry
     \entry{Docker}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=65c120727ba10f1ddf8378964212bae2}{%
-           family={Docker.com},
+        {{un=0,uniquepart=base,hash=c5fd214cdd0d2b3b4272e73b022ba5c2}{%
+           family={Docker},
            familyi={D\bibinitperiod}}}%
       }
-      \strng{namehash}{65c120727ba10f1ddf8378964212bae2}
-      \strng{fullhash}{65c120727ba10f1ddf8378964212bae2}
-      \strng{bibnamehash}{65c120727ba10f1ddf8378964212bae2}
-      \strng{authorbibnamehash}{65c120727ba10f1ddf8378964212bae2}
-      \strng{authornamehash}{65c120727ba10f1ddf8378964212bae2}
-      \strng{authorfullhash}{65c120727ba10f1ddf8378964212bae2}
+      \strng{namehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{fullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{bibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authorbibnamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authornamehash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \strng{authorfullhash}{c5fd214cdd0d2b3b4272e73b022ba5c2}
+      \field{extraname}{2}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradate}{2}
       \field{labeldatesource}{nodate}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
