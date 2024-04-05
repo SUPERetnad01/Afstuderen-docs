@@ -1,0 +1,42 @@
+\babel@toc {dutch}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 4 + 1 Model view model \blx@tocontentsinit {0}\parencite {4p1Model} }}{5}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Use case diagram CMS (1)}}{6}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Use case diagram CMS (2)}}{7}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Use case diagram \gls {Beheerder} site}}{7}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Visualisatie van fields}}{8}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Visualisatie van een item}}{8}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Klassendiagram datastructuur afstudeeropdracht}}{9}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Sequencediagram Handler structuur}}{10}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Sequencediagram ItemValue}}{11}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Visualisatie implementatie component}}{12}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Visualisatie containers}}{12}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Visualisatie containers}}{13}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces flowchart diagram frontend}}{13}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Deployment diagram van het afstudeerproduct}}{14}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Deployment diagram van het afstudeerproduct}}{14}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces V-Model \blx@tocontentsinit {0}\parencite {VModel}}}{16}{figure.caption.24}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces UpsertItemHandler Implementatie}}{19}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces UpsertItemHandler interface}}{19}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Repository pattern implementatie}}{20}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Repository pattern implementatie UML}}{20}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Swagger interface}}{21}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Implementaite Fields}}{21}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Item Modelbinder}}{22}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Gebruikte mappers voor de modelbinder}}{22}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Implementatie van Vue component}}{23}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Implementatie container component}}{24}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Frontend(1)}}{25}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Frontend(2)}}{26}{figure.caption.36}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Sprint 4 van het realisatie process}}{28}{figure.caption.37}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Geïmplementeerde unit test}}{29}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Geïmplementeerde integratie test}}{30}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Overzicht integratie en unittesten}}{30}{figure.caption.40}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Sequencediagram ItemValue}}{41}{figure.caption.42}%
+\addvspace {10\p@ }

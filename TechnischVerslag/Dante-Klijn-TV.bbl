@@ -1158,6 +1158,39 @@
       \verb https://builtin.com/software-engineering-perspectives/v-model
       \endverb
     \endentry
+    \entry{STARR}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c1d46f9643ba9b8e618c16a9c03e3189}{%
+           family={Scribbr},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \strng{fullhash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \strng{bibnamehash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \strng{authorbibnamehash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \strng{authornamehash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \strng{authorfullhash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Reflecteren met de STARR-methode | Stappenplan + voorbeelden}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.scribbr.nl/stage/starr-methode/
+      \endverb
+      \verb{url}
+      \verb https://www.scribbr.nl/stage/starr-methode/
+      \endverb
+    \endentry
     \entry{IsolationTest}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3067832e213b3d8730d2050d1e6eb1c6}{%
@@ -2594,6 +2627,39 @@
       \endverb
       \verb{url}
       \verb https://builtin.com/software-engineering-perspectives/v-model
+      \endverb
+    \endentry
+    \entry{STARR}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c1d46f9643ba9b8e618c16a9c03e3189}{%
+           family={Scribbr},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \strng{fullhash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \strng{bibnamehash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \strng{authorbibnamehash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \strng{authornamehash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \strng{authorfullhash}{c1d46f9643ba9b8e618c16a9c03e3189}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Reflecteren met de STARR-methode | Stappenplan + voorbeelden}
+      \field{urlday}{3}
+      \field{urlmonth}{10}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.scribbr.nl/stage/starr-methode/
+      \endverb
+      \verb{url}
+      \verb https://www.scribbr.nl/stage/starr-methode/
       \endverb
     \endentry
     \entry{IsolationTest}{online}{}
