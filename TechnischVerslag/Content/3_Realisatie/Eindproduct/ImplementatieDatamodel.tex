@@ -1,7 +1,7 @@
 \subsection{Implementatie Datamodel}
 Het ontwerp dat is gemaakt, mist een specifieke implementatie voor het gegevenstype \qw{content}, zoals te zien is in figuur \ref{fig:ClassDiagramItemFieldWithDefinition} (raadpleeg sectie \ref{subsection:Datamodel} voor meer details).
 Dit gegevenstype zou verschillende vormen van gegevens moeten kunnen bevatten, zoals strings, getallen en booleans.
-In programmeertalen zoals Python en JavaScript is dit geen probleem, omdat ze dynamisch getypeerd zijn.
+In programmeertalen zoals Python en Javascript is dit geen probleem, omdat ze dynamisch getypeerd zijn.
 Dit betekent dat het gegevenstype van variabelen niet van tevoren gespecificeerd hoeft te worden.
 Een van de randvoorwaarden is dat het afstudeerproduct gerealiseerd wordt in C\# wat een statisch getypeerde taal.
 % Echter, het afstudeerproject moet worden gerealiseerd in een statisch getypeerde taal (C\#).
@@ -19,6 +19,8 @@ In het klassendiagram is er één implementatie getoond van \textit{FieldValueBa
     \includegraphics[scale=0.4]{FieldImplementation.png}
     \label{fig:ImplementatieFields}
 \end{graphic}
+
+\newpage
 
 \whitespace
 Een van de kenmerken van \textit{FieldValueString} is dat de data wordt opgeslagen in een dictionary met de taal als key.

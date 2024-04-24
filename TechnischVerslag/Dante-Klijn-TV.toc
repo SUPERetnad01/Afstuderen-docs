@@ -31,12 +31,12 @@
 \contentsline {section}{\numberline {4.1}Codereviews en Afstudeerstage voortgang}{27}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Versiebeheer}{27}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Codestandaarden}{27}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Process en bewaking}{28}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Proces en bewaking}{28}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Testrapport}{29}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Unittesten}{29}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Integratie testen}{30}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.2}Integratietesten}{30}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}Systeemtesten}{31}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Acceptatie testen}{31}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.4}Acceptatietesten}{31}{subsection.4.5.4}%
 \contentsline {section}{\numberline {4.6}Originele eisen en wensen}{31}{section.4.6}%
 \contentsline {chapter}{\numberline {5}Conclusie}{32}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Aanbevelingen}{33}{section.5.1}%
